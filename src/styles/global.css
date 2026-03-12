@@ -1,23 +1,50 @@
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
-
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  color-scheme: dark;
+html,
+body {
+	height: 100%;
+}
+ */
+
+
+ @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  min-height: 100%;
 }
 
 body {
-  @apply bg-slate-950 text-slate-50 antialiased;
-  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  @apply bg-white text-slate-900;
 }
 
-a {
-  @apply text-slate-100;
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply tracking-tight text-slate-900;
+  }
+
+  a {
+    @apply transition;
+  }
+
+  img {
+    @apply block max-w-full;
+  }
 }
 
-::selection {
-  @apply bg-slate-700 text-slate-50;
+@layer components {
+  .container-default {
+    @apply mx-auto w-full max-w-7xl px-6;
+  }
 }
-
