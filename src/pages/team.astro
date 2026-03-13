@@ -1,0 +1,227 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Team | BFC">
+  <main class="bg-white">
+    <section class="container-default py-20 md:py-28">
+      <div class="max-w-4xl">
+        <h1 class="text-4xl font-extrabold tracking-tight text-slate-900 md:text-6xl">
+          Meet our <span class="text-blue-700">team</span>
+        </h1>
+        <p class="mt-6 max-w-2xl text-lg leading-8 text-slate-600">
+          It’s all about trust – especially in a trustless architecture
+        </p>
+
+        
+      </div>
+    </section>
+
+    <section class="sticky top-[73px] z-40 border-y border-slate-200 bg-white/90 py-4 backdrop-blur">
+      <div class="container-default flex flex-wrap gap-3">
+        <button
+          type="button"
+          class="rounded-full px-5 py-2 text-sm font-medium bg-slate-900 text-white"
+        >
+          Team
+        </button>
+        <button
+          type="button"
+          class="rounded-full px-5 py-2 text-sm font-medium bg-slate-100 text-slate-600 hover:bg-slate-200"
+        >
+          Venture Partners
+        </button>
+        <button
+          type="button"
+          class="rounded-full px-5 py-2 text-sm font-medium bg-slate-100 text-slate-600 hover:bg-slate-200"
+        >
+          Advisors
+        </button>
+      </div>
+    </section>
+
+    <section class="container-default py-24">
+      <div class="space-y-6">
+
+        <p class="mt-6 max-w-3xl text-lg leading-8 text-slate-600">
+            We’re an equal partnership driven by trust, designed to challenge consensus. No politics, no egos,
+            just complementary strengths and a shared focus: backing the best founders building extraordinary
+            companies.
+          </p>
+        
+        <div class="mt-12 grid gap-6 md:grid-cols-3">
+          <button
+            type="button"
+            class="group flex flex-col overflow-hidden rounded-3xl border border-slate-200 bg-white text-left shadow-soft"
+            data-team-card="sagar"
+          >
+            <div class="h-48 bg-slate-100">
+              <img
+                src="https://cdn.prod.website-files.com/6380f6fb2a33784a87b524e5/65354d68694c7dea023fdb55_sagar_colored_v2.avif"
+                alt="Portrait of Sagar Barvaliya"
+                class="h-full w-full object-cover"
+              />
+            </div>
+            <div class="flex items-center justify-between bg-slate-900 px-4 py-3 text-white">
+              <div class="space-y-0.5">
+                <div class="text-xs font-bold uppercase tracking-[0.2em]">Sagar Barvaliya</div>
+                <p class="text-sm font-medium leading-6 text-slate-100">General Partner</p>
+              </div>
+              <div class="flex h-8 w-8 items-center justify-center rounded-full border border-slate-300 bg-slate-800 text-sm">
+                <span class="text-base">↕</span>
+              </div>
+            </div>
+          </button>
+
+          <button
+            type="button"
+            class="group flex flex-col overflow-hidden rounded-3xl border border-slate-200 bg-white text-left shadow-soft"
+            data-team-card="ben"
+          >
+            <div class="h-48 bg-slate-100">
+              <img
+                src="https://cdn.prod.website-files.com/6380f6fb2a33784a87b524e5/68c9aa4439f7245adef32a9e_ben%20colored.avif"
+                alt="Portrait of Ben Horvath"
+                class="h-full w-full object-cover"
+              />
+            </div>
+            <div class="flex items-center justify-between bg-slate-900 px-4 py-3 text-white">
+              <div class="space-y-0.5">
+                <div class="text-xs font-bold uppercase tracking-[0.2em]">Ben Horvath</div>
+                <p class="text-sm font-medium leading-6 text-slate-100">General Partner</p>
+              </div>
+              <div class="flex h-8 w-8 items-center justify-center rounded-full border border-slate-300 bg-slate-800 text-sm">
+                <span class="text-base">↕</span>
+              </div>
+            </div>
+          </button>
+
+          <button
+            type="button"
+            class="group flex flex-col overflow-hidden rounded-3xl border border-slate-200 bg-white text-left shadow-soft"
+            data-team-card="wolfgang"
+          >
+            <div class="h-48 bg-slate-100">
+              <img
+                src="https://cdn.prod.website-files.com/6380f6fb2a33784a87b524e5/64df83c7221c89e558e3dd3d_wg_colored.avif"
+                alt="Portrait of Wolfgang Mannel"
+                class="h-full w-full object-cover"
+              />
+            </div>
+            <div class="flex items-center justify-between bg-slate-900 px-4 py-3 text-white">
+              <div class="space-y-0.5">
+                <div class="text-xs font-bold uppercase tracking-[0.2em]">Wolfgang Mannel</div>
+                <p class="text-sm font-medium leading-6 text-slate-100">General Partner</p>
+              </div>
+              <div class="flex h-8 w-8 items-center justify-center rounded-full border border-slate-300 bg-slate-800 text-sm">
+                <span class="text-base">↕</span>
+              </div>
+            </div>
+          </button>
+        </div>
+
+        <div
+          id="team-detail"
+          class="mt-12 grid gap-8 overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-soft md:grid-cols-[minmax(0,2fr)_minmax(0,1.2fr)]"
+            >
+          <div class="flex flex-col gap-6 p-8 text-sm leading-7 text-slate-600">
+            <p class="text-sm leading-7 text-slate-600">
+              Sagar is one of those people that make new friends every day. Deeply passionate about the
+              potential of blockchain technology, he is our master networker creating valuable allies, helpful
+              introductions for our portfolio companies, and
+              <span class="font-semibold text-blue-700"> strong connections within the web3 community.</span>
+              In addition, his multinational upbringing and engineering background make him feel at ease in
+              almost any environment.
+            </p>
+
+            <div class="flex flex-wrap items-center gap-4 text-slate-400">
+              <div class="flex gap-3">
+                <a href="#" class="hover:text-slate-900">In</a>
+                <a href="#" class="hover:text-slate-900">🌐</a>
+              </div>
+
+              <span class="inline-flex items-center gap-2">
+                <span class="h-2 w-2 rounded-full bg-slate-300" />
+                Based in Munich
+              </span>
+            </div>
+
+            <div class="flex flex-wrap gap-2">
+              <button
+                type="button"
+                class="rounded-full border border-slate-200 px-3 py-1 text-[11px] font-bold uppercase tracking-[0.2em] text-slate-700"
+              >
+                Gujarati
+              </button>
+              <button
+                type="button"
+                class="rounded-full border border-slate-200 px-3 py-1 text-[11px] font-bold uppercase tracking-[0.2em] text-slate-700"
+              >
+                Hindi
+              </button>
+              <button
+                type="button"
+                class="rounded-full border border-slate-200 px-3 py-1 text-[11px] font-bold uppercase tracking-[0.2em] text-slate-700"
+              >
+                English
+              </button>
+              <button
+                type="button"
+                class="rounded-full border border-slate-200 px-3 py-1 text-[11px] font-bold uppercase tracking-[0.2em] text-slate-700"
+              >
+                German
+              </button>
+            </div>
+          </div>
+
+          <aside class="flex flex-col justify-between gap-6 border-t border-slate-200 bg-slate-50 p-8 md:border-l md:border-t-0">
+            <div class="grid grid-cols-2 gap-3">
+              <div class="flex h-12 items-center justify-center rounded-lg bg-white text-xs font-semibold text-slate-500 shadow-sm ring-1 ring-slate-200">
+                NMIMS
+              </div>
+              <div class="flex h-12 items-center justify-center rounded-lg bg-white text-xs font-semibold text-slate-500 shadow-sm ring-1 ring-slate-200">
+                TUM
+              </div>
+              <div class="flex h-12 items-center justify-center rounded-lg bg-white text-xs font-semibold text-slate-500 shadow-sm ring-1 ring-slate-200">
+                Porsche
+              </div>
+              <div class="flex h-12 items-center justify-center rounded-lg bg-white text-xs font-semibold text-slate-500 shadow-sm ring-1 ring-slate-200">
+                Techstars
+              </div>
+              <div class="flex h-12 items-center justify-center rounded-lg bg-white text-xs font-semibold text-slate-500 shadow-sm ring-1 ring-slate-200">
+                Blackrock
+              </div>
+              <div class="flex h-12 items-center justify-center rounded-lg bg-white text-xs font-semibold text-slate-500 shadow-sm ring-1 ring-slate-200">
+                ETHMunich
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const detail = document.getElementById('team-detail');
+      const cards = document.querySelectorAll<HTMLButtonElement>('[data-team-card]');
+
+      if (!detail || !cards.length) return;
+
+      detail.style.display = 'none';
+
+      cards.forEach((card) => {
+        card.addEventListener('click', () => {
+          const isHidden = detail.style.display === 'none';
+
+          detail.style.display = isHidden ? 'grid' : 'none';
+
+          cards.forEach((c) => c.classList.remove('ring-blue-600'));
+          if (isHidden) {
+            card.classList.add('ring-blue-600');
+          }
+        });
+      });
+    });
+  </script>
+</Layout>

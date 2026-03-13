@@ -1,0 +1,206 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const filters = ['All', 'Creators', 'Fintech', 'Gaming', 'Demos', 'Other'];
+
+const companies = [
+  {
+    name: 'Herita',
+    founders: 'Christoph Iwaniez, Felix Kollmar, Benjamin Jones',
+    description:
+      'By reimagining the Bill of Exchange for the digital era, Herita gives both buyers and suppliers more control over their cash flow, unlocking working capital from unpaid invoices.',
+    mission: 'Creating the digital backbone for trade finance',
+    coInvestors: 'Angel Invest, Prequel Ventures',
+    badge: 'H',
+    badgeBg: 'bg-[#0b1c1e]',
+    imageBg: 'bg-[#0b1c1e]',
+    image:
+      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=1200&q=80',
+    imageTitle: 'Reimagining the Bill of Exchange for the modern world.',
+  },
+  {
+    name: 'Silas',
+    founders: 'Maariyah Afzal',
+    description:
+      'Insurance underwriting is stuck in the past. Slow bulky systems, scattered data, and hours of manual review. Silas cuts through the chaos, automating the grind and giving teams the speed and clarity they need to make smarter decisions.',
+    mission: 'Turning data overload into confident decisions',
+    coInvestors: 'Alan Morgan, Mark Ransford',
+    badge: 'S',
+    badgeBg: 'bg-[#f25c05]',
+    imageBg: 'bg-[#f25c05]',
+    image:
+      'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=1200&q=80',
+    imageTitle: 'SMART UNDERWRITING',
+  },
+  {
+    name: 'Appstack',
+    founders: 'Lucas Mossion, Tom Damon',
+    description:
+      'The mobile advertising measurement landscape is undergoing a seismic shift. In a privacy first world, traditional tracking solutions do not work anymore. Appstack provides an AI first fresh approach in a multi billion dollar market.',
+    mission: 'Help mobile apps make more money',
+    coInvestors: 'Entrepreneur First, LeadTech Ventures, Transpose Platform',
+    badge: 'A',
+    badgeBg: 'bg-[#1e293b]',
+    imageBg: 'bg-[#1e293b]',
+    image:
+      'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80',
+    imageTitle: '',
+  },
+  {
+    name: 'Tergle',
+    founders: 'Adam Bowen, William Tarl',
+    description:
+      'Financial auditing may not be glamorous, but they are mission critical. Despite the increasing complexity and cost of compliance, audit processes remain surprisingly manual. Tergle is transforming this landscape.',
+    mission: 'Making auditors love their jobs again',
+    coInvestors: 'Y Combinator, Pioneer Fund, Amino Capital, Palm Drive Capital',
+    badge: 'T',
+    badgeBg: 'bg-[#2a4494]',
+    imageBg: 'bg-[#2a4494]',
+    image:
+      'https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&fit=crop&w=1200&q=80',
+    imageTitle: '',
+  },
+];
+---
+
+<Layout title="Portfolio | BFC">
+  <main>
+    <section class="container-default py-16 md:py-24">
+      <h1 class="text-4xl font-extrabold tracking-tight text-slate-900 md:text-6xl">
+        Here are the teams that are
+        <br />
+        <span class="text-blue-600">building the future</span>
+      </h1>
+
+      <p class="mt-4 max-w-2xl text-base text-slate-500">
+        We believe in these founders to
+        <a href="#" class="text-blue-600 underline">leave a lasting legacy</a>
+      </p>
+    </section>
+
+    <section class="sticky top-[73px] z-40 border-y border-slate-200 bg-white/90 py-4 backdrop-blur">
+      <div class="container-default flex flex-wrap gap-3">
+        {filters.map((filter, index) => (
+          <button
+            type="button"
+            class={`rounded-full px-5 py-2 text-sm font-medium transition ${
+              index === 0
+                ? 'bg-slate-900 text-white'
+                : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
+            }`}
+          >
+            {filter}
+          </button>
+        ))}
+      </div>
+    </section>
+
+    <section class="container-default space-y-24 py-12 md:py-16">
+      {companies.map((company) => (
+        <article class="grid items-center gap-10 md:grid-cols-2 md:gap-12">
+          <div class={`group relative aspect-[4/3] overflow-hidden rounded-[28px] ${company.imageBg}`}>
+            <img
+              src={company.image}
+              alt={company.name}
+              class="h-full w-full object-cover transition duration-300 group-hover:scale-[1.02]"
+            />
+
+            {company.imageTitle && (
+              <div class="absolute bottom-8 left-8 max-w-xs text-white">
+                <h3 class="text-2xl font-bold leading-tight">{company.imageTitle}</h3>
+              </div>
+            )}
+          </div>
+
+          <div class="space-y-6">
+            <div class="flex items-center gap-4">
+              <div class={`flex h-12 w-12 items-center justify-center rounded-lg ${company.badgeBg}`}>
+                <span class="text-xs font-bold text-white">{company.badge}</span>
+              </div>
+
+              <div>
+                <h2 class="text-3xl font-bold tracking-tight text-slate-900">{company.name}</h2>
+                <p class="text-sm font-medium text-slate-500">
+                  Founders: {company.founders}
+                </p>
+              </div>
+            </div>
+
+            <p class="leading-8 text-slate-600">
+              {company.description}
+              <a href="#" class="ml-1 font-medium text-blue-600">(Why we invested?)</a>
+            </p>
+
+            <div class="grid grid-cols-1 gap-8 pt-4 sm:grid-cols-2">
+              <div>
+                <p class="mb-2 text-[10px] font-bold uppercase tracking-[0.2em] text-slate-400">
+                  MISSION
+                </p>
+                <p class="text-sm font-medium text-slate-800">{company.mission}</p>
+              </div>
+
+              <div class="flex gap-8 sm:justify-end">
+                <div>
+                  <p class="mb-2 text-right text-[10px] font-bold uppercase tracking-[0.2em] text-slate-400">
+                    CONNECT
+                  </p>
+                  <div class="flex justify-end gap-3 text-slate-400">
+                    <a href="#" class="hover:text-slate-900">In</a>
+                    <a href="#" class="hover:text-slate-900">🌐</a>
+                  </div>
+                </div>
+
+                <div>
+                  <p class="mb-2 text-right text-[10px] font-bold uppercase tracking-[0.2em] text-slate-400">
+                    JOBS
+                  </p>
+                  <a href="#" class="block text-right text-slate-400 hover:text-slate-900">↗</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="border-t border-slate-200 pt-4">
+              <p class="mb-2 text-[10px] font-bold uppercase tracking-[0.2em] text-slate-400">
+                CO INVESTORS INCLUDE
+              </p>
+              <p class="text-xs font-medium text-slate-600">{company.coInvestors}</p>
+            </div>
+          </div>
+        </article>
+      ))}
+    </section>
+
+    <section class="bg-slate-50 py-24">
+      <div class="container-default">
+        <h2 class="mb-12 text-2xl font-bold text-blue-900">
+          What our founders say about us
+        </h2>
+
+        <div class="flex flex-col items-center gap-12 rounded-[40px] bg-white p-8 shadow-sm md:flex-row md:p-16">
+          <div class="h-48 w-48 flex-shrink-0 overflow-hidden rounded-full border-8 border-blue-50 md:h-64 md:w-64">
+            <img
+              src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=1000&q=80"
+              alt="Raechel Lambert"
+              class="h-full w-full object-cover"
+            />
+          </div>
+
+          <div class="space-y-6">
+            <p class="text-2xl italic leading-relaxed text-blue-900 md:text-3xl">
+              <span class="mb-2 block h-8 text-6xl text-blue-200">“</span>
+              Blockchain Founders Capital relentlessly supported us during our fundraising,
+              even before the paperwork was signed. I completely trust them and plan to be
+              lifelong partners.
+              <span class="mt-2 block h-8 text-right text-6xl text-blue-200">”</span>
+            </p>
+
+            <div class="inline-flex flex-col rounded-full bg-slate-900 px-6 py-3 text-white">
+              <span class="text-sm font-bold">Raechel Lambert</span>
+              <span class="text-xs text-slate-400">CEO &amp; Co Founder of River</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</Layout>
