@@ -1,0 +1,318 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const filters = ['All Photos', 'Events', 'Founders', 'Investors', 'Community'];
+
+const snapshots = [
+  {
+    image: 'https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=1200&q=80',
+    caption: 'Dinner conversation with founders and friends in Munich',
+    height: 'h-40',
+  },
+  {
+    image: 'https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=1200&q=80',
+    caption: 'Panel discussion with investors during Frankfurter Finanzplaner Forum 2025',
+    height: 'h-52',
+  },
+  {
+    image: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80',
+    caption: 'With founders and operators after a community meetup',
+    height: 'h-44',
+  },
+  {
+    image: 'https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&w=1200&q=80',
+    caption: 'Networking moment during an evening event',
+    height: 'h-36',
+  },
+  {
+    image: 'https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1200&q=80',
+    caption: 'Stage session with speakers and guests',
+    height: 'h-48',
+  },
+  {
+    image: 'https://images.unsplash.com/photo-1540317580384-e5d43616b9aa?auto=format&fit=crop&w=1200&q=80',
+    caption: 'Quiet conversation before a founder session',
+    height: 'h-56',
+  },
+  {
+    image: 'https://images.unsplash.com/photo-1515169067868-5387ec356754?auto=format&fit=crop&w=1200&q=80',
+    caption: 'Meeting builders and investors in a warm event setting',
+    height: 'h-40',
+  },
+  {
+    image: 'https://images.unsplash.com/photo-1517457373958-b7bdd4587205?auto=format&fit=crop&w=1200&q=80',
+    caption: 'Snapshot from a conference gathering',
+    height: 'h-44',
+  },
+  {
+    image: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80',
+    caption: 'Listening to a founder pitch on stage',
+    height: 'h-52',
+  },
+  {
+    image: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80',
+    caption: 'Founder conversation after a product talk',
+    height: 'h-40',
+  },
+  {
+    image: 'https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=1200&q=80',
+    caption: 'Community moment during a casual meetup',
+    height: 'h-48',
+  },
+  {
+    image: 'https://images.unsplash.com/photo-1511576661531-b34d7da5d0bb?auto=format&fit=crop&w=1200&q=80',
+    caption: 'Live event with guests and speakers',
+    height: 'h-56',
+  },
+  {
+    image: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80',
+    caption: 'Founder dinner with ecosystem partners',
+    height: 'h-44',
+  },
+  {
+    image: 'https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1200&q=80',
+    caption: 'Table discussion with builders and operators',
+    height: 'h-40',
+  },
+  {
+    image: 'https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=1200&q=80',
+    caption: 'VC and startup session during a packed conference day',
+    height: 'h-52',
+  },
+  {
+    image: 'https://images.unsplash.com/photo-1515187029135-18ee286d815b?auto=format&fit=crop&w=1200&q=80',
+    caption: 'A friendly moment after a panel',
+    height: 'h-36',
+  },
+  {
+    image: 'https://images.unsplash.com/photo-1503428593586-e225b39bddfe?auto=format&fit=crop&w=1200&q=80',
+    caption: 'Walking into the venue with partners and friends',
+    height: 'h-44',
+  },
+  {
+    image: 'https://images.unsplash.com/photo-1511576661531-b34d7da5d0bb?auto=format&fit=crop&w=1200&q=80',
+    caption: 'Evening event with the wider startup community',
+    height: 'h-48',
+  },
+];
+---
+
+<Layout title="BFC | Snapshots">
+  <main>
+    <!-- Header -->
+    <section class="container-default py-16 md:py-24">
+      <h1 class="text-4xl font-extrabold tracking-tight text-slate-900 md:text-6xl">
+        Snapshots
+      </h1>
+
+      <p class="mt-4 max-w-2xl text-base text-slate-500">
+        Meeting founders, friends, and venture capital family
+      </p>
+    </section>
+
+    <!-- Sticky buttons -->
+    <section class="sticky top-[73px] z-40 border-y border-slate-200 bg-white/90 py-4 backdrop-blur">
+      <div class="container-default flex flex-wrap gap-3">
+        {filters.map((filter, index) => (
+          <button
+            type="button"
+            class={`rounded-full px-5 py-2 text-sm font-medium transition ${
+              index === 0
+                ? 'bg-slate-900 text-white'
+                : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
+            }`}
+          >
+            {filter}
+          </button>
+        ))}
+      </div>
+    </section>
+
+    <!-- Masonry gallery -->
+    <section class="container-default py-10 md:py-14">
+      <div class="columns-2 gap-4 sm:columns-3 lg:columns-4 xl:columns-5 [column-fill:_balance]">
+        {snapshots.map((item, index) => (
+          <button
+            type="button"
+            class={`snapshot-item group mb-4 block w-full break-inside-avoid overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-soft ${item.height}`}
+            data-index={index}
+            data-image={item.image}
+            data-caption={item.caption}
+            aria-label={`Open snapshot ${index + 1}`}
+          >
+            <img
+              src={item.image}
+              alt={item.caption}
+              class="h-full w-full object-cover transition duration-300 group-hover:scale-105"
+              loading="lazy"
+            />
+          </button>
+        ))}
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Modal -->
+  <div
+    id="snapshot-modal"
+    class="fixed inset-0 z-[90] hidden bg-black/85"
+    aria-hidden="true"
+  >
+    <div class="absolute left-6 top-5 text-4xl font-extrabold tracking-tight text-white md:text-6xl">
+      BFC
+    </div>
+
+    <button
+      id="modal-close"
+      type="button"
+      class="absolute right-5 top-5 z-[95] flex h-12 w-12 items-center justify-center rounded-full bg-white/10 text-3xl text-white transition hover:bg-white/20"
+      aria-label="Close modal"
+    >
+      ×
+    </button>
+
+    <button
+      id="modal-prev"
+      type="button"
+      class="absolute left-3 top-1/2 z-[95] -translate-y-1/2 text-6xl leading-none text-white/80 transition hover:text-white"
+      aria-label="Previous image"
+    >
+      ‹
+    </button>
+
+    <button
+      id="modal-next"
+      type="button"
+      class="absolute right-3 top-1/2 z-[95] -translate-y-1/2 text-6xl leading-none text-white/80 transition hover:text-white"
+      aria-label="Next image"
+    >
+      ›
+    </button>
+
+    <div class="flex h-full w-full items-center justify-center px-4 py-16 md:px-14">
+      <div class="w-full max-w-6xl">
+        <div class="mx-auto flex max-h-[72vh] min-h-[320px] items-center justify-center overflow-hidden rounded-3xl">
+          <img
+            id="modal-main-image"
+            src=""
+            alt=""
+            class="max-h-[72vh] w-auto max-w-full rounded-2xl object-contain"
+          />
+        </div>
+
+        <p
+          id="modal-caption"
+          class="mt-5 text-center text-lg leading-8 text-white"
+        ></p>
+
+        <div
+          id="modal-thumbs"
+          class="mt-6 flex items-center gap-3 overflow-x-auto pb-2"
+        ></div>
+      </div>
+    </div>
+  </div>
+
+  <script is:inline define:vars={{ snapshots }}>
+    const modal = document.getElementById('snapshot-modal');
+    const mainImage = document.getElementById('modal-main-image');
+    const caption = document.getElementById('modal-caption');
+    const thumbs = document.getElementById('modal-thumbs');
+    const closeBtn = document.getElementById('modal-close');
+    const prevBtn = document.getElementById('modal-prev');
+    const nextBtn = document.getElementById('modal-next');
+    const triggerItems = Array.from(document.querySelectorAll('.snapshot-item'));
+
+    let activeIndex = 0;
+
+    function renderThumbs() {
+      thumbs.innerHTML = '';
+
+      snapshots.forEach((item, index) => {
+        const button = document.createElement('button');
+        button.type = 'button';
+        button.className =
+          `relative h-16 w-24 shrink-0 overflow-hidden rounded-xl border transition ${
+            index === activeIndex
+              ? 'border-white ring-2 ring-white/80'
+              : 'border-white/20 opacity-80 hover:opacity-100'
+          }`;
+
+        button.setAttribute('aria-label', `Open thumbnail ${index + 1}`);
+
+        const img = document.createElement('img');
+        img.src = item.image;
+        img.alt = item.caption;
+        img.className = 'h-full w-full object-cover';
+
+        button.appendChild(img);
+        button.addEventListener('click', () => openModal(index));
+        thumbs.appendChild(button);
+      });
+    }
+
+    function openModal(index) {
+      activeIndex = index;
+      const item = snapshots[activeIndex];
+
+      mainImage.src = item.image;
+      mainImage.alt = item.caption;
+      caption.textContent = item.caption;
+
+      renderThumbs();
+
+      modal.classList.remove('hidden');
+      document.body.classList.add('overflow-hidden');
+
+      const activeThumb = thumbs.children[activeIndex];
+      if (activeThumb) {
+        activeThumb.scrollIntoView({
+          behavior: 'smooth',
+          inline: 'center',
+          block: 'nearest',
+        });
+      }
+    }
+
+    function closeModal() {
+      modal.classList.add('hidden');
+      document.body.classList.remove('overflow-hidden');
+    }
+
+    function goPrev() {
+      activeIndex = activeIndex === 0 ? snapshots.length - 1 : activeIndex - 1;
+      openModal(activeIndex);
+    }
+
+    function goNext() {
+      activeIndex = activeIndex === snapshots.length - 1 ? 0 : activeIndex + 1;
+      openModal(activeIndex);
+    }
+
+    triggerItems.forEach((item) => {
+      item.addEventListener('click', () => {
+        const index = Number(item.dataset.index);
+        openModal(index);
+      });
+    });
+
+    closeBtn.addEventListener('click', closeModal);
+    prevBtn.addEventListener('click', goPrev);
+    nextBtn.addEventListener('click', goNext);
+
+    modal.addEventListener('click', (event) => {
+      if (event.target === modal) {
+        closeModal();
+      }
+    });
+
+    document.addEventListener('keydown', (event) => {
+      if (modal.classList.contains('hidden')) return;
+
+      if (event.key === 'Escape') closeModal();
+      if (event.key === 'ArrowLeft') goPrev();
+      if (event.key === 'ArrowRight') goNext();
+    });
+  </script>
+</Layout>

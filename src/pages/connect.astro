@@ -1,0 +1,89 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const contactCards = [
+  {
+    title: 'Startup Funding',
+    desc: 'Tell us about what you are planning to do. Make us curious.',
+    button: 'Apply for funding',
+  },
+  {
+    title: 'Job Opportunities',
+    desc: 'Check out the jobs pages of our portfolio companies.',
+    button: 'Check for jobs',
+  },
+  {
+    title: 'Media Inquiries',
+    desc: 'For requests, opinions, or insights, reach out to Ben Horvath.',
+    button: 'Contact Ben',
+  },
+  {
+    title: 'Become an Investor',
+    desc: 'Interested professional investors should contact Wolfgang Männel.',
+    button: 'Contact Wolfgang',
+  },
+  {
+    title: 'Investor Portal',
+    desc: 'All the documents, all the numbers at a glance for our investors only.',
+    button: 'Login',
+  },
+  {
+    title: 'Investor Events',
+    desc: 'For event and investor gathering please contact Sagar.',
+    button: 'Contact Sagar',
+  },
+];
+---
+
+<Layout title="BFC | Connect">
+<main>
+
+<section class="container-default py-16 md:py-24">
+  <h1 class="text-4xl font-extrabold tracking-tight text-slate-900 md:text-6xl">
+    Let's get in touch
+  </h1>
+
+  <p class="mt-4 max-w-2xl text-base text-slate-500">
+    We look forward to getting to know you
+  </p>
+</section>
+
+
+<section class="container-default pb-24">
+
+<div class="mt-12 grid gap-8 md:grid-cols-3">
+
+{contactCards.map((item) => (
+
+<article class="flex h-full flex-col overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-soft">
+
+<div class="flex flex-1 flex-col p-8">
+
+<h3 class="text-2xl font-bold tracking-tight text-slate-900">
+{item.title}
+</h3>
+
+<p class="mt-4 flex-1 text-sm leading-7 text-slate-600">
+{item.desc}
+</p>
+
+<div class="mt-8 border-t border-slate-200 pt-6">
+
+<button class="rounded-full bg-blue-700 px-6 py-3 text-sm font-semibold text-white transition hover:bg-blue-800">
+{item.button}
+</button>
+
+</div>
+
+</div>
+
+</article>
+
+))}
+
+</div>
+
+</section>
+
+</main>
+</Layout>

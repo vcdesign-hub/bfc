@@ -170,33 +170,35 @@ const companies = [
       ))}
     </section>
 
-    <section class="bg-slate-50 py-24">
-      <div class="container-default">
-        <h2 class="mb-12 text-2xl font-bold text-blue-900">
-          What our founders say about us
-        </h2>
+    <section class="container-default py-24">
+      <div class="grid items-center gap-12 md:grid-cols-[280px_minmax(0,1fr)]">
+        <div class="mx-auto h-56 w-56 overflow-hidden rounded-full bg-slate-100 md:h-72 md:w-72">
+          <img
+            src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=1000&q=80"
+            alt="Founder portrait"
+            class="h-full w-full object-cover"
+          />
+        </div>
 
-        <div class="flex flex-col items-center gap-12 rounded-[40px] bg-white p-8 shadow-sm md:flex-row md:p-16">
-          <div class="h-48 w-48 flex-shrink-0 overflow-hidden rounded-full border-8 border-blue-50 md:h-64 md:w-64">
-            <img
-              src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=1000&q=80"
-              alt="Raechel Lambert"
-              class="h-full w-full object-cover"
-            />
-          </div>
+        <div>
+          <h2 class="text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
+            What our founders say about us
+          </h2>
+          <p class="mt-3 text-lg text-slate-600">
+            No founders were harmed in the making of this statement.
+          </p>
 
-          <div class="space-y-6">
-            <p class="text-2xl italic leading-relaxed text-blue-900 md:text-3xl">
-              <span class="mb-2 block h-8 text-6xl text-blue-200">“</span>
-              Blockchain Founders Capital relentlessly supported us during our fundraising,
-              even before the paperwork was signed. I completely trust them and plan to be
-              lifelong partners.
-              <span class="mt-2 block h-8 text-right text-6xl text-blue-200">”</span>
-            </p>
+          <blockquote class="relative mt-10 text-xl italic leading-9 text-slate-700 md:text-2xl">
+            <!-- <span class="absolute -left-4 -top-8 text-7xl text-slate-200">“</span> -->
+            Blockchain Founders Capital relentlessly supported us during our fundraising,
+            even before the paperwork was signed. I completely trust them and plan to be
+            lifelong partners.
+          </blockquote>
 
-            <div class="inline-flex flex-col rounded-full bg-slate-900 px-6 py-3 text-white">
-              <span class="text-sm font-bold">Raechel Lambert</span>
-              <span class="text-xs text-slate-400">CEO &amp; Co Founder of River</span>
+          <div class="mt-8 inline-flex rounded-2xl bg-slate-900 px-5 py-4 text-white">
+            <div>
+              <p class="font-semibold">Raechel Lambert</p>
+              <p class="text-sm text-white/70">CEO and Co Founder of River</p>
             </div>
           </div>
         </div>
