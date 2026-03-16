@@ -1,66 +1,25 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Layout from "../layouts/Layout.astro";
+import { getCollection } from "astro:content";
 
-const filters = ['All', 'Creators', 'Fintech', 'Gaming', 'Demos', 'Other'];
+const companiesRaw = await getCollection("portfolio");
 
-const companies = [
-  {
-    name: 'Herita',
-    founders: 'Christoph Iwaniez, Felix Kollmar, Benjamin Jones',
-    description:
-      'By reimagining the Bill of Exchange for the digital era, Herita gives both buyers and suppliers more control over their cash flow, unlocking working capital from unpaid invoices.',
-    mission: 'Creating the digital backbone for trade finance',
-    coInvestors: 'Angel Invest, Prequel Ventures',
-    badge: 'H',
-    badgeBg: 'bg-[#0b1c1e]',
-    imageBg: 'bg-[#0b1c1e]',
-    image:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=1200&q=80',
-    imageTitle: 'Reimagining the Bill of Exchange for the modern world.',
-  },
-  {
-    name: 'Silas',
-    founders: 'Maariyah Afzal',
-    description:
-      'Insurance underwriting is stuck in the past. Slow bulky systems, scattered data, and hours of manual review. Silas cuts through the chaos, automating the grind and giving teams the speed and clarity they need to make smarter decisions.',
-    mission: 'Turning data overload into confident decisions',
-    coInvestors: 'Alan Morgan, Mark Ransford',
-    badge: 'S',
-    badgeBg: 'bg-[#f25c05]',
-    imageBg: 'bg-[#f25c05]',
-    image:
-      'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=1200&q=80',
-    imageTitle: 'SMART UNDERWRITING',
-  },
-  {
-    name: 'Appstack',
-    founders: 'Lucas Mossion, Tom Damon',
-    description:
-      'The mobile advertising measurement landscape is undergoing a seismic shift. In a privacy first world, traditional tracking solutions do not work anymore. Appstack provides an AI first fresh approach in a multi billion dollar market.',
-    mission: 'Help mobile apps make more money',
-    coInvestors: 'Entrepreneur First, LeadTech Ventures, Transpose Platform',
-    badge: 'A',
-    badgeBg: 'bg-[#1e293b]',
-    imageBg: 'bg-[#1e293b]',
-    image:
-      'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80',
-    imageTitle: '',
-  },
-  {
-    name: 'Tergle',
-    founders: 'Adam Bowen, William Tarl',
-    description:
-      'Financial auditing may not be glamorous, but they are mission critical. Despite the increasing complexity and cost of compliance, audit processes remain surprisingly manual. Tergle is transforming this landscape.',
-    mission: 'Making auditors love their jobs again',
-    coInvestors: 'Y Combinator, Pioneer Fund, Amino Capital, Palm Drive Capital',
-    badge: 'T',
-    badgeBg: 'bg-[#2a4494]',
-    imageBg: 'bg-[#2a4494]',
-    image:
-      'https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&fit=crop&w=1200&q=80',
-    imageTitle: '',
-  },
-];
+const companies = companiesRaw.map((item) => ({
+  name: item.data.name,
+  category: item.data.category,
+  founders: item.data.founders,
+  description: item.data.description,
+  mission: item.data.mission,
+  coInvestors: item.data.coInvestors,
+  badge: item.data.badge,
+  badgeBg: item.data.badgeBg,
+  imageBg: item.data.imageBg,
+  image: item.data.image,
+  imageTitle: item.data.imageTitle,
+}));
+
+const categories = [...new Set(companies.map((c) => c.category))];
+const filters = ["All", ...categories];
 ---
 
 <Layout title="Portfolio | BFC">
@@ -97,7 +56,10 @@ const companies = [
 
     <section class="container-default space-y-24 py-12 md:py-16">
       {companies.map((company) => (
-        <article class="grid items-center gap-10 md:grid-cols-2 md:gap-12">
+        <article
+  class="portfolio-item grid items-center gap-10 md:grid-cols-2 md:gap-12"
+  data-category={company.category}
+>
           <div class={`group relative aspect-[4/3] overflow-hidden rounded-[28px] ${company.imageBg}`}>
             <img
               src={company.image}
@@ -205,4 +167,37 @@ const companies = [
       </div>
     </section>
   </main>
+
+  <script>
+    const buttons = document.querySelectorAll(".sticky button");
+    const items = document.querySelectorAll(".portfolio-item");
+    
+    let active = "All";
+    
+    buttons.forEach(btn => {
+      btn.addEventListener("click", () => {
+    
+        buttons.forEach(b=>{
+          b.classList.remove("bg-slate-900","text-white");
+          b.classList.add("bg-slate-100","text-slate-600");
+        });
+    
+        btn.classList.remove("bg-slate-100","text-slate-600");
+        btn.classList.add("bg-slate-900","text-white");
+    
+        active = btn.textContent.trim();
+    
+        items.forEach(item=>{
+          const cat = item.dataset.category;
+    
+          if(active === "All" || cat === active){
+            item.style.display = "grid";
+          } else {
+            item.style.display = "none";
+          }
+        });
+    
+      });
+    });
+    </script>
 </Layout>

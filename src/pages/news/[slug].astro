@@ -1,0 +1,69 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { getCollection, getEntry, render } from "astro:content";
+
+export async function getStaticPaths() {
+  const articles = await getCollection("news");
+
+  return articles.map((article) => ({
+    params: { slug: article.slug },
+  }));
+}
+
+const slug = Astro.params.slug;
+
+if (!slug) {
+  throw new Error("Missing news slug.");
+}
+
+const entry = await getEntry("news", slug);
+
+if (!entry) {
+  throw new Error(`News entry not found for slug: ${slug}`);
+}
+
+const { Content } = await render(entry);
+
+const formattedDate = entry.data.date.toLocaleDateString("en-US", {
+  month: "short",
+  day: "numeric",
+  year: "numeric",
+});
+---
+
+<Layout title={`BFC | ${entry.data.title}`}>
+  <main>
+    <section class="container-default py-16 md:py-24">
+      <p class="text-sm font-medium text-blue-600">
+        {entry.data.tag}
+      </p>
+
+      <h1 class="mt-4 max-w-5xl text-4xl font-extrabold tracking-tight text-slate-900 md:text-6xl">
+        {entry.data.title}
+      </h1>
+
+      <p class="mt-4 max-w-3xl text-base text-slate-500">
+        {entry.data.description}
+      </p>
+
+      <div class="mt-6 flex flex-wrap items-center gap-4 text-sm text-slate-400">
+        <span>{formattedDate}</span>
+        <span>{entry.data.minRead}</span>
+      </div>
+
+      <img
+        src={entry.data.image}
+        alt={entry.data.title}
+        class="mt-10 w-full rounded-3xl border border-slate-200 object-cover shadow-soft"
+      />
+    </section>
+
+    <section class="container-default pb-24">
+      <article class="max-w-3xl">
+        <div class="prose prose-slate max-w-none prose-headings:tracking-tight prose-headings:text-slate-900 prose-p:text-slate-600 prose-p:leading-8 prose-li:text-slate-600 prose-strong:text-slate-900 prose-a:text-blue-600">
+          <Content />
+        </div>
+      </article>
+    </section>
+  </main>
+</Layout>
