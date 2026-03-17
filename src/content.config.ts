@@ -21,15 +21,12 @@ const portfolio = defineCollection({
     description: z.string(),
     mission: z.string(),
     coInvestors: z.string(),
-
     badge: z.string().optional(),
     badgeBg: z.string().optional(),
     badgeImage: z.string().optional(),
-
     imageBg: z.string(),
     image: z.string(),
     imageTitle: z.string().optional(),
-
     linkedinUrl: z.string().optional(),
     websiteUrl: z.string().optional(),
     jobsUrl: z.string().optional(),
@@ -56,8 +53,19 @@ const team = defineCollection({
   }),
 });
 
+const partners = defineCollection({
+  type: "content",
+  schema: z.object({
+    name: z.string(),
+    image: z.string(),
+    url: z.string(),
+    order: z.number().optional(),
+  }),
+});
+
 export const collections = {
   news,
   portfolio,
   team,
+  partners,
 };
