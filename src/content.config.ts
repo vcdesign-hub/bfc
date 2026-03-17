@@ -21,11 +21,19 @@ const portfolio = defineCollection({
     description: z.string(),
     mission: z.string(),
     coInvestors: z.string(),
-    badge: z.string(),
-    badgeBg: z.string(),
+
+    badge: z.string().optional(),
+    badgeBg: z.string().optional(),
+    badgeImage: z.string().optional(),
+
     imageBg: z.string(),
     image: z.string(),
     imageTitle: z.string().optional(),
+
+    linkedinUrl: z.string().optional(),
+    websiteUrl: z.string().optional(),
+    jobsUrl: z.string().optional(),
+    whyInvestedUrl: z.string().optional(),
   }),
 });
 
@@ -40,11 +48,11 @@ const team = defineCollection({
     bio: z.string(),
     bioHighlight: z.string().optional(),
     location: z.string(),
-    linkedinUrl: z.string().optional().default("#"),
-    websiteUrl: z.string().optional().default("#"),
+    linkedinUrl: z.string().optional(),
+    websiteUrl: z.string().optional(),
     languages: z.array(z.string()),
     logos: z.array(z.string()),
-    order: z.number().optional().default(0),
+    order: z.number(),
   }),
 });
 
