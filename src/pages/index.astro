@@ -1,110 +1,105 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Layout from "../layouts/Layout.astro";
+import { getCollection } from "astro:content";
 
-const portfolioItems = [
-  { name: 'Level', desc: 'The first stablecoin powered by restaked assets', bg: 'bg-blue-600' },
-  { name: 'novum', desc: 'Cutting out the middlemen', bg: 'bg-slate-950' },
-  { name: 'R/VER', desc: 'Turning audiences into communities', bg: 'bg-black' },
-  { name: 'Appstack', desc: 'App marketing analytics to help mobile apps make more money', bg: 'bg-slate-800' },
-  { name: 'Silas', desc: 'Smart Underwriting', bg: 'bg-orange-600' },
-  { name: 'recall', desc: 'Summarize Anything', bg: 'bg-slate-950' },
-  { name: 'goaudio', desc: 'Smartly produce high quality audio content', bg: 'bg-black' },
-  { name: 'Proof', desc: 'Next generation ESG tools', bg: 'bg-green-800' },
-  { name: 'Trever', desc: 'Unlock the potential of digital assets', bg: 'bg-black' },
-  { name: 'Raremarq', desc: 'The trusted marketplace', bg: 'bg-rose-500' },
-  { name: 'Tergle', desc: 'Your AI powered Auditor', bg: 'bg-blue-800' },
-  { name: 'and many more', desc: 'on our portfolio page', bg: 'bg-slate-900' },
-];
+const portfolioRaw = await getCollection("portfolio");
+
+const portfolioItems = portfolioRaw.map((item) => ({
+  name: item.data.name,
+  desc: item.data.mission,
+  image: item.data.image,
+  imageBg: item.data.imageBg,
+}));
 
 const focusCards = [
   {
-    title: 'Scope',
-    text: 'Non consensus insight driven ideas based on inflection points',
+    title: "Scope",
+    text: "Non consensus insight driven ideas based on inflection points",
   },
   {
-    title: 'Founders',
-    text: 'Obsessed founder teams who want to make a dent in the universe',
+    title: "Founders",
+    text: "Obsessed founder teams who want to make a dent in the universe",
   },
   {
-    title: 'Phase',
-    text: 'Pre Product Market Fit Pre Seed and Seed',
+    title: "Phase",
+    text: "Pre Product Market Fit Pre Seed and Seed",
   },
   {
-    title: 'Tickets',
-    text: '$300k in Europe, North America, Asia',
+    title: "Tickets",
+    text: "$300k in Europe, North America, Asia",
   },
 ];
 
 const logos = [
-  'Sequoia',
-  'Slow',
-  'CV VC',
-  '468 Capital',
-  'Speedinvest',
-  'Launch',
-  'Blockwall',
-  'Rakuten',
-  'Rocket',
-  'Techstars',
-  'Solana',
-  'Robot',
-  'BWC',
-  'SOSV',
-  'Franklin',
-  'Dragonfly',
-  'Founders',
-  'Ark Invest',
-  'Konvoy',
-  'Entrepreneurs',
-  'Kraken',
-  'Combinator',
-  'Polychain',
-  'Sunset',
-  'TheVenture',
-  'Riot Games',
-  'TX Ventures',
-  'IBB',
-  'Venture',
-  'M',
+  "Sequoia",
+  "Slow",
+  "CV VC",
+  "468 Capital",
+  "Speedinvest",
+  "Launch",
+  "Blockwall",
+  "Rakuten",
+  "Rocket",
+  "Techstars",
+  "Solana",
+  "Robot",
+  "BWC",
+  "SOSV",
+  "Franklin",
+  "Dragonfly",
+  "Founders",
+  "Ark Invest",
+  "Konvoy",
+  "Entrepreneurs",
+  "Kraken",
+  "Combinator",
+  "Polychain",
+  "Sunset",
+  "TheVenture",
+  "Riot Games",
+  "TX Ventures",
+  "IBB",
+  "Venture",
+  "M",
 ];
 
 const snapshots = [
-  'https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=900&q=80',
-  'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80',
-  'https://images.unsplash.com/photo-1515169067868-5387ec356754?auto=format&fit=crop&w=900&q=80',
-  'https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&w=900&q=80',
-  'https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=900&q=80',
-  'https://images.unsplash.com/photo-1540317580384-e5d43616b9aa?auto=format&fit=crop&w=900&q=80',
-  'https://images.unsplash.com/photo-1517457373958-b7bdd4587205?auto=format&fit=crop&w=900&q=80',
-  'https://images.unsplash.com/photo-1511576661531-b34d7da5d0bb?auto=format&fit=crop&w=900&q=80',
-  'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=900&q=80',
-  'https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=900&q=80',
+  "https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=900&q=80",
+  "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80",
+  "https://images.unsplash.com/photo-1515169067868-5387ec356754?auto=format&fit=crop&w=900&q=80",
+  "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&w=900&q=80",
+  "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=900&q=80",
+  "https://images.unsplash.com/photo-1540317580384-e5d43616b9aa?auto=format&fit=crop&w=900&q=80",
+  "https://images.unsplash.com/photo-1517457373958-b7bdd4587205?auto=format&fit=crop&w=900&q=80",
+  "https://images.unsplash.com/photo-1511576661531-b34d7da5d0bb?auto=format&fit=crop&w=900&q=80",
+  "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=900&q=80",
+  "https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=900&q=80",
 ];
 
 const newsItems = [
   {
-    tag: 'Insights',
-    title: 'The Davos Investor Summit 2026',
-    desc: 'Industry leaders discuss how policy, tokenization, and institutional adoption are reshaping the global financial system.',
-    date: 'Jan 30, 2025',
-    time: '15 mins',
-    image: 'https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=1200&q=80',
+    tag: "Insights",
+    title: "The Davos Investor Summit 2026",
+    desc: "Industry leaders discuss how policy, tokenization, and institutional adoption are reshaping the global financial system.",
+    date: "Jan 30, 2025",
+    time: "15 mins",
+    image: "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=1200&q=80",
   },
   {
-    tag: 'Newsletters',
-    title: 'Friends and Family BFC Notebook #20',
-    desc: 'To unicorn or not, make underwriters great again, reviving an empire instrument and the study of 1929.',
-    date: 'Dec 7, 2025',
-    time: '10 mins',
-    image: 'https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=1200&q=80',
+    tag: "Newsletters",
+    title: "Friends and Family BFC Notebook #20",
+    desc: "To unicorn or not, make underwriters great again, reviving an empire instrument and the study of 1929.",
+    date: "Dec 7, 2025",
+    time: "10 mins",
+    image: "https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=1200&q=80",
   },
   {
-    tag: 'Portfolio',
-    title: 'Why we invested in herita',
-    desc: 'Herita digitizes the ancient Bill of Exchange, giving manufacturers captive finance without being a bank.',
-    date: 'Nov 7, 2025',
-    time: '10 mins',
-    image: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80',
+    tag: "Portfolio",
+    title: "Why we invested in herita",
+    desc: "Herita digitizes the ancient Bill of Exchange, giving manufacturers captive finance without being a bank.",
+    date: "Nov 7, 2025",
+    time: "10 mins",
+    image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80",
   },
 ];
 ---
@@ -125,9 +120,21 @@ const newsItems = [
     <section class="container-default pb-24">
       <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
         {portfolioItems.map((item) => (
-          <article class={`flex aspect-square flex-col items-center justify-center rounded-3xl p-8 text-center text-white ${item.bg}`}>
-            <h3 class="text-2xl font-bold tracking-tight md:text-3xl">{item.name}</h3>
-            <p class="mt-3 text-sm leading-6 text-white/80">{item.desc}</p>
+          <article class="group relative aspect-square overflow-hidden rounded-3xl">
+            <div class={`absolute inset-0 ${item.imageBg}`}></div>
+
+            <img
+              src={item.image}
+              alt={item.name}
+              class="absolute inset-0 h-full w-full object-cover transition duration-300 group-hover:scale-[1.02]"
+            />
+
+            <!-- <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-slate-950/20 to-transparent"></div>
+
+            <div class="relative z-10 flex h-full flex-col justify-end p-8 text-white">
+              <h3 class="text-2xl font-bold tracking-tight md:text-3xl">{item.name}</h3>
+              <p class="mt-3 text-sm leading-6 text-white/80">{item.desc}</p>
+            </div> -->
           </article>
         ))}
       </div>
@@ -177,7 +184,6 @@ const newsItems = [
           </p>
 
           <blockquote class="relative mt-10 text-xl italic leading-9 text-slate-700 md:text-2xl">
-            <!-- <span class="absolute -left-4 -top-8 text-7xl text-slate-200">“</span> -->
             Blockchain Founders Capital relentlessly supported us during our fundraising,
             even before the paperwork was signed. I completely trust them and plan to be
             lifelong partners.
