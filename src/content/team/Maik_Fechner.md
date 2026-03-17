@@ -2,7 +2,7 @@
 name: "Maik Fechner"
 role: ""
 group: "Partners"
-image: "../public/images/team/maik.jpg"
+image: "/images/team/maik.jpg"
 alt: "Portrait of Maik Fechner"
 bio: "Maik is an experienced entrepreneur and investor with a strong background in technology and venture building."
 bioHighlight: ""

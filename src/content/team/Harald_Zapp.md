@@ -2,7 +2,7 @@
 name: "Harald Zapp"
 role: ""
 group: "Partners"
-image: "../public/images/team/harald.jpg"
+image: "/images/team/harald.jpg"
 alt: "Portrait of Harald Zapp"
 bio: "Harald is founder and CEO of Next.e.GO Mobile and a pioneer in sustainable mobility and electric vehicles. He has a strong track record in building innovative industrial companies."
 bioHighlight: ""

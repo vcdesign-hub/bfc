@@ -2,7 +2,7 @@
 name: "Alex Höptner"
 role: ""
 group: "Advisors"
-image: "../public/images/team/alex.jpg"
+image: "/images/team/alex.jpg"
 alt: "Portrait of Alex Höptner"
 bio: "Ever since entering the crypto space in 2013, Alex has been a strong advocate of the potential of tokenization for financial markets. With his experience at Deutsche Börse, as CEO at Börse Stuttgart and later at BitMEX, he is now building Europe’s leading digital payments infrastructure by issuing a fully regulated, Euro-denominated stablecoin as the CEO of AllUnity."
 bioHighlight: ""

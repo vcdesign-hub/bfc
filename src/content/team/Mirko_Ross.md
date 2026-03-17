@@ -2,7 +2,7 @@
 name: "Mirko Ross"
 role: ""
 group: "Advisors"
-image: "../public/images/team/mirko.jpg"
+image: "/images/team/mirko.jpg"
 alt: "Portrait of Mirko Ross"
 bio: "Mirko is a technology entrepreneur with deep expertise in IoT, cybersecurity, and digital infrastructure."
 bioHighlight: ""

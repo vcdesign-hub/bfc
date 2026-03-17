@@ -2,7 +2,7 @@
 name: "Peter Kleinschmidt"
 role: ""
 group: "Partners"
-image: "../public/images/team/Peter_Kleinschmidt.jpg"
+image: "/images/team/Peter_Kleinschmidt.jpg"
 alt: "Portrait of Peter Kleinschmidt"
 bio: "Peter has extensive experience in finance, investment, and strategic advisory across global markets."
 bioHighlight: ""
