@@ -6,10 +6,10 @@ description: "By reimagining the Bill of Exchange for the digital era, Herita gi
 mission: "Creating the digital backbone for trade finance"
 coInvestors: "Angel Invest, Prequel Ventures"
 
-badgeImage: "../public/images/portfolio/herita_logo.jpg"
+badgeImage: "public/images/portfolio/herita_logo.jpg"
 
 imageBg: "bg-[#0b1c1e]"
-image: "../public/images/portfolio/herita.webp"
+image: "public/images/portfolio/herita.webp"
 imageTitle: ""
 
 linkedinUrl: "https://www.linkedin.com/company/herita-technologies/"
