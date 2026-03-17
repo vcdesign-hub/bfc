@@ -11,6 +11,26 @@ const portfolioItems = portfolioRaw.map((item) => ({
   imageBg: item.data.imageBg,
 }));
 
+const allNews = await getCollection("news");
+
+const latestNews = allNews
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
+  .slice(0, 3);
+
+const newsItems = latestNews.map((item) => ({
+  slug: item.slug,
+  tag: item.data.tag,
+  title: item.data.title,
+  desc: item.data.description,
+  date: item.data.date.toLocaleDateString("en-US", {
+    month: "short",
+    day: "numeric",
+    year: "numeric",
+  }),
+  time: item.data.minRead,
+  image: item.data.image,
+}));
+
 const focusCards = [
   {
     title: "Scope",
@@ -74,33 +94,6 @@ const snapshots = [
   "https://images.unsplash.com/photo-1511576661531-b34d7da5d0bb?auto=format&fit=crop&w=900&q=80",
   "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=900&q=80",
   "https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=900&q=80",
-];
-
-const newsItems = [
-  {
-    tag: "Insights",
-    title: "The Davos Investor Summit 2026",
-    desc: "Industry leaders discuss how policy, tokenization, and institutional adoption are reshaping the global financial system.",
-    date: "Jan 30, 2025",
-    time: "15 mins",
-    image: "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=1200&q=80",
-  },
-  {
-    tag: "Newsletters",
-    title: "Friends and Family BFC Notebook #20",
-    desc: "To unicorn or not, make underwriters great again, reviving an empire instrument and the study of 1929.",
-    date: "Dec 7, 2025",
-    time: "10 mins",
-    image: "https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=1200&q=80",
-  },
-  {
-    tag: "Portfolio",
-    title: "Why we invested in herita",
-    desc: "Herita digitizes the ancient Bill of Exchange, giving manufacturers captive finance without being a bank.",
-    date: "Nov 7, 2025",
-    time: "10 mins",
-    image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80",
-  },
 ];
 ---
 
@@ -207,14 +200,14 @@ const newsItems = [
         <p class="mt-3 max-w-3xl text-lg text-slate-600">
           We share ideas, learn from, and co invest with leading minds in the blockchain and venture capital community.
         </p>
-    
+
         <div class="mt-12 grid grid-cols-2 gap-px overflow-hidden rounded-3xl border border-slate-200 bg-slate-200 md:grid-cols-4 lg:grid-cols-6">
           {partnerLogos.map((logo) => (
             <div class="flex h-24 items-center justify-center bg-white px-6 transition hover:bg-slate-50">
               <img
                 src={logo}
                 alt="Partner logo"
-                class="max-h-20 w-auto object-contain opacity-70 transition group-hover:opacity-100"
+                class="max-h-20 w-auto object-contain opacity-70 transition hover:opacity-100"
               />
             </div>
           ))}
@@ -244,17 +237,38 @@ const newsItems = [
     </section>
 
     <section class="container-default border-t border-slate-200 py-24">
-      <h2 class="text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
-        What we have been up to
-      </h2>
-      <p class="mt-3 text-lg text-slate-600">
-        Do not forget to <a href="#" class="font-medium text-slate-900 underline">subscribe</a> to our newsletter.
-      </p>
+      <div class="flex items-end justify-between gap-6">
+        <div>
+          <h2 class="text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
+            What we have been up to
+          </h2>
+          <p class="mt-3 text-lg text-slate-600">
+            Do not forget to <a href="/news" class="font-medium text-slate-900 underline">subscribe</a> to our newsletter.
+          </p>
+        </div>
+
+        <a
+          href="/news"
+          class="hidden rounded-full bg-slate-900 px-5 py-2 text-sm font-medium text-white transition hover:bg-slate-800 md:inline-flex"
+        >
+          View all
+        </a>
+      </div>
 
       <div class="mt-12 grid gap-8 md:grid-cols-3">
         {newsItems.map((item) => (
-          <article class="flex h-full flex-col overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-soft">
-            <img src={item.image} alt={item.title} class="h-56 w-full object-cover" />
+          <article class="group relative flex h-full flex-col overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-soft transition hover:shadow-lg">
+            <a
+              href={`/news/${item.slug}`}
+              aria-label={`Read ${item.title}`}
+              class="absolute inset-0 z-10"
+            ></a>
+
+            <img
+              src={item.image}
+              alt={item.title}
+              class="h-56 w-full object-cover transition duration-300 group-hover:scale-[1.02]"
+            />
 
             <div class="flex flex-1 flex-col p-8">
               <span class="w-fit rounded-full bg-slate-900 px-3 py-1 text-[11px] font-bold uppercase tracking-[0.2em] text-white">
