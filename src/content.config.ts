@@ -65,9 +65,21 @@ const partners = defineCollection({
   }),
 });
 
+
+const snapshots = defineCollection({
+  type: "content",
+  schema: z.object({
+    image: z.string(),
+    caption: z.string(),
+    order: z.number(),
+  }),
+});
+
+
 export const collections = {
   news,
   portfolio,
   team,
   partners,
+  snapshots,
 };
