@@ -28,9 +28,11 @@ const portfolio = defineCollection({
     image: z.string(),
     imageTitle: z.string().optional(),
     linkedinUrl: z.string().optional(),
+    twitterUrl: z.string().optional(),
     websiteUrl: z.string().optional(),
     jobsUrl: z.string().optional(),
     whyInvestedUrl: z.string().optional(),
+    order: z.number(),
   }),
 });
 

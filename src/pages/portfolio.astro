@@ -4,22 +4,26 @@ import { getCollection } from "astro:content";
 
 const companiesRaw = await getCollection("portfolio");
 
-const companies = companiesRaw.map((item) => ({
-  name: item.data.name,
-  category: item.data.category,
-  founders: item.data.founders,
-  description: item.data.description,
-  mission: item.data.mission,
-  coInvestors: item.data.coInvestors,
-  badgeImage: item.data.badgeImage,
-  imageBg: item.data.imageBg,
-  image: item.data.image,
-  imageTitle: item.data.imageTitle,
-  linkedinUrl: item.data.linkedinUrl,
-  websiteUrl: item.data.websiteUrl,
-  jobsUrl: item.data.jobsUrl,
-  whyInvestedUrl: item.data.whyInvestedUrl,
-}));
+const companies = companiesRaw
+  .sort((a, b) => b.data.order - a.data.order)
+  .map((item) => ({
+    name: item.data.name,
+    category: item.data.category,
+    founders: item.data.founders,
+    description: item.data.description,
+    mission: item.data.mission,
+    coInvestors: item.data.coInvestors,
+    badgeImage: item.data.badgeImage,
+    imageBg: item.data.imageBg,
+    image: item.data.image,
+    imageTitle: item.data.imageTitle,
+    linkedinUrl: item.data.linkedinUrl,
+    twitterUrl: item.data.twitterUrl,
+    websiteUrl: item.data.websiteUrl,
+    jobsUrl: item.data.jobsUrl,
+    whyInvestedUrl: item.data.whyInvestedUrl,
+    order: item.data.order,
+  }));
 
 const categories = [...new Set(companies.map((c) => c.category))];
 const filters = ["All", ...categories];
@@ -137,6 +141,16 @@ const filters = ["All", ...categories];
                         rel="noreferrer"
                       >
                         In
+                      </a>
+                    )}
+                    {company.twitterUrl && company.twitterUrl !== "#" && (
+                      <a
+                        href={company.twitterUrl}
+                        class="hover:text-slate-900"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        X
                       </a>
                     )}
                     {company.websiteUrl && company.websiteUrl !== "#" && (
