@@ -17,7 +17,7 @@ const people = peopleRaw
     bioHighlight: item.data.bioHighlight ?? "",
     location: item.data.location,
     linkedinUrl: item.data.linkedinUrl,
-    websiteUrl: item.data.websiteUrl,
+    emailUrl: item.data.emailUrl,
     languages: item.data.languages,
     logos: item.data.logos,
   }));
@@ -100,7 +100,7 @@ const defaultBioParts = defaultPerson
               data-highlight={person.bioHighlight}
               data-location={person.location}
               data-linkedin={person.linkedinUrl}
-              data-website={person.websiteUrl}
+              data-website={person.emailUrl}
               data-languages={JSON.stringify(person.languages)}
               data-logos={JSON.stringify(person.logos)}
             >
@@ -165,8 +165,8 @@ const defaultBioParts = defaultPerson
                         </a>
                         <a
                           id="detail-website"
-                          href={defaultPerson.websiteUrl}
-                          class={`hover:text-slate-900 ${defaultPerson.websiteUrl ? "inline-flex" : "hidden"}`}
+                          href={defaultPerson.emailUrl}
+                          class={`hover:text-slate-900 ${defaultPerson.emailUrl ? "inline-flex" : "hidden"}`}
                         >
                           🌐
                         </a>
@@ -197,7 +197,7 @@ const defaultBioParts = defaultPerson
               <aside class="border-t border-slate-200 bg-slate-50 p-8 md:p-10 lg:border-l lg:border-t-0">
                 <div>
                   <p class="text-xs font-bold uppercase tracking-[0.2em] text-blue-700">
-                    Experience
+                    Affiliations
                   </p>
                   <div id="detail-logos" class="mt-4 grid grid-cols-2 gap-3">
                     {defaultPerson.logos.map((logo) => (

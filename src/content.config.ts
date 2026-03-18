@@ -46,7 +46,7 @@ const team = defineCollection({
     bioHighlight: z.string().optional(),
     location: z.string(),
     linkedinUrl: z.string().optional(),
-    websiteUrl: z.string().optional(),
+    emailUrl: z.string().optional(),
     languages: z.array(z.string()),
     logos: z.array(z.string()),
     order: z.number(),
