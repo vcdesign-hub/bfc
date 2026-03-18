@@ -9,7 +9,7 @@ coInvestors: "Angel Invest, Prequel Ventures"
 badgeImage: "/images/portfolio/herita_logo.jpg"
 
 imageBg: "bg-slate-100"
-image: "/images/portfolio/herita.jpg"
+image: "/images/portfolio/herita.webp"
 imageTitle: ""
 
 linkedinUrl: "https://www.linkedin.com/company/herita-technologies/"
