@@ -1,6 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import { getCollection } from "astro:content";
+import TestimonialCard from "../components/TestimonialCard.astro";
 
 const portfolioRaw = await getCollection("portfolio");
 
@@ -147,49 +148,14 @@ const snapshots = [
           </p>
         </div>
     
-        <article class="overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-soft">
-          <div class="grid items-center gap-10 p-8 md:grid-cols-[minmax(0,1.45fr)_220px] md:p-10 lg:grid-cols-[minmax(0,1.6fr)_280px] lg:p-12">
-            <div class="flex h-full flex-col">
-              <div class="mb-8 flex items-center gap-3">
-                <div class="flex h-12 w-12 items-center justify-center overflow-hidden rounded-xl bg-slate-100 ring-1 ring-slate-200">
-                  <img
-                    src="/images/portfolio/river_logo.jpg"
-                    alt="River logo"
-                    class="h-full w-full object-contain"
-                  />
-                </div>
-    
-                <div>
-                  <p class="text-base font-semibold text-slate-900">River</p>
-                  <p class="text-sm text-slate-500">Portfolio company</p>
-                </div>
-              </div>
-    
-              <blockquote class="max-w-3xl text-2xl font-medium leading-tight tracking-tight text-slate-900 md:text-3xl">
-                Blockchain Founders Capital relentlessly supported us during our fundraising,
-                even before the paperwork was signed. I completely trust them and plan to be
-                lifelong partners.
-              </blockquote>
-    
-              <div class="mt-8 border-t border-slate-200 pt-6">
-                <p class="text-base font-semibold text-slate-900">Raechel Lambert</p>
-                <p class="mt-1 text-sm leading-6 text-slate-500">
-                  CEO and Co Founder of River
-                </p>
-              </div>
-            </div>
-    
-            <div class="mx-auto w-full max-w-[280px]">
-              <div class="aspect-square overflow-hidden rounded-full border border-slate-200 bg-slate-100 shadow-soft">
-                <img
-                  src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=1000&q=80"
-                  alt="Portrait of Raechel Lambert"
-                  class="h-full w-full object-cover"
-                />
-              </div>
-            </div>
-          </div>
-        </article>
+      <TestimonialCard
+      quote="Blockchain Founders Capital relentlessly supported us during our fundraising, even before the paperwork was signed. I completely trust them and plan to be lifelong partners."
+      name="Raechel Lambert"
+      role="CEO and Co Founder of River"
+      company="River"
+      logo="/images/portfolio/river_logo.jpg"
+      image="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=1000&q=80"
+      />
       </div>
     </section>
 

@@ -1,0 +1,77 @@
+---
+interface Props {
+  quote: string;
+  name: string;
+  role: string;
+  company?: string;
+  companyLabel?: string;
+  logo?: string;
+  image: string;
+  imageAlt?: string;
+}
+
+const {
+  quote,
+  name,
+  role,
+  company,
+  companyLabel = "Portfolio company",
+  logo,
+  image,
+  imageAlt = name,
+} = Astro.props;
+---
+
+<article class="overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-soft">
+  <div class="grid items-center gap-10 p-8 md:grid-cols-[minmax(0,1.45fr)_220px] md:p-10 lg:grid-cols-[minmax(0,1.6fr)_280px] lg:p-12">
+    
+    <!-- LEFT CONTENT -->
+    <div class="flex h-full flex-col">
+
+      <!-- COMPANY / LOGO -->
+      {(logo || company) && (
+        <div class="mb-8 flex items-center gap-3">
+          {logo && (
+            <div class="flex h-12 w-12 items-center justify-center overflow-hidden rounded-xl bg-slate-100 ring-1 ring-slate-200">
+              <img
+                src={logo}
+                alt={`${company ?? name} logo`}
+                class="h-full w-full object-contain"
+              />
+            </div>
+          )}
+
+          {company && (
+            <div>
+              <p class="text-base font-semibold text-slate-900">{company}</p>
+              <p class="text-sm text-slate-500">{companyLabel}</p>
+            </div>
+          )}
+        </div>
+      )}
+
+      <!-- QUOTE -->
+      <blockquote class="max-w-3xl text-2xl font-medium leading-tight tracking-tight text-slate-900 md:text-3xl">
+        {quote}
+      </blockquote>
+
+      <!-- PERSON -->
+      <div class="mt-8 border-t border-slate-200 pt-6">
+        <p class="text-base font-semibold text-slate-900">{name}</p>
+        <p class="mt-1 text-sm leading-6 text-slate-500">{role}</p>
+      </div>
+    </div>
+
+    <!-- RIGHT IMAGE -->
+    <div class="mx-auto w-full max-w-[280px]">
+      <div class="aspect-square overflow-hidden rounded-full border border-slate-200 bg-slate-100 shadow-soft">
+        <img
+          src={image}
+          alt={imageAlt}
+          class="h-full w-full object-cover"
+        />
+      </div>
+    </div>
+
+  </div>
+</article>

@@ -1,6 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import { getCollection } from "astro:content";
+import TestimonialCard from "../components/TestimonialCard.astro";
 
 const companiesRaw = await getCollection("portfolio");
 
@@ -196,36 +197,24 @@ const filters = ["All", ...categories];
     </section>
 
     <section class="container-default py-24">
-      <div class="grid items-center gap-12 md:grid-cols-[280px_minmax(0,1fr)]">
-        <div class="mx-auto h-56 w-56 overflow-hidden rounded-full bg-slate-100 md:h-72 md:w-72">
-          <img
-            src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=1000&q=80"
-            alt="Founder portrait"
-            class="h-full w-full object-cover"
-          />
-        </div>
-
-        <div>
+      <div class="max-w-6xl">
+        <div class="mb-10 max-w-2xl">
           <h2 class="text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
             What our founders say about us
           </h2>
           <p class="mt-3 text-lg text-slate-600">
-            No founders were harmed in the making of this statement.
+            We back founders with conviction and stay close when it matters most.
           </p>
-
-          <blockquote class="relative mt-10 text-xl italic leading-9 text-slate-700 md:text-2xl">
-            Blockchain Founders Capital relentlessly supported us during our fundraising,
-            even before the paperwork was signed. I completely trust them and plan to be
-            lifelong partners.
-          </blockquote>
-
-          <div class="mt-8 inline-flex rounded-2xl bg-slate-900 px-5 py-4 text-white">
-            <div>
-              <p class="font-semibold">Raechel Lambert</p>
-              <p class="text-sm text-white/70">CEO and Co Founder of River</p>
-            </div>
-          </div>
         </div>
+    
+      <TestimonialCard
+      quote="Blockchain Founders Capital relentlessly supported us during our fundraising, even before the paperwork was signed. I completely trust them and plan to be lifelong partners."
+      name="Raechel Lambert"
+      role="CEO and Co Founder of River"
+      company="River"
+      logo="/images/portfolio/river_logo.jpg"
+      image="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=1000&q=80"
+      />
       </div>
     </section>
   </main>
