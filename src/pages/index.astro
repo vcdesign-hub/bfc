@@ -62,18 +62,15 @@ const partners = partnersRaw.map((item) => ({
   url: item.data.url,
 }));
 
-const snapshots = [
-  "https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=900&q=80",
-  "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80",
-  "https://images.unsplash.com/photo-1515169067868-5387ec356754?auto=format&fit=crop&w=900&q=80",
-  "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&w=900&q=80",
-  "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=900&q=80",
-  "https://images.unsplash.com/photo-1540317580384-e5d43616b9aa?auto=format&fit=crop&w=900&q=80",
-  "https://images.unsplash.com/photo-1517457373958-b7bdd4587205?auto=format&fit=crop&w=900&q=80",
-  "https://images.unsplash.com/photo-1511576661531-b34d7da5d0bb?auto=format&fit=crop&w=900&q=80",
-  "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=900&q=80",
-  "https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=900&q=80",
-];
+const snapshotsRaw = await getCollection("snapshots");
+
+const snapshots = snapshotsRaw
+  .sort((a, b) => b.data.order - a.data.order)
+  .slice(0, 10)
+  .map((item) => ({
+    image: item.data.image,
+    caption: item.data.caption,
+  }));
 ---
 
 <Layout title="BFC | Venture Capital for the Future of the Internet">
@@ -192,16 +189,20 @@ const snapshots = [
         Meeting founders, investors and friends
       </h2>
       <p class="mt-3 text-lg text-slate-600">
-        Click on any photo to jump to Snapshots.
+        Click on any photo to view all snapshots.
       </p>
-
+    
       <div class="mt-12 grid grid-cols-2 gap-4 md:grid-cols-4 lg:grid-cols-5">
-        {snapshots.map((image) => (
-          <a href="#" class="group block overflow-hidden rounded-2xl">
+        {snapshots.map((item) => (
+          <a
+            href="/snapshots"
+            class="group block overflow-hidden rounded-2xl"
+          >
             <img
-              src={image}
-              alt="Event snapshot"
+              src={item.image}
+              alt={item.caption}
               class="h-48 w-full object-cover transition duration-300 group-hover:scale-105"
+              loading="lazy"
             />
           </a>
         ))}
