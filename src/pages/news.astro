@@ -4,16 +4,27 @@ import { getCollection } from "astro:content";
 
 const allNews = await getCollection("news");
 
-const sortedNews = allNews.sort(
-  (a, b) => b.data.date.getTime() - a.data.date.getTime()
+const sortedNews = [...allNews].sort(
+  (a, b) => b.data.order - a.data.order
 );
 
-const tags = [...new Set(sortedNews.map((item) => item.data.tag))];
+const normalizedTag = (value: string) =>
+  value.trim().replace(/\s+/g, " ");
+
+const tags = [
+  ...new Set(
+    sortedNews
+      .map((item) => normalizedTag(item.data.tag))
+      .filter(Boolean)
+  ),
+];
+
 const filters = ["All Articles", ...tags];
 
 const newsItems = sortedNews.map((item) => ({
   slug: item.slug,
-  tag: item.data.tag,
+  tag: normalizedTag(item.data.tag),
+  tagNormalized: normalizedTag(item.data.tag).toLowerCase(),
   title: item.data.title,
   desc: item.data.description,
   date: item.data.date.toLocaleDateString("en-US", {
@@ -28,8 +39,6 @@ const newsItems = sortedNews.map((item) => ({
 
 <Layout title="BFC | News">
   <main>
-
-    <!-- HEADER -->
     <section class="container-default py-16 md:py-24">
       <h1 class="text-4xl font-extrabold tracking-tight text-slate-900 md:text-6xl">
         What we have
@@ -44,16 +53,13 @@ const newsItems = sortedNews.map((item) => ({
       </p>
     </section>
 
-
-    <!-- STICKY FILTER -->
     <section class="sticky top-[73px] z-40 border-y border-slate-200 bg-white/90 py-4 backdrop-blur">
       <div class="container-default flex flex-wrap items-center justify-between gap-4">
-
         <div id="filterButtons" class="flex flex-wrap gap-3">
           {filters.map((filter, index) => (
             <button
               type="button"
-              data-filter={filter}
+              data-filter={filter.toLowerCase()}
               class={`filter-btn rounded-full px-5 py-2 text-sm font-medium transition ${
                 index === 0
                   ? "bg-slate-900 text-white"
@@ -65,32 +71,27 @@ const newsItems = sortedNews.map((item) => ({
           ))}
         </div>
 
-        <!-- SEARCH -->
         <div class="flex overflow-hidden rounded-full bg-slate-100">
           <input
             id="searchInput"
             type="text"
             placeholder="Search articles"
-            class="px-4 py-2 text-sm bg-transparent outline-none"
+            class="bg-transparent px-4 py-2 text-sm outline-none"
           />
 
           <button class="bg-blue-600 px-5 text-sm font-medium text-white">
             Go
           </button>
         </div>
-
       </div>
     </section>
 
-
-    <!-- NEWS GRID -->
     <section class="container-default py-16">
-
       <div id="newsGrid" class="mt-12 grid gap-8 md:grid-cols-3">
         {newsItems.map((item) => (
           <article
             class="news-card group relative flex h-full flex-col overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-soft transition hover:shadow-lg"
-            data-tag={item.tag}
+            data-tag={item.tagNormalized}
             data-title={item.title.toLowerCase()}
           >
             <a
@@ -98,26 +99,26 @@ const newsItems = sortedNews.map((item) => ({
               aria-label={`Read ${item.title}`}
               class="absolute inset-0 z-10"
             ></a>
-      
+
             <img
               src={item.image}
               alt={item.title}
               class="h-56 w-full object-cover transition duration-300 group-hover:scale-[1.02]"
             />
-      
+
             <div class="flex flex-1 flex-col p-8">
               <span class="w-fit rounded-full bg-slate-900 px-3 py-1 text-[11px] font-bold uppercase tracking-[0.2em] text-white">
                 {item.tag}
               </span>
-      
+
               <h3 class="mt-5 text-2xl font-bold tracking-tight text-slate-900">
                 {item.title}
               </h3>
-      
+
               <p class="mt-4 flex-1 text-sm leading-7 text-slate-600">
                 {item.desc}
               </p>
-      
+
               <div class="mt-8 flex items-center justify-between border-t border-slate-200 pt-6 text-xs text-slate-400">
                 <span>{item.date}</span>
                 <span>{item.time}</span>
@@ -126,18 +127,15 @@ const newsItems = sortedNews.map((item) => ({
           </article>
         ))}
       </div>
-
     </section>
-
   </main>
 
-  <!-- FILTER + SEARCH SCRIPT -->
   <script>
     const buttons = document.querySelectorAll(".filter-btn");
     const cards = document.querySelectorAll(".news-card");
     const searchInput = document.getElementById("searchInput");
 
-    let activeFilter = "All Articles";
+    let activeFilter = "all articles";
 
     function updateCards() {
       const query = searchInput.value.toLowerCase();
@@ -147,24 +145,22 @@ const newsItems = sortedNews.map((item) => ({
         const title = card.dataset.title;
 
         const matchesFilter =
-          activeFilter === "All Articles" || tag === activeFilter;
+          activeFilter === "all articles" || tag === activeFilter;
 
         const matchesSearch = title.includes(query);
 
-        if (matchesFilter && matchesSearch) {
-          card.style.display = "flex";
-        } else {
-          card.style.display = "none";
-        }
+        card.style.display = matchesFilter && matchesSearch ? "flex" : "none";
       });
     }
 
     buttons.forEach((btn) => {
       btn.addEventListener("click", () => {
-        buttons.forEach((b) =>
-          b.classList.remove("bg-slate-900", "text-white")
-        );
+        buttons.forEach((b) => {
+          b.classList.remove("bg-slate-900", "text-white");
+          b.classList.add("bg-slate-100", "text-slate-600");
+        });
 
+        btn.classList.remove("bg-slate-100", "text-slate-600");
         btn.classList.add("bg-slate-900", "text-white");
 
         activeFilter = btn.dataset.filter;
@@ -174,5 +170,4 @@ const newsItems = sortedNews.map((item) => ({
 
     searchInput.addEventListener("input", updateCards);
   </script>
-
 </Layout>

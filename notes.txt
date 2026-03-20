@@ -49,3 +49,26 @@ for ($i = 0; $i -lt $urls.Count; $i++) {
         Write-Host "Failed: $url"
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+create respective folder names based on the files inside
+Get-ChildItem -File | ForEach-Object {
+    $folderName = $_.BaseName
+    $folderPath = Join-Path (Get-Location) $folderName
+
+    if (-not (Test-Path $folderPath)) {
+        New-Item -ItemType Directory -Path $folderPath | Out-Null
+        Write-Host "Created folder: $folderName"
+    }
+}
