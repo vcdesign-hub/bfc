@@ -72,3 +72,76 @@ Get-ChildItem -File | ForEach-Object {
         Write-Host "Created folder: $folderName"
     }
 }
+
+
+
+
+
+
+
+
+
+
+download image check parent filename and move the downloaded images on the respective/corresponding folder
+$urls = Get-Content images.txt
+$names = Get-Content names.txt
+
+if ($urls.Count -ne $names.Count) {
+    Write-Host "Mismatch! URLs: $($urls.Count), Names: $($names.Count)"
+    exit
+}
+
+$nameCount = @{}
+
+for ($i = 0; $i -lt $urls.Count; $i++) {
+    try {
+        $url = $urls[$i]
+        $baseName = $names[$i].Trim()
+
+        if ($nameCount.ContainsKey($baseName)) {
+            $nameCount[$baseName]++
+        } else {
+            $nameCount[$baseName] = 1
+        }
+
+        $count = $nameCount[$baseName]
+
+        $ext = [System.IO.Path]::GetExtension($url)
+
+        if ([string]::IsNullOrWhiteSpace($ext)) {
+            $ext = ".webp"
+        }
+
+        if ($count -eq 1) {
+            $filename = "$baseName$ext"
+        } else {
+            $filename = "$baseName-$count$ext"
+        }
+
+        Write-Host "Downloading -> $filename"
+
+        Invoke-WebRequest $url -OutFile $filename -ErrorAction Stop
+
+        # Get parent folder name by removing trailing -number
+        $parentName = $baseName -replace '-\d+$', ''
+
+        # Folder path
+        $folderPath = Join-Path (Get-Location) $parentName
+
+        # Create folder if missing
+        if (-not (Test-Path $folderPath)) {
+            New-Item -ItemType Directory -Path $folderPath | Out-Null
+        }
+
+        # Move downloaded file into folder
+        $sourcePath = Join-Path (Get-Location) $filename
+        $destinationPath = Join-Path $folderPath $filename
+
+        Move-Item $sourcePath $destinationPath -Force
+
+        Write-Host "Moved -> $parentName\$filename"
+
+    } catch {
+        Write-Host "Failed: $url"
+    }
+}
