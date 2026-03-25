@@ -18,7 +18,7 @@ image: "/images/news/45929.jpg"
 
 <p><strong>Another of those ‘wanderer-between-worlds’ founders who seem to have become our playbook.</strong></p>
 
-<p><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45929/45929-1.avif"/></p>
+<p><img alt="Description of Image"  loading="lazy" src="/images/news/45929/45929-1.avif"/></p>
 
 <p>London called, and she answered, landing a graduate role at <a href="https://www.aig.com/home" rel="noopener noreferrer" target="_blank">AIG</a>, the US international insurance and financial services company.</p>
 
@@ -40,7 +40,7 @@ image: "/images/news/45929.jpg"
 
 <p>Silas changes that. Instead of underwriters losing hours on 60-page engineering reports or comparing two contracts line by line, Silas automates the heavy lifting. Think: instant clause checks, smart document comparisons, report summaries, data libraries, and risk intelligence. </p>
 
-<p><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45929/45929-2.avif"/></p>
+<p><img alt="Description of Image"  loading="lazy" src="/images/news/45929/45929-2.avif"/></p>
 
 <p>And that is just the start.</p>
 

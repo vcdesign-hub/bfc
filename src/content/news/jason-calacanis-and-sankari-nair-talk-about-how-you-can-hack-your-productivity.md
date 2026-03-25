@@ -10,7 +10,7 @@ image: "/images/news/45553.webp"
 
 <p>Here is a great video featuring <strong>Jason Calacanis</strong>, known to many as the host of the All-In podcast, and <strong>Sankari Nair</strong>, co-founder of our portfolio company <strong>Recall</strong>, an AI-assisted productivity tool designed to <strong>make daily life management of knowledge workers much easier</strong>.</p>
 
-<p><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45553/45553-1.png"/></p>
+<p><img alt="Description of Image"  loading="lazy" src="/images/news/45553/45553-1.png"/></p>
 
 <p>They discuss what makes Recall stand out from other knowledge management tools, including its ability <strong>automatically summarize, categorize, and tag content</strong> consumed in the browser, creating a personalized knowledge base.</p>
 

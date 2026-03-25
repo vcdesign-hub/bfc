@@ -18,7 +18,7 @@ image: "/images/news/45998.avif"
 
 <p>An impressive metric, no doubt.<br/></p>
 
-<p><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45998/45998-1.jpg"/></p>
+<p><img alt="Description of Image"  loading="lazy" src="/images/news/45998/45998-1.jpg"/></p>
 
 <p>But beyond the obvious dilution founders face <strong>when they take too much capital too early</strong>, most people, founders and early-stage investors alike, <a href="https://www.linkedin.com/posts/tech-coast-angels-los-angeles_how-can-a-200m-exit-be-a-failure-activity-7350946815501815810-zL7V/" rel="noopener noreferrer" target="_blank">forget the one thing</a> that can turn your stake into dust when the smallest part of the plan goes wrong (and it usually does): <strong>liquidation preference</strong>.<br/></p>
 
@@ -82,7 +82,7 @@ image: "/images/news/45998.avif"
 
 <p>That is exactly what Silas founder <a href="https://www.linkedin.com/in/maariyaah-afzal/" rel="noopener noreferrer" target="_blank">Maariyaah Afzel</a> thought when she was working as an underwriter.</p>
 
-<p><a href="https://www.bfc.vc/recent-news/why-we-invested-in-silas" rel="noopener noreferrer" target="_blank"><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45998/45998-2.jpg"/></a></p>
+<p><a href="https://www.bfc.vc/recent-news/why-we-invested-in-silas" rel="noopener noreferrer" target="_blank"><img alt="Description of Image"  loading="lazy" src="/images/news/45998/45998-2.jpg"/></a></p>
 
 <p><strong>Underwriting is the place where insurers make, or lose, money.</strong><br/></p>
 
@@ -102,7 +102,7 @@ image: "/images/news/45998.avif"
 
 <p>When <a href="https://www.linkedin.com/in/christoph-iwaniez/" rel="noopener noreferrer" target="_blank">Christoph Iwaniez</a> first told us about this idea around 12 months ago, in the snowy mountains of Davos, we were intrigued, but we still had a few questions.</p>
 
-<p><a href="https://www.bfc.vc/recent-news/why-we-invested-in-herita" rel="noopener noreferrer" target="_blank"><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45998/45998-3.webp"/></a></p>
+<p><a href="https://www.bfc.vc/recent-news/why-we-invested-in-herita" rel="noopener noreferrer" target="_blank"><img alt="Description of Image"  loading="lazy" src="/images/news/45998/45998-3.webp"/></a></p>
 
 <p>A year later, after getting to know his co-founders <a href="https://www.linkedin.com/in/felixkollmar/" rel="noopener noreferrer" target="_blank">Felix Kollmar</a> and <a href="https://www.linkedin.com/in/benpeterjones/" rel="noopener noreferrer" target="_blank">Ben Jones</a>, and after seeing the <strong>massive interest from potential clients</strong>, we were convinced.<br/></p>
 
@@ -122,7 +122,7 @@ image: "/images/news/45998.avif"
 
 <p><strong>Nothing beats a good book</strong> in the quiet year-end holiday season.</p>
 
-<p><a href="https://amzn.to/4rykAIO" rel="noopener noreferrer" target="_blank"><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45998/45998-4.jpg"/></a></p>
+<p><a href="https://amzn.to/4rykAIO" rel="noopener noreferrer" target="_blank"><img alt="Description of Image"  loading="lazy" src="/images/news/45998/45998-4.jpg"/></a></p>
 
 <p>If you are wondering whether AI is a bubble waiting to pop, or simply an exaggeration that will correct itself, you might want to pick up “<a href="https://amzn.to/4rykAIO" rel="noopener noreferrer" target="_blank">1929</a>” by <a href="https://en.wikipedia.org/wiki/Andrew_Ross_Sorkin" rel="noopener noreferrer" target="_blank">Andrew Ross Sorkin</a>.<br/></p>
 
@@ -140,7 +140,7 @@ image: "/images/news/45998.avif"
 
 <h4>Coming up: Institutional Investor Gathering Davos 2026</h4>
 
-<p><a href="https://www.linkedin.com/company/digitalassets-investors/posts/?feedView=all" rel="noopener noreferrer" target="_blank"><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45998/45998-5.jpg"/></a></p>
+<p><a href="https://www.linkedin.com/company/digitalassets-investors/posts/?feedView=all" rel="noopener noreferrer" target="_blank"><img alt="Description of Image"  loading="lazy" src="/images/news/45998/45998-5.jpg"/></a></p>
 
 <p>For the <strong>fourth</strong> time, we are hosting our <strong>Institutional Investor Gathering event in Davos</strong> during the week of the World Economic Forum, at the beautiful Seehof Hotel.<br/></p>
 

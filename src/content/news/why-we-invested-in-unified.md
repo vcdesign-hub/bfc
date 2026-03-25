@@ -44,7 +44,7 @@ image: "/images/news/45657.webp"
 
 <p>By integrating once with Unified.to, developers gain access to hundreds of integrations. This reduces integration timelines from months to days and eliminates ongoing maintenance. </p>
 
-<p><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45657/45657-1.webp"/></p>
+<p><img alt="Description of Image"  loading="lazy" src="/images/news/45657/45657-1.webp"/></p>
 
 <p>Moreover, Unified cleans and structures customer data to maximize AI performance.</p>
 
@@ -52,7 +52,7 @@ image: "/images/news/45657.webp"
 
 <p>Unified represents the next evolution in API technology.</p>
 
-<p><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45657/45657-2.webp"/></p>
+<p><img alt="Description of Image"  loading="lazy" src="/images/news/45657/45657-2.webp"/></p>
 
 <p>As businesses increasingly rely on AI to drive innovation, Unified’s real-time unified API platform is poised to become a cornerstone of the SaaS ecosystem.</p>
 

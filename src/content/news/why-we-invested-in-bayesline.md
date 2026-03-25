@@ -16,7 +16,7 @@ image: "/images/news/45615.webp"
 
 <p>But as John Lennon famously noted, '<strong>Life is what happens when you're busy making other plans</strong>,' a sentiment all too familiar in the world of risk management.</p>
 
-<p><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45615/45615-1.png"/></p>
+<p><img alt="Description of Image"  loading="lazy" src="/images/news/45615/45615-1.png"/></p>
 
 <p>The risk management scenarios in banks are <strong>based on outside variables that are in constant flux</strong>. That's why banks employ quants.</p>
 
@@ -36,7 +36,7 @@ image: "/images/news/45615.webp"
 
 <p>With the first iteration of their product, they were accepted by <strong>Y Combinator</strong> and found their investors. Having the YC badge of honor no doubt helped.</p>
 
-<p><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45615/45615-2.jpg"/></p>
+<p><img alt="Description of Image"  loading="lazy" src="/images/news/45615/45615-2.jpg"/></p>
 
 <p>Sebastian and Misha have an <strong>unfair advantage</strong>. </p>
 

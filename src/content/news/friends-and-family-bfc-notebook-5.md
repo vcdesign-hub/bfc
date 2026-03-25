@@ -40,7 +40,7 @@ image: "/images/news/45170.webp"
 
 <p>In typical Bavarian fashion, it ended in a beer garden.</p>
 
-<p><img alt="newsletter_img" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45170/45170-1.jpg"/></p>
+<p><img alt="newsletter_img"  loading="lazy" src="/images/news/45170/45170-1.jpg"/></p>
 
 <p>It was also a great opportunity for people from all over the world to come together and learn about Ethereum.</p>
 
@@ -68,7 +68,7 @@ image: "/images/news/45170.webp"
 
 <p>At the core, they are a way of registering and transferring ownership rights, whether for copyrights, currency, shares, or real-world or digital assets.</p>
 
-<p><img alt="newsletter_img" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45170/45170-2.jpg"/></p>
+<p><img alt="newsletter_img"  loading="lazy" src="/images/news/45170/45170-2.jpg"/></p>
 
 <p>As <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=c1659f4532&amp;e=d2cc07be1e" rel="noopener noreferrer" target="_blank">Christina Macedo</a>, founder of <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=8af8d9041b&amp;e=d2cc07be1e" rel="noopener noreferrer" target="_blank">Ready Games Network</a>, told us in Cologne, "Gamers are starting to see the advantage of being the owners of their creations and data.”</p>
 
@@ -94,7 +94,7 @@ image: "/images/news/45170.webp"
 
 <p>He is a veteran in the gaming industry, having served as the CEO of Karlsruhe-based <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=85aa62e90d&amp;e=d2cc07be1e" rel="noopener noreferrer" target="_blank">Gameforge</a> (a major German gaming success story) for ten years.</p>
 
-<p><img alt="newsletter_img" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45170/45170-3.jpg"/></p>
+<p><img alt="newsletter_img"  loading="lazy" src="/images/news/45170/45170-3.jpg"/></p>
 
 <p>Carsten gave us a demo of "<a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=5709a6b15d&amp;e=d2cc07be1e" rel="noopener noreferrer" target="_blank">Oathbound</a>," the latest release from his studio, and explained his vision for Web3 gaming.</p>
 
@@ -124,7 +124,7 @@ image: "/images/news/45170.webp"
 
 <p>It is an <strong>epic account of the decades-long battle to control microchip technology</strong>, the world's most critical resource.</p>
 
-<p><img alt="newsletter_img" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45170/45170-4.png"/></p>
+<p><img alt="newsletter_img"  loading="lazy" src="/images/news/45170/45170-4.png"/></p>
 
 <p>The book explains:</p>
 

@@ -12,7 +12,7 @@ image: "/images/news/45502.webp"
 
 <p>Did you know that the first solar panel was <a href="https://www.everenewables.co.uk/post/the-history-of-solar-panels-and-who-invented-them" rel="noopener noreferrer" target="_blank">installed in 1883</a>?</p>
 
-<p><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45502/45502-1.png"/></p>
+<p><img alt="Description of Image"  loading="lazy" src="/images/news/45502/45502-1.png"/></p>
 
 <p>We tend to forget <strong>how long it can take</strong> for a new technology to gain traction.</p>
 
@@ -34,7 +34,7 @@ image: "/images/news/45502.webp"
 
 <p>We are very happy to have participated in <a href="https://trever.io/news/trever-accelerates-european-market-growth-for-digital-asset-infrastructure/" rel="noopener noreferrer" target="_blank">Trever's recent financing round</a> led by TX Ventures and Market One Capital with the participation of Alex von Frankenberg and yours truly.</p>
 
-<p><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45502/45502-2.jpeg"/></p>
+<p><img alt="Description of Image"  loading="lazy" src="/images/news/45502/45502-2.jpeg"/></p>
 
 <p><a href="https://trever.io/" rel="noopener noreferrer" target="_blank">Trever</a> is tackling a challenge that almost every bank will face in the near future: <strong>How do you make your IT systems future-proof?</strong></p>
 
@@ -54,7 +54,7 @@ image: "/images/news/45502.webp"
 
 <p>Ben and Sagar will attend <a href="https://www.asia.token2049.com/" rel="noopener noreferrer" target="_blank">Token2049 Singapore</a> from Sep 15 to 21.</p>
 
-<p><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45502/45502-3.jpeg"/></p>
+<p><img alt="Description of Image"  loading="lazy" src="/images/news/45502/45502-3.jpeg"/></p>
 
 <p>With our friends from <a href="https://metaschool.so/" rel="noopener noreferrer" target="_blank">Metaschool</a>, the world's biggest community of web3 devs to learn, build and fund innovation, we are hosting a networking event on September 18.</p>
 
@@ -66,7 +66,7 @@ image: "/images/news/45502.webp"
 
 <p>Before you pack your bags, make sure to <a href="https://amzn.to/4cUBcCT" rel="noopener noreferrer" target="_blank">grab a copy</a> of "<strong>The Almanack of Naval Ravikant</strong>" collected by Eric Jorgenson, highly recommended by our esteemed colleague, Sagar.</p>
 
-<p><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45502/45502-4.png"/></p>
+<p><img alt="Description of Image"  loading="lazy" src="/images/news/45502/45502-4.png"/></p>
 
 <p>Ravikant embodies <strong>the type of personality profile</strong> <strong>we love to support</strong>. </p>
 

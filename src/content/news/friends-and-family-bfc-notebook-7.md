@@ -18,7 +18,7 @@ image: "/images/news/45278.webp"
 
 <p>It reminds us of the number of devices that the <strong>Apple iPhone</strong> <a href="">has replaced</a>: Telephones, telefaxes, scanners, Rolodex, directories, typewriters, calendars, calculators, alarm clocks, dictaphones, cameras, CD players, and the list goes on and on.</p>
 
-<p><img alt="newsletter_img" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45278/45278-1.jpg"/></p>
+<p><img alt="newsletter_img"  loading="lazy" src="/images/news/45278/45278-1.jpg"/></p>
 
 <p>Watching the value of startups, nurtured over many years, reduced to rubble overnight, is <strong>brutal</strong>.</p>
 
@@ -46,7 +46,7 @@ image: "/images/news/45278.webp"
 
 <p>Today, we're <strong>thrilled to introduce</strong> you to such a team: <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=fbe556e2f7&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">Daril Fannin</a> and <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=014b79b343&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">Austin Worrell</a>, the dynamic duo behind our <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=96f81036b8&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">latest investment, KINO.</a></p>
 
-<p><img alt="newsletter_img" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45278/45278-2.jpg"/></p>
+<p><img alt="newsletter_img"  loading="lazy" src="/images/news/45278/45278-2.jpg"/></p>
 
 <p>The glitz and glamour of Hollywood often overshadow the gritty reality of film and TV production.</p>
 
@@ -70,7 +70,7 @@ image: "/images/news/45278.webp"
 
 <p>We are very happy to <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=b1e1e4a40b&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">announce a new addition to our team</a> - <strong>Marcel(lo) Uhlmann</strong>.</p>
 
-<p><img alt="newsletter_img" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45278/45278-3.png"/></p>
+<p><img alt="newsletter_img"  loading="lazy" src="/images/news/45278/45278-3.png"/></p>
 
 <p>We first met <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=65aedd6ec5&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">Marcel</a> at the <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=9ccb7ee8f6&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">ETHMunich</a> hackathon, co-organized by our colleague Sagar, where we talked for two and a half days.</p>
 

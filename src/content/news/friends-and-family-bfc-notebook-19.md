@@ -16,7 +16,7 @@ image: "/images/news/45872.webp"
 
 <p>Billions of dollars are now being poured into a new AI coding arms race, very <strong>reminiscent of the cloud wars</strong> a decade ago.</p>
 
-<p><a href="https://cybernews.com/ai-news/human-beats-open-ai-coding-contest/" rel="noopener noreferrer" target="_blank"><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45872/45872-1.webp"/></a></p>
+<p><a href="https://cybernews.com/ai-news/human-beats-open-ai-coding-contest/" rel="noopener noreferrer" target="_blank"><img alt="Description of Image"  loading="lazy" src="/images/news/45872/45872-1.webp"/></a></p>
 
 <p>OpenAI resembles Amazon Web Services: the "established" leader.<br/></p>
 
@@ -84,7 +84,7 @@ image: "/images/news/45872.webp"
 
 <p>And it’s not just us—their clients seem to agree.</p>
 
-<p><a href="https://www.linkedin.com/posts/lukas-steiner-a250a7139_we-are-so-used-to-it-but-to-be-honest-its-activity-7353358668924444672-zi32/?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAAAlAZ6YBqjODqXOs79QWsMLUemurcGOm2yc" rel="noopener noreferrer" target="_blank"><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45872/45872-2.webp"/></a></p>
+<p><a href="https://www.linkedin.com/posts/lukas-steiner-a250a7139_we-are-so-used-to-it-but-to-be-honest-its-activity-7353358668924444672-zi32/?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAAAlAZ6YBqjODqXOs79QWsMLUemurcGOm2yc" rel="noopener noreferrer" target="_blank"><img alt="Description of Image"  loading="lazy" src="/images/news/45872/45872-2.webp"/></a></p>
 
 <p>Talentir isn’t our only bet on stablecoin infrastructure.<br/></p>
 
@@ -96,7 +96,7 @@ image: "/images/news/45872.webp"
 
 <p>Based in New York, they’re right <strong>at the heart of the US stablecoin momentum</strong>.<br/></p>
 
-<p><a href="https://x.com/levelusd" rel="noopener noreferrer" target="_blank"><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45872/45872-3.webp"/></a></p>
+<p><a href="https://x.com/levelusd" rel="noopener noreferrer" target="_blank"><img alt="Description of Image"  loading="lazy" src="/images/news/45872/45872-3.webp"/></a></p>
 
 <p>And then there’s <a href="https://www.getrecall.ai/" rel="noopener noreferrer" target="_blank">Recall</a> working out of Amsterdam.<br/></p>
 
@@ -148,7 +148,7 @@ image: "/images/news/45872.webp"
 
 <p>I recently met him in Munich to get more background information on his story.</p>
 
-<p><a href="https://xaverlehmann.substack.com/" rel="noopener noreferrer" target="_blank"><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45872/45872-4.webp"/></a></p>
+<p><a href="https://xaverlehmann.substack.com/" rel="noopener noreferrer" target="_blank"><img alt="Description of Image"  loading="lazy" src="/images/news/45872/45872-4.webp"/></a></p>
 
 <p>He told me he might eventually publish his founder story in a book.<br/></p>
 

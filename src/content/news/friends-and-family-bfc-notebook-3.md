@@ -24,7 +24,7 @@ image: "/images/news/45067.webp"
 
 <p>The evening sun provided a great reception to get acquainted before <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=ae8098cc33&amp;e=d2cc07be1e" rel="noopener noreferrer" target="_blank">Alex Höptner</a> got everyone excited by sharing his outlook on the impact of tokenization on the financial services industry.</p>
 
-<p><img alt="newsletter_img" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45067/45067-1.jpg"/></p>
+<p><img alt="newsletter_img"  loading="lazy" src="/images/news/45067/45067-1.jpg"/></p>
 
 <p>Due to the overwhelmingly positive feedback from this event, <strong>Uli plans to host another dinner in the near future</strong>, focused on venture capital investors, family offices, and funds-of-funds investors. </p>
 
@@ -42,7 +42,7 @@ image: "/images/news/45067.webp"
 
 <p>We have joined the CEOs of Bitpanda and Storebox, who previously founded successful businesses themselves, in this pre-seed round.</p>
 
-<p><img alt="newsletter_img" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45067/45067-2.jpg"/></p>
+<p><img alt="newsletter_img"  loading="lazy" src="/images/news/45067/45067-2.jpg"/></p>
 
 <p>Talentir operates at the intersection of the creator economy and new financial products through tokenization. </p>
 

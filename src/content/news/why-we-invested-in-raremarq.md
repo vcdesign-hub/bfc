@@ -52,7 +52,7 @@ image: "/images/news/45785.webp"
 
 <p>Chris Tung launched Raremarq solo, writing every line of code and onboarding every seller himself.<br/></p>
 
-<p><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45785/45785-1.webp"/></p>
+<p><img alt="Description of Image"  loading="lazy" src="/images/news/45785/45785-1.webp"/></p>
 
 <p><strong>He’s a repeat founder</strong> and led marketing and product teams at Google and Realtor.com, but more importantly, he’s part of the comic art world.</p>
 

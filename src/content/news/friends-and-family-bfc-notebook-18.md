@@ -14,7 +14,7 @@ image: "/images/news/45823.webp"
 
 <p>“This lack of understanding is essentially <strong>unprecedented in the history of technology</strong>."</p>
 
-<p><a href="https://www.inc.com/kit-eaton/anthropic-ceo-dario-amodei-predicts-half-of-all-entry-level-office-jobs-will-disappear/91195534" rel="noopener noreferrer" target="_blank"><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45823/45823-1.webp"/></a></p>
+<p><a href="https://www.inc.com/kit-eaton/anthropic-ceo-dario-amodei-predicts-half-of-all-entry-level-office-jobs-will-disappear/91195534" rel="noopener noreferrer" target="_blank"><img alt="Description of Image"  loading="lazy" src="/images/news/45823/45823-1.webp"/></a></p>
 
 <p>His candid admission about the “black box” nature of AI has reignited debate across the tech world about safety and ethics in artificial intelligence.</p>
 
@@ -44,7 +44,7 @@ image: "/images/news/45823.webp"
 
 <p>With <a href="https://tergle.com/" rel="noopener noreferrer" target="_blank">Tergle</a>, they’re <strong>bringing AI to the audit industry</strong>.</p>
 
-<p><a href="https://www.bfc.vc/recent-news/why-we-invested-in-tergle" rel="noopener noreferrer" target="_blank"><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45823/45823-2.webp"/></a></p>
+<p><a href="https://www.bfc.vc/recent-news/why-we-invested-in-tergle" rel="noopener noreferrer" target="_blank"><img alt="Description of Image"  loading="lazy" src="/images/news/45823/45823-2.webp"/></a></p>
 
 <p>Fresh out of Y Combinator, with <a href="https://monzo.com/" rel="noopener noreferrer" target="_blank">Monzo</a> founder <a href="https://www.ycombinator.com/blog/tom-blomfield-backstory" rel="noopener noreferrer" target="_blank">Tom Blomfield</a> as their mentor, they’ve already landed billion-dollar companies as early clients.<br/></p>
 
@@ -64,7 +64,7 @@ image: "/images/news/45823.webp"
 
 <p>He believes nothing is more powerful than a tangible artifact - and the human story behind it.<br/></p>
 
-<p><a href="https://www.linkedin.com/posts/christopher-tung_im-so-happy-to-announce-blockchain-founders-activity-7331775049248452610-ozit/" rel="noopener noreferrer" target="_blank"><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45823/45823-3.webp"/></a></p>
+<p><a href="https://www.linkedin.com/posts/christopher-tung_im-so-happy-to-announce-blockchain-founders-activity-7331775049248452610-ozit/" rel="noopener noreferrer" target="_blank"><img alt="Description of Image"  loading="lazy" src="/images/news/45823/45823-3.webp"/></a></p>
 
 <p>Chris’s journey began at 17, when he met <strong>Marvel legend </strong><a href="https://www.youtube.com/watch?v=2crfVE9QskQ" rel="noopener noreferrer" target="_blank"><strong>Frank Cho</strong></a> at a comic convention.<br/></p>
 
@@ -82,7 +82,7 @@ image: "/images/news/45823.webp"
 
 <p><a href="https://blockchainweek.berlin/" rel="noopener noreferrer" target="_blank">Berlin Blockchain Week</a> is a decentralized, community-organized initiative - true to the spirit of crypto.</p>
 
-<p><a href="https://lu.ma/3qa4374n" rel="noopener noreferrer" target="_blank"><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45823/45823-4.webp"/></a></p>
+<p><a href="https://lu.ma/3qa4374n" rel="noopener noreferrer" target="_blank"><img alt="Description of Image"  loading="lazy" src="/images/news/45823/45823-4.webp"/></a></p>
 
 <p>Ben and Sagar will be there from June 16-18 and co-host<br/></p>
 
@@ -104,7 +104,7 @@ image: "/images/news/45823.webp"
 
 <p>Equally iconic are Paul Graham’s essays, published on his <a href="https://www.paulgraham.com/" rel="noopener noreferrer" target="_blank"><strong>gloriously outdated website</strong></a><strong>, </strong>a design probably unchanged since just after <a href="https://medium.com/@timberners_lee/marking-the-webs-35th-birthday-an-open-letter-ebb410cc7d42" rel="noopener noreferrer" target="_blank">Tim Berners-Lee invented the web</a>.</p>
 
-<p><a href="https://www.paulgraham.com/" rel="noopener noreferrer" target="_blank"><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45823/45823-5.webp"/></a></p>
+<p><a href="https://www.paulgraham.com/" rel="noopener noreferrer" target="_blank"><img alt="Description of Image"  loading="lazy" src="/images/news/45823/45823-5.webp"/></a></p>
 
 <p>But behind that minimalist facade lies a <strong>fountain of startup wisdom</strong>.<br/></p>
 

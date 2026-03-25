@@ -18,7 +18,7 @@ image: "/images/news/45149.webp"
 
 <p>Under the banner of <a href="https://www.pretzeldao.com/" rel="noopener noreferrer" target="_blank">PretzelDAO</a> – a community of builders baked in Munich at home in web3, our colleague <a href="https://www.linkedin.com/in/barvaliyasagar/" rel="noopener noreferrer" target="_blank">Sagar Barvaliya</a>, <a href="https://www.linkedin.com/in/serglotz/" rel="noopener noreferrer" target="_blank">Serg Lotz (Stealth Startup)</a>, <a href="https://www.linkedin.com/in/christian-ziegler-26a45a132/" rel="noopener noreferrer" target="_blank">Christian Ziegler (Blockcurators)</a>, and <a href="https://www.linkedin.com/in/nick-stracke/" rel="noopener noreferrer" target="_blank">Nick Stracke (fundle3)</a> organized the first ever <a href="https://ethmunich.de/" rel="noopener noreferrer" target="_blank">ETH Munich</a> with many volunteers helping out.</p>
 
-<p><img alt="newsletter_img" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45149/45149-1.png"/></p>
+<p><img alt="newsletter_img"  loading="lazy" src="/images/news/45149/45149-1.png"/></p>
 
 <p>The idea was to let the hackers build something other than the next hyped NFT collection, another wallet project, or a token-trading application.</p>
 
@@ -32,25 +32,25 @@ image: "/images/news/45149.webp"
 
 <p>And, after three weeks of rain, the ETHMunich event had nothing but perfect sunshine.</p>
 
-<p><img alt="newsletter_img" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45149/45149-2.jpg"/></p>
+<p><img alt="newsletter_img"  loading="lazy" src="/images/news/45149/45149-2.jpg"/></p>
 
 <p>To inject a little lightness into the coding frenzy, two Bavarian accordion players reminded everyone about where they were - after 24 hours of coding, not every hacker might remember.</p>
 
-<p><img alt="newsletter_img" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45149/45149-3.jpg"/></p>
+<p><img alt="newsletter_img"  loading="lazy" src="/images/news/45149/45149-3.jpg"/></p>
 
 <p>Great food, snacks, and plenty of Red Bull cans kept (almost) everyone going until the final submissions were due on Sunday morning.</p>
 
-<p><img alt="" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45149/45149-4.jpg"/></p>
+<p><img alt=""  loading="lazy" src="/images/news/45149/45149-4.jpg"/></p>
 
 <p>On the morning of Day 3, the teams had the opportunity to present their projects to a panel of judges with experience in the blockchain and tech sectors. </p>
 
 <p>The projects were evaluated based on factors such as Technicality, Originality, Practicality, Aesthetics, and Wow-factor.</p>
 
-<p><img alt="" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45149/45149-5.jpg"/></p>
+<p><img alt=""  loading="lazy" src="/images/news/45149/45149-5.jpg"/></p>
 
 <p>Following the award ceremony, the participants moved to downtown Munich to the Chinese Towner in the English Garden to enjoy typical Bavarian food<strong> </strong>and the occasional Mass (a one-liter glass of beer).</p>
 
-<p><img alt="" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45149/45149-6.jpg"/></p>
+<p><img alt=""  loading="lazy" src="/images/news/45149/45149-6.jpg"/></p>
 
 <p>The ETH Munich Hackathon provided another window into the future of Web3 technologies, demonstrating that the potential of blockchain and decentralized systems goes far beyond cryptocurrencies. </p>
 
@@ -62,7 +62,7 @@ image: "/images/news/45149.webp"
 
 <p>The full list of all partners is available on the <a href="https://ethmunich.de/" rel="noopener noreferrer" target="_blank">ETH Munich homepage</a>.</p>
 
-<p><img alt="" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45149/45149-7.jpg"/></p>
+<p><img alt=""  loading="lazy" src="/images/news/45149/45149-7.jpg"/></p>
 
 <p>As the first of its kind in Munich, this hackathon has undoubtedly paved the way for future editions!</p>
 

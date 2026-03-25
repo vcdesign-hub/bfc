@@ -20,7 +20,7 @@ image: "/images/news/45833.webp"
 
 <p><strong><em></em></strong>Yet, measuring advertising effectiveness—especially in the mobile app space—has never been more challenging.</p>
 
-<p><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45833/45833-1.webp"/></p>
+<p><img alt="Description of Image"  loading="lazy" src="/images/news/45833/45833-1.webp"/></p>
 
 <h4>The Attribution Gap</h4>
 
@@ -48,7 +48,7 @@ image: "/images/news/45833.webp"
 
 <p>It integrates seamlessly with tools like Firebase and Segment, providing a transparent timeline of which campaigns drove which results, complete with confidence scores and decision logic.</p>
 
-<p><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45833/45833-2.webp"/></p>
+<p><img alt="Description of Image"  loading="lazy" src="/images/news/45833/45833-2.webp"/></p>
 
 <h4>Why We Invested</h4>
 

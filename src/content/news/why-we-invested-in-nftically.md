@@ -26,7 +26,7 @@ image: "/images/news/44727.webp"
 
 <p>The platform particularly appeals to businesses who can’t afford or don’t want to build the entire tech-stack in-house, as it allows digital creators like brands, enterprises, gamers, or musicians to launch their own white-label NFT marketplace with minimal technical skills.</p>
 
-<p><img alt="" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/44727/44727-1.webp"/></p>
+<p><img alt=""  loading="lazy" src="/images/news/44727/44727-1.webp"/></p>
 
 <p>Customers can choose between multiple blockchains, set royalties, and commissions, add members to their platform, and integrate third-party applications to boost engagement with their audience in a hassle-free manner.</p>
 
@@ -34,7 +34,7 @@ image: "/images/news/44727.webp"
 
 <p><strong>In the long term, the company wants to transition into a full-stack, white-label SaaS platform for metaverse storefronts over time.</strong></p>
 
-<p><img alt="" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/44727/44727-2.webp"/></p>
+<p><img alt=""  loading="lazy" src="/images/news/44727/44727-2.webp"/></p>
 
 <p>We couldn’t be more excited to back such a promising project by a talented founding team. We look forward to seeing more development and breakthroughs from NFTically in the near future.</p>
 

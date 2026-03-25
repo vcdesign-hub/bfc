@@ -22,7 +22,7 @@ image: "/images/news/45026.jpg"
 
 <p>I had the pleasure of hosting a panel on "<a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=ed1c185764&amp;e=d2cc07be1e" rel="noopener noreferrer" target="_blank">Predicting the Future of Crypto Assets</a>" with <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=fad59d467d&amp;e=d2cc07be1e" rel="noopener noreferrer" target="_blank">Ulli Spankowski</a> (Börse Stuttgart Digital), <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=15f2552b30&amp;e=d2cc07be1e" rel="noopener noreferrer" target="_blank">Masud Sultan</a> (ITSA), <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=1b53d26363&amp;e=d2cc07be1e" rel="noopener noreferrer" target="_blank">Alexander Balzer </a>(atfinity), and <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=9b65fbfcb6&amp;e=d2cc07be1e" rel="noopener noreferrer" target="_blank">Jamiel Sheikh</a> (instamint) joining us from New York via live-stream. The full video is available on our <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=e3aa3b5eef&amp;e=d2cc07be1e" rel="noopener noreferrer" target="_blank">website</a>.</p>
 
-<p><img alt="newsletter_img" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45026/45026-1.jpg"/></p>
+<p><img alt="newsletter_img"  loading="lazy" src="/images/news/45026/45026-1.jpg"/></p>
 
 <p>The Crypto Asset Conference reinforced our impression of the financial industry's commitment to the blockchain, as major players like Goldman Sachs and JP Morgan described using permissioned chains for US regulatory reasons, while <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=9996f73e74&amp;e=d2cc07be1e" rel="noopener noreferrer" target="_blank">Ramin Ghafari</a> from Siemens showcased their bond issuance based on the public Polygon chain.</p>
 
@@ -42,7 +42,7 @@ image: "/images/news/45026.jpg"
 
 <p>On a societal level, however, it raises a question: As blockchain streamlines backend operations and AI automates front-end processes, how will the financial sector's workforce evolve over the next decade or two?</p>
 
-<p><img alt="newsletter_img" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45026/45026-2.jpg"/></p>
+<p><img alt="newsletter_img"  loading="lazy" src="/images/news/45026/45026-2.jpg"/></p>
 
 <p>Away from the main conference hall events, I enjoyed a long talk with <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=0a33a84431&amp;e=d2cc07be1e" rel="noopener noreferrer" target="_blank">Christoph Jentzsch</a> from <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=ae5a6c9f28&amp;e=d2cc07be1e" rel="noopener noreferrer" target="_blank">corpus.ventures</a>, who was part of the Ethereum core team in 2014 and most famously built the TheDAO, which was later spectacularly hacked.</p>
 
@@ -60,7 +60,7 @@ image: "/images/news/45026.jpg"
 
 <p>We couldn't be more proud of Fleur Heyns, Kevin Pettit, and all their <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=6e152eb8ba&amp;e=d2cc07be1e" rel="noopener noreferrer" target="_blank">wonderful colleagues</a> for setting up the tools that allow companies to strategize, connect, analyze and report their impact metrics in a coherent and actionable way.</p>
 
-<p><img alt="newsletter_img" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45026/45026-3.jpg"/></p>
+<p><img alt="newsletter_img"  loading="lazy" src="/images/news/45026/45026-3.jpg"/></p>
 
 <p>Gathering impact data is an issue that many companies are struggling with, sometimes resulting in misguided priorities and actions that are closer to "greenwashing" than having a real impact on ESG objectives.</p>
 
@@ -74,7 +74,7 @@ image: "/images/news/45026.jpg"
 
 <p>The evening will bring together builders, founders, and venture capital fund investors to discuss opportunities in the Web3 space and, most importantly, to build a network of open-minded and entrepreneurial people.</p>
 
-<p><img alt="newsletter_img" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45026/45026-4.jpg"/></p>
+<p><img alt="newsletter_img"  loading="lazy" src="/images/news/45026/45026-4.jpg"/></p>
 
 <p>Our special guest will be <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=780d0c8b0b&amp;e=d2cc07be1e" rel="noopener noreferrer" target="_blank">Alex Höptner</a>, the ex-CEO of Börse Stuttgart and BitMEX and a strong advocate of the potential of tokenization for financial markets. He will talk about his latest endeavors in his usual entertaining style.</p>
 

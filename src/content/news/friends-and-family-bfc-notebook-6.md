@@ -30,7 +30,7 @@ image: "/images/news/45224.webp"
 
 <p>Preceding the conference, we participated in the <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=c68a7eeb75&amp;e=d2cc07be1e" rel="noopener noreferrer" target="_blank">ETH Singapore Hackathon</a>, with many side events and opportunities to meet industry movers and shakers like <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=35b3623b51&amp;e=d2cc07be1e" rel="noopener noreferrer" target="_blank">Vitalik Buterin</a>, the famous brain behind Ethereum.</p>
 
-<p><img alt="newsletter_img" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45224/45224-1.jpg"/></p>
+<p><img alt="newsletter_img"  loading="lazy" src="/images/news/45224/45224-1.jpg"/></p>
 
 <p>We learned that <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=1d69dccd45&amp;e=d2cc07be1e" rel="noopener noreferrer" target="_blank">Japan is determined</a> to become a trailblazer in the Web3 industry and is putting regulations and incentives in place to lure founders and capital to the country. There is a strong believe that <strong>the country has missed the internet</strong> and wants to avoid making the same mistake twice.</p>
 
@@ -42,7 +42,7 @@ image: "/images/news/45224.webp"
 
 <p>For us, it was a great outcome to establish a network with Asian venture capital colleagues to share deal flow and thoughts about the industry.</p>
 
-<p><img alt="newsletter_img" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45224/45224-2.jpg"/></p>
+<p><img alt="newsletter_img"  loading="lazy" src="/images/news/45224/45224-2.jpg"/></p>
 
 <h4>Crypto Asset Conference 2023 - The October Edition</h4>
 
@@ -54,7 +54,7 @@ image: "/images/news/45224.webp"
 
 <p>Yes, it takes a lot to be compliant in the crypto world!</p>
 
-<p><img alt="newsletter_img" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45224/45224-3.jpg"/></p>
+<p><img alt="newsletter_img"  loading="lazy" src="/images/news/45224/45224-3.jpg"/></p>
 
 <p><strong>This paves the way for the future of the fund industry</strong> and is a key milestone in no small way. </p>
 
@@ -68,7 +68,7 @@ image: "/images/news/45224.webp"
 
 <p><strong>Fingers crossed, Volker</strong>, you are unquestionably a founder driven by a strong sense of mission!</p>
 
-<p><img alt="newsletter_img" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45224/45224-4.jpg"/></p>
+<p><img alt="newsletter_img"  loading="lazy" src="/images/news/45224/45224-4.jpg"/></p>
 
 <h4>Recommended</h4>
 

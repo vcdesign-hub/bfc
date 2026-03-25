@@ -14,7 +14,7 @@ image: "/images/news/45243.webp"
 
 <p>To be precise, in Culver City, “The Heart of Screenland”, only seven miles from that sign in the hills.</p>
 
-<p><img alt="newsletter_img" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45243/45243-1.jpg"/></p>
+<p><img alt="newsletter_img"  loading="lazy" src="/images/news/45243/45243-1.jpg"/></p>
 
 <h4>Head-over-heels for the creator economy</h4>
 
@@ -42,7 +42,7 @@ image: "/images/news/45243.webp"
 
 <p>Their mission? To tackle a Hollywood-sized problem head-on.</p>
 
-<p><img alt="newsletter_img" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45243/45243-2.jpg"/></p>
+<p><img alt="newsletter_img"  loading="lazy" src="/images/news/45243/45243-2.jpg"/></p>
 
 <h4>It’s not all glitter and red carpets</h4>
 
@@ -74,7 +74,7 @@ image: "/images/news/45243.webp"
 
 <p>For aspiring Spielbergs and up-and-coming studios, getting a bank loan or attempting alternative funding is almost impossible.</p>
 
-<p><img alt="newsletter_img" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45243/45243-3.jpg"/></p>
+<p><img alt="newsletter_img"  loading="lazy" src="/images/news/45243/45243-3.jpg"/></p>
 
 <h4>Creating buzz</h4>
 

@@ -44,7 +44,7 @@ image: "/images/news/45460.webp"
 
 <p>This insight led to the creation of a groundbreaking tool designed to revolutionize how companies establish KPIs around developer attention, fundamentally transforming the developer relations space.</p>
 
-<p><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45460/45460-1.png"/></p>
+<p><img alt="Description of Image"  loading="lazy" src="/images/news/45460/45460-1.png"/></p>
 
 <p>OpenQ’s platform stands out by leveraging AI-driven lead discovery and data enrichment to provide actionable insights beyond basic metrics. </p>
 

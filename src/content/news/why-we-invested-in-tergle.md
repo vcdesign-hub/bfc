@@ -34,7 +34,7 @@ image: "/images/news/45796.webp"
 
 <p>Together, they had already scaled a nonprofit to 500+ schools in the UK. They are first-time founders with second-time experience.</p>
 
-<p><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45796/45796-1.webp"/></p>
+<p><img alt="Description of Image"  loading="lazy" src="/images/news/45796/45796-1.webp"/></p>
 
 <p>The team went through <a href="https://www.ycombinator.com/companies/tergle" rel="noopener noreferrer" target="_blank">Y Combinator</a>, which not only provided seed funding but also access to a vast network of mentors, investors, and alumni. </p>
 

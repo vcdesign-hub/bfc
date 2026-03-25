@@ -24,11 +24,11 @@ image: "/images/news/45161.webp"
 
 <p>Ready Games Network's optimism about the future of Web3 gaming was definitely contagious, and their traction following a recent funding round nicely supports their vision.</p>
 
-<p><img alt="newsletter_img" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45161/45161-1.jpg"/></p>
+<p><img alt="newsletter_img"  loading="lazy" src="/images/news/45161/45161-1.jpg"/></p>
 
 <p>The interoperability of digital assets was also the key theme with <a href="https://www.linkedin.com/in/janroessner/" rel="noopener noreferrer" target="_blank">Jan Roessner</a>, founder of <a href="https://www.oneearthrising.com/" rel="noopener noreferrer" target="_blank">One Earth Rising</a>. </p>
 
-<p><img alt="newsletter_img" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45161/45161-2.jpg"/></p>
+<p><img alt="newsletter_img"  loading="lazy" src="/images/news/45161/45161-2.jpg"/></p>
 
 <p>Jan pointed out that game studios can <strong>cut development time by 90%</strong> by using the OER platform to make game assets useable across platforms and without the need to learn new tools.</p>
 
@@ -40,7 +40,7 @@ image: "/images/news/45161.webp"
 
 <p>However, with the resulting intellectual property rights, a blockchain solution is needed to track ownership across platforms.</p>
 
-<p><img alt="newsletter_img" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45161/45161-3.jpg"/></p>
+<p><img alt="newsletter_img"  loading="lazy" src="/images/news/45161/45161-3.jpg"/></p>
 
 <p>We moved on to the stand of the <a href="https://www.blockchaingamealliance.org/" rel="noopener noreferrer" target="_blank">Blockchain Game Alliance (BGA)</a>, an organization committed to promoting blockchain within the game industry. </p>
 
@@ -48,19 +48,19 @@ image: "/images/news/45161.webp"
 
 <p>Supported by an impressive roster of members that include the who-is-who in the gaming industry, they are on a mission to educate how blockchain can transform games.</p>
 
-<p><img alt="newsletter_img" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45161/45161-4.jpg"/></p>
+<p><img alt="newsletter_img"  loading="lazy" src="/images/news/45161/45161-4.jpg"/></p>
 
 <p><a href="https://www.linkedin.com/in/jjungers/" rel="noopener noreferrer" target="_blank">Jonathan Jungers</a>, BGA ambassador for Asia Pacific, said that for Web3 gaming to become really big, <strong>regulatory homework still had to be done</strong> around the definition of what constitutes a security and what not.</p>
 
 <p><a href="https://www.linkedin.com/in/borgetsebastien/" rel="noopener noreferrer" target="_blank">Sebastien Borget</a>, founder and CEO of The <a href="https://www.sandbox.game/undefined/" rel="noopener noreferrer" target="_blank">Sandbox</a> and President of BGA, confirmed that there was still a lot of information that needs to get out, but that in ten years from now, people will look back and wonder how gaming ever worked without blockchain registrars and interoperability of assets.</p>
 
-<p><img alt="newsletter_img" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45161/45161-5.jpg"/></p>
+<p><img alt="newsletter_img"  loading="lazy" src="/images/news/45161/45161-5.jpg"/></p>
 
 <p>Our round-trip was concluded by a demo of "Oathbound," the latest release by <a href="https://www.eleet.games/" rel="noopener noreferrer" target="_blank">ELEET Games</a>. </p>
 
 <p>Co-founder and CEO <a href="https://www.linkedin.com/in/vanhusen/" rel="noopener noreferrer" target="_blank">Carsten van Husen</a> walked us through the current beta. Carsten is a gaming veteran, having been CEO of <a href="https://gameforge.com/" rel="noopener noreferrer" target="_blank">Gameforge </a>for ten years. </p>
 
-<p><img alt="newsletter_img" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45161/45161-6.jpg"/></p>
+<p><img alt="newsletter_img"  loading="lazy" src="/images/news/45161/45161-6.jpg"/></p>
 
 <p>He sees one of the key advantages of the Web3 architecture in the <strong>reduced customer acquisition costs</strong> as the community can be financially incentivized through tokens.</p>
 
@@ -76,4 +76,4 @@ image: "/images/news/45161.webp"
 
 <p>May the force of the blockchain be with the gamers.</p>
 
-<p><img alt="newsletter_img" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45161/45161-7.jpg"/></p>
+<p><img alt="newsletter_img"  loading="lazy" src="/images/news/45161/45161-7.jpg"/></p>

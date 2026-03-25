@@ -16,7 +16,7 @@ image: "/images/news/45379.webp"
 
 <p>However, this initial boom was short-lived, with the sector appearing to be 'dead in the water' in the early 2000’s only to regain unprecedented relevance in our lives years later.</p>
 
-<p><img alt="newsletter_img" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45379/45379-1.jpeg"/></p>
+<p><img alt="newsletter_img"  loading="lazy" src="/images/news/45379/45379-1.jpeg"/></p>
 
 <p>Most people don't realize that the <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=ded5b4f829&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">pendulum of every new technology</a> swings wildly. It's normal, and crypto is no exception.</p>
 
@@ -38,7 +38,7 @@ image: "/images/news/45379.webp"
 
 <p>A highlight of the event was meeting <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=3e84e326ca&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">Gameboard</a> founders, <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=4a489fd65e&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">Shail Mehta</a> and <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=3903bd71f6&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">Tim Schukar</a>, and receiving an update on their device's rollout, which is starting to make its way into living rooms across the USA and, subsequently, around the world.</p>
 
-<p><img alt="newsletter_img" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45379/45379-2.jpg"/></p>
+<p><img alt="newsletter_img"  loading="lazy" src="/images/news/45379/45379-2.jpg"/></p>
 
 <p>Hardware is hard, they say, but as Elon Musk proves time and again with Tesla, SpaceX, Neuralink and many other hardware companies, it's those companies that will leave their footprint on society.</p>
 
@@ -48,7 +48,7 @@ image: "/images/news/45379.webp"
 
 <p>With our friends from <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=0f7dae56f7&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">Jumper</a>, <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=a21da4568e&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">bitsCrunch</a>, <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=8572583f01&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">Biconony</a>, and <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=176719131c&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">Gelato</a>, we are hosting an invite-only brunch on the Palm Jumeirah during the <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=6bd288aba3&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">Token2049 convention in Dubai </a>on April 19.</p>
 
-<p><img alt="newsletter_img" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45379/45379-3.jpg"/></p>
+<p><img alt="newsletter_img"  loading="lazy" src="/images/news/45379/45379-3.jpg"/></p>
 
 <p>Dubai has established a thriving ecosystem for crypto businesses and enthusiasts and Token2049 is seen as a key event in the industry.</p>
 
@@ -66,7 +66,7 @@ image: "/images/news/45379.webp"
 
 <p>In the coming months, we will be <strong>visiting family offices and wealth managers</strong> to <strong>demystify blockchain</strong> technology and share our enthusiasm for its investment potential.</p>
 
-<p><img alt="newsletter_img" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45379/45379-4.jpeg"/></p>
+<p><img alt="newsletter_img"  loading="lazy" src="/images/news/45379/45379-4.jpeg"/></p>
 
 <p>Naturally, we will showcase <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=9fdf7972a5&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">some of the companies we've invested in</a>, which we believe are poised to become industry leaders.</p>
 
@@ -82,7 +82,7 @@ image: "/images/news/45379.webp"
 
 <p>One of my favorite reads is the weekly newsletter from our venture capital colleagues at <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=eb670d6b44&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">Angular Ventures</a>, written by Gil Dibner and David Peterson. </p>
 
-<p><img alt="newsletter_img" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45379/45379-5.png"/></p>
+<p><img alt="newsletter_img"  loading="lazy" src="/images/news/45379/45379-5.png"/></p>
 
 <p>A tidbit from last week's edition encapsulates beautifully the essence of a pre-product-market-fit startup's mission:</p>
 

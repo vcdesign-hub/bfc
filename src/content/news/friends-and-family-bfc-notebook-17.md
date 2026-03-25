@@ -16,7 +16,7 @@ image: "/images/news/45770.webp"
 
 <p>It was one.</p>
 
-<p><a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=753801688f&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank"><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45770/45770-1.png"/></a></p>
+<p><a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=753801688f&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank"><img alt="Description of Image"  loading="lazy" src="/images/news/45770/45770-1.png"/></a></p>
 
 <p>But over time, it became something <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=ba6f5baad6&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">closer to a hundred</a>.<br/></p>
 
@@ -74,7 +74,7 @@ image: "/images/news/45770.webp"
 
 <p>In the past six months, their <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=74acfeb04b&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">total value locked</a> (value deposited) has surged from $3 million to over $170 million. <strong>When others pulled back, they leaned in.</strong></p>
 
-<p><a href="https://www.level.money/" rel="noopener noreferrer" target="_blank"><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45770/45770-2.png"/></a></p>
+<p><a href="https://www.level.money/" rel="noopener noreferrer" target="_blank"><img alt="Description of Image"  loading="lazy" src="/images/news/45770/45770-2.png"/></a></p>
 
 <p>Roy Pereira and Alexey Adamsky at <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=2aebadc75d&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">Unified</a> are gaining serious traction with their groundbreaking API technology, <strong>designed specifically for AI-first apps</strong>. Their growth is a signal: the <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=6f8e4c39c7&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">infrastructure layer for AI-native apps</a> is being rewritten in real time.<br/></p>
 
@@ -82,13 +82,13 @@ image: "/images/news/45770.webp"
 
 <p>Paul Richards, Sankari Nair, and Igor Gligorević at <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=55f625a101&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">Recall</a> just shipped a major update to their knowledge management platform, which includes their <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=87fe3587e6&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">augmented browser feature</a>, <strong>making life a lot easier for knowledge workers</strong>.</p>
 
-<p><a href="https://www.producthunt.com/products/recall-6#recall-augmented-browsing" rel="noopener noreferrer" target="_blank"><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45770/45770-3.png"/></a></p>
+<p><a href="https://www.producthunt.com/products/recall-6#recall-augmented-browsing" rel="noopener noreferrer" target="_blank"><img alt="Description of Image"  loading="lazy" src="/images/news/45770/45770-3.png"/></a></p>
 
 <p>Lukas Steiner and Johannes Kares at <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=5440546011&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">Talentir</a> continue to empower creators, helping them unlock new revenue streams, no crypto expertise required. They’re showing that the <strong>benefits of Web3 can be intuitive, accessible, and creator-first</strong>.<br/></p>
 
 <p>And Jared McCluskey at <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=ea2c94ee8d&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">Mirror Engine</a>, who is <strong>single-handedly building a game development platform with about 1/100 of the investment required by larger companies</strong>, has just launched an amazing alpha version.</p>
 
-<p><a href="https://www.themirror.space/" rel="noopener noreferrer" target="_blank"><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45770/45770-4.jpg"/></a></p>
+<p><a href="https://www.themirror.space/" rel="noopener noreferrer" target="_blank"><img alt="Description of Image"  loading="lazy" src="/images/news/45770/45770-4.jpg"/></a></p>
 
 <p>And these are only the ones that stood out over the past two months.<br/></p>
 
@@ -102,7 +102,7 @@ image: "/images/news/45770.webp"
 
 <p>With our friends from <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=cbc2042ff5&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">bitsCrunch</a>, <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=8e45a3aeea&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">Li.fi</a>, <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=fd7c09a378&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">CLS</a>, <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=53df204d26&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">Shardeum</a> and <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=f6400e73c2&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">Sigma Capital</a>, we are hosting an <strong>invite-only brunch in Dubai</strong> during the <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=dc2c6fb594&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">Token2049</a> conference.</p>
 
-<p><a href="https://www.dubai.token2049.com/" rel="noopener noreferrer" target="_blank"><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45770/45770-5.jpg"/></a></p>
+<p><a href="https://www.dubai.token2049.com/" rel="noopener noreferrer" target="_blank"><img alt="Description of Image"  loading="lazy" src="/images/news/45770/45770-5.jpg"/></a></p>
 
 <p>If you happen to attend and would like to meet us to talk about becoming an investor in our fund, getting venture funding for your startup, or compare notes with fellow VCs from around the world, <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=ce4571838c&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">please reach out for further info on the event</a>.</p>
 

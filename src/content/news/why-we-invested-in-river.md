@@ -62,7 +62,7 @@ image: "/images/news/45469-2.webp"
 
 <p>River is a SaaS platform designed to <strong>massively reduce the workload for brands and influencers</strong> organizing and orchestrating global communities.</p>
 
-<p><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45469-2/45469-2-1.png"/></p>
+<p><img alt="Description of Image"  loading="lazy" src="/images/news/45469-2/45469-2-1.png"/></p>
 
 <p>It helps you find the right local representatives (read: super fans) to manage local events while <strong>ensuring guidelines</strong> are followed. </p>
 

@@ -22,7 +22,7 @@ image: "/images/news/45513.webp"
 
 <p>Recall offers a smarter solution, powered by  AI-driven summaries, automatic tagging, and personalized knowledge graphs. </p>
 
-<p><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45513/45513-1.png"/></p>
+<p><img alt="Description of Image"  loading="lazy" src="/images/news/45513/45513-1.png"/></p>
 
 <p>This platform automatically organizes and categorizes content and helps users retain and uncover insights, making it <strong>a unique and indispensable tool for knowledge workers</strong>.</p>
 
@@ -44,7 +44,7 @@ image: "/images/news/45513.webp"
 
 <p>His co-founders <a href="https://www.linkedin.com/in/igor-gligorevic/" rel="noopener noreferrer" target="_blank">Igor Gligorević</a>, a true 10x engineer from Serbia, and <a href="https://www.linkedin.com/in/sankari-nair-13a549a7/" rel="noopener noreferrer" target="_blank">Sankari Nair,</a> with seven years of experience at Uber as former Head of Analytics, quickly joined him and got going.</p>
 
-<p><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45513/45513-2.jpg"/></p>
+<p><img alt="Description of Image"  loading="lazy" src="/images/news/45513/45513-2.jpg"/></p>
 
 <p>We recently sat down with the team in Amsterdam for a workshop and couldn't be more excited about supporting these impressive founders.</p>
 

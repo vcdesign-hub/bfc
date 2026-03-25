@@ -42,7 +42,7 @@ image: "/images/news/45282.webp"
 
 <p>Funds on Chain's edge lies in its seamless integration of the entire trading stack into a single, participant-agnostic blockchain system.</p>
 
-<p><img alt="newsletter_img" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45282/45282-1.jpg"/></p>
+<p><img alt="newsletter_img"  loading="lazy" src="/images/news/45282/45282-1.jpg"/></p>
 
 <p>The <strong>law on electronic securities</strong>, “<a href="https://cashlink.de/en/electronic-securities-act-ewpg/" rel="noopener noreferrer" target="_blank">eWpG</a>”, passed in June 2021, prepared the way for establishing electronic securities as an alternative to securities issued via a physical certificate, ultimately leading to a faster and more cost-efficient capital market.</p>
 

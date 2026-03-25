@@ -58,7 +58,7 @@ image: "/images/news/45475.webp"
 
 <p>The demand for solutions like Trever's will only grow in this evolving financial landscape.</p>
 
-<p><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45475/45475-1.jpg"/></p>
+<p><img alt="Description of Image"  loading="lazy" src="/images/news/45475/45475-1.jpg"/></p>
 
 <p>We are excited to co-invest with TX Ventures, Market One Capital, and Alex von Frankenberg and to help Trever reach their vision.<br/></p>
 

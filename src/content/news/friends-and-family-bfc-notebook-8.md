@@ -14,7 +14,7 @@ image: "/images/news/45329.webp"
 
 <p>Philipp was the <strong>center of gravity of the German blockchain community</strong>. He was a source of energy and inspiration for many.</p>
 
-<p><img alt="newsletter_img" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45329/45329-1.jpg"/></p>
+<p><img alt="newsletter_img"  loading="lazy" src="/images/news/45329/45329-1.jpg"/></p>
 
 <p>Read our <a href="https://www.bfc.vc/recent-news/beyond-theory" rel="noopener noreferrer" target="_blank">obituary</a> if you want to learn more about a person who has made an <strong>impact on so many of us</strong> and left a remarkable legacy beyond theory.</p>
 
@@ -28,7 +28,7 @@ image: "/images/news/45329.webp"
 
 <p><strong>Twelve experts</strong> from leading companies in the crypto community shared their insights on our <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=36a341a023&amp;e=d2cc07be1e" rel="noopener noreferrer" target="_blank">panels</a>, sparking good discussions.</p>
 
-<p><img alt="newsletter_img" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45329/45329-2.jpg"/></p>
+<p><img alt="newsletter_img"  loading="lazy" src="/images/news/45329/45329-2.jpg"/></p>
 
 <p>Our Panora­ma room in the Ho­tel See­hof was <strong>burst­ing at the seams</strong>, and judg­ing by the at­ten­dees' re­luc­tance to leave even af­ter four hours, our "Web3 In­vestor Gather­ing" event seemed to have achieved ex­act­ly what we had hoped for.</p>
 
@@ -40,7 +40,7 @@ image: "/images/news/45329.webp"
 
 <p>But as self-ev­i­dent as the move to new tech­nol­o­gy in fi­nan­cial mar­kets may seem, <strong>it takes mis­sion-dri­ven founders</strong> with ex­ten­sive in­dus­try ex­pe­ri­ence, sta­mi­na, and con­vic­tion to drive the change. <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=85502b8f3a&amp;e=d2cc07be1e" rel="noopener noreferrer" target="_blank">Volk­er Braun­berger</a> and <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=59b8341131&amp;e=d2cc07be1e" rel="noopener noreferrer" target="_blank">Jo­hann Hainzinger</a> fit this mold re­mark­ably well.</p>
 
-<p><img alt="newsletter_img" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45329/45329-3.avif"/></p>
+<p><img alt="newsletter_img"  loading="lazy" src="/images/news/45329/45329-3.avif"/></p>
 
 <p>And it seems that nu­mer­ous open-mind­ed fund ad­min­is­tra­tors, <strong>ea­ger to shape the fu­ture</strong> rather than re­act to changes post fac­to, agree, as ev­i­denced by the ex­ten­sive list of po­ten­tial clients the com­pa­ny is talk­ing to.</p>
 
@@ -52,7 +52,7 @@ image: "/images/news/45329.webp"
 
 <p>Chris Dixon's "<a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=93adbb0d4e&amp;e=d2cc07be1e" rel="noopener noreferrer" target="_blank">Read Write Own: Build­ing the Next Era of the In­ter­net</a>."</p>
 
-<p><img alt="newsletter_img" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45329/45329-4.jpg"/></p>
+<p><img alt="newsletter_img"  loading="lazy" src="/images/news/45329/45329-4.jpg"/></p>
 
 <p><a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=14822af237&amp;e=d2cc07be1e" rel="noopener noreferrer" target="_blank">Dixon</a> is a gen­er­al part­ner at the ven­ture cap­i­tal firm An­dreessen Horowitz and leads the cryp­to di­vi­sion. He was ranked <strong>#1 on the Forbes Mi­das List of the world’s best ven­ture cap­i­tal in­vestors</strong>.</p>
 

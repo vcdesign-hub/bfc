@@ -22,7 +22,7 @@ image: "/images/news/44909.webp"
 
 <p>We admire the founders who have been <strong>driven by their passion for years and have expertly navigated a competitive market to bring their vision to life</strong>.</p>
 
-<p><img alt="" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/44909/44909-1.webp"/></p>
+<p><img alt=""  loading="lazy" src="/images/news/44909/44909-1.webp"/></p>
 
 <p>Jared and his co-founders Micah Petersen and Alec Tremaine envision <strong>The Mirror to become for game development what Youtube has become for entertainment</strong>, a collaborative tool kit where game developers and content creators can build games with little- to no coding skills and few resources and in real-time with others.</p>
 

@@ -14,7 +14,7 @@ image: "/images/news/44745.webp"
 
 <p>Online advertising can be a scary thing. We are used to seeing ads for products that we looked up on Amazon or Google coming up on all sorts of unrelated websites for the next two weeks. And sometimes it feels like we only talked about products, and then they show up wherever we browse.</p>
 
-<p><img alt="" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/44745/44745-1.webp"/></p>
+<p><img alt=""  loading="lazy" src="/images/news/44745/44745-1.webp"/></p>
 
 <p>But let’s go back a step first. </p>
 
@@ -38,7 +38,7 @@ image: "/images/news/44745.webp"
 
 <p>Using Blockchain technology to create trust and transparency .</p>
 
-<p><img alt="" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/44745/44745-2.webp"/></p>
+<p><img alt=""  loading="lazy" src="/images/news/44745/44745-2.webp"/></p>
 
 <p>But Novum's innovation goes much further than just eliminating data-privacy concerns. It addresses many of the critical problems of online advertising, like advertising fraud and a maze of intermediaries with questionable value add that can siphon over 70% of the ad budget. </p>
 
@@ -46,7 +46,7 @@ image: "/images/news/44745.webp"
 
 <p>For all participants to work in a trusted environment, there needs to be a standardized method of administering ad identifiers on an industry level, not just a platform level. While there are many ways to generate a unique ad identifier, the critical distinction is to make it universally verifiable and tamper-proof. <strong>This is where Novum's trustless protocol for digital advertising comes in. Key components are stored on a blockchain and use a unique combination of cryptography and distributed databases. </strong></p>
 
-<p><img alt="" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/44745/44745-3.webp"/></p>
+<p><img alt=""  loading="lazy" src="/images/news/44745/44745-3.webp"/></p>
 
 <p>Novum's works without relying on personal data and cookies. Instead, it targets people by reading contextual signals to achieve relevance while respecting privacy. As a result, users are given complete visibility into who is targeting them and why as well as full control over the ads they don’t want to see. </p>
 

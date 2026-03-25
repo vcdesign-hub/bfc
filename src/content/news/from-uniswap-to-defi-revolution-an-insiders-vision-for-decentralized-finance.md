@@ -10,7 +10,7 @@ image: "/images/news/45630.webp"
 
 <p>When our colleague <a href="https://www.bfc.vc/team" rel="noopener noreferrer" target="_blank">Marcel Uhlmann</a> ("Marcello"), a true expert in crypto assets, spent weekends and evenings writing a book about <a href="https://amzn.to/3OEDbkk" rel="noopener noreferrer" target="_blank">decentralized finance</a>, we couldn't help but have a few questions.</p>
 
-<p><a href="https://amzn.to/4ic1Yto" rel="noopener noreferrer" target="_blank"><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45630/45630-1.webp"/></a></p>
+<p><a href="https://amzn.to/4ic1Yto" rel="noopener noreferrer" target="_blank"><img alt="Description of Image"  loading="lazy" src="/images/news/45630/45630-1.webp"/></a></p>
 
 <p><strong>Q: What inspired you to write DeFi Revolution, and how have your personal experiences in decentralized finance shaped your perspective?</strong></p>
 

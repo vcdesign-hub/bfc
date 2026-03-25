@@ -16,7 +16,7 @@ image: "/images/news/45084.webp"
 
 <p>And when the very early investors during the pre-seed round were not only thoroughly enjoyable to work with but also had a <strong>most impressive track record in picking winners</strong> in early-stage companies, we checked even more boxes.</p>
 
-<p><img alt="" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45084/45084-1.webp"/></p>
+<p><img alt=""  loading="lazy" src="/images/news/45084/45084-1.webp"/></p>
 
 <p>We had met Michael Höweler and Alexander Franck already a year earlier but back then we were in the midst of raising our own fund. </p>
 
@@ -28,7 +28,7 @@ image: "/images/news/45084.webp"
 
 <p>Biddz is a game-changing platform that brings fans closer to their favorite artists like never before. </p>
 
-<p><img alt="" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45084/45084-2.webp"/></p>
+<p><img alt=""  loading="lazy" src="/images/news/45084/45084-2.webp"/></p>
 
 <p>Their innovative solution allows fans to connect, support, and engage with their cherished musicians in exciting new ways. </p>
 

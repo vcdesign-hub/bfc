@@ -16,7 +16,7 @@ image: "/images/news/45469.webp"
 
 <p>It sometimes feels like the <strong>gladiator games</strong> in the Colosseum—designed to distract the crowds from their everyday problems.</p>
 
-<p><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45469/45469-1.jpg"/></p>
+<p><img alt="Description of Image"  loading="lazy" src="/images/news/45469/45469-1.jpg"/></p>
 
 <p>Panem et circensis always works.</p>
 
@@ -36,7 +36,7 @@ image: "/images/news/45469.webp"
 
 <p>OpenQ is the tool that makes this process much more efficient.</p>
 
-<p><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45469/45469-2.jpg"/></p>
+<p><img alt="Description of Image"  loading="lazy" src="/images/news/45469/45469-2.jpg"/></p>
 
 <h4>River</h4>
 
@@ -50,7 +50,7 @@ image: "/images/news/45469.webp"
 
 <p>Now, they aim to showcase their <strong>community-building magic</strong> to global brands and influencers.</p>
 
-<p><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45469/45469-3.jpg"/></p>
+<p><img alt="Description of Image"  loading="lazy" src="/images/news/45469/45469-3.jpg"/></p>
 
 <p><strong>Fun fact</strong>: River is our third investment involving a <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=15d4c275b0&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">married couple working together in a startup</a> (the other two are <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=dc1e39fe1e&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">The Last Gameboard</a> and <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=923213482b&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">Novum</a>, formerly AdHash).</p>
 
@@ -68,7 +68,7 @@ image: "/images/news/45469.webp"
 
 <p>After many months of testing, failing, and iterating, our other Austrian portfolio company <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=6c66562347&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">Talentir</a> has become <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=55c70d6fb8&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">the most anticipated Web3 creative project</a> of 2024.</p>
 
-<p><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45469/45469-4.jpg"/></p>
+<p><img alt="Description of Image"  loading="lazy" src="/images/news/45469/45469-4.jpg"/></p>
 
 <p>It's such an incredible feeling to see new ideas and great technology coming to life, driven by founders like <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=b0ea87282b&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">Lukas Steiner</a> and <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=471f0b4708&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">Johannes Kares</a>.</p>
 
@@ -84,7 +84,7 @@ image: "/images/news/45469.webp"
 
 <p>With our friends from bitsCrunch, we are hosting an invite-only brunch during the <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=f8c387098f&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">EthCC convention</a> on July 9.</p>
 
-<p><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45469/45469-5.png"/></p>
+<p><img alt="Description of Image"  loading="lazy" src="/images/news/45469/45469-5.png"/></p>
 
 <p>If you happen to attend, and <strong>would like to meet the team </strong>to talk about becoming an investor in our fund, getting venture funding or compare notes with fellow VCs from around the world, <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=bb15234767&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">register here</a>.</p>
 
@@ -92,7 +92,7 @@ image: "/images/news/45469.webp"
 
 <p>I am not a Tucker Carlson enthusiast, but it is important to listen to voices outside of your bubble, and his interview with <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=2392a37cf8&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank"><strong>Pavel Durov</strong></a><strong>, the co-founder of Telegram</strong> (together with his brother), is good journalism.</p>
 
-<p><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45469/45469-6.png"/></p>
+<p><img alt="Description of Image"  loading="lazy" src="/images/news/45469/45469-6.png"/></p>
 
 <p>Pavel and his team had to flee their native Russia rather than give up their principles. After a world-wide scouting process for the best location of their company, they settled in the UAE.</p>
 

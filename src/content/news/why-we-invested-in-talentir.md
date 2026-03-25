@@ -42,7 +42,7 @@ image: "/images/news/45036.webp"
 
 <p><strong>We believe tokenization will be a game-changer for the creator economy</strong>, simplifying income flow and rights management with transparency.</p>
 
-<p><img alt="" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45036/45036-1.webp"/></p>
+<p><img alt=""  loading="lazy" src="/images/news/45036/45036-1.webp"/></p>
 
 <p>The founders, Lukas Sticksel-Steiner, Johannes Kares and their colleagues, form an experienced, driven team with diverse skill sets in tech, marketing, and sales, and have a successful track record in the music and entertainment business.</p>
 

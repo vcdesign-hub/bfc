@@ -12,7 +12,7 @@ image: "/images/news/45550.webp"
 
 <p>In the late 1990s, there was a <strong>frenzy of investment in </strong><a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=1d085a14a6&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank"><strong>fiber optic cables</strong></a>.</p>
 
-<p><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45550/45550-1.jpg"/></p>
+<p><img alt="Description of Image"  loading="lazy" src="/images/news/45550/45550-1.jpg"/></p>
 
 <p>Companies laid down miles and miles of fiber, but an estimated <strong>95% remained </strong><a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=b7ee080d06&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank"><strong>dark</strong></a>—unused and gathering dust.</p>
 
@@ -30,7 +30,7 @@ image: "/images/news/45550.webp"
 
 <p>Like <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=afda0221d3&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">96% of all servers</a> run on open-source Linux, I wouldn’t be surprised if blockchains become the <strong>open-source transaction logs</strong> that AI agents rely on.</p>
 
-<p><a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=d117938a25&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank"><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45550/45550-2.jpg"/></a></p>
+<p><a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=d117938a25&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank"><img alt="Description of Image"  loading="lazy" src="/images/news/45550/45550-2.jpg"/></a></p>
 
 <p>While a blockchain won’t tell you the answer to life, the universe, and everything (that’s still the <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=7887edfb22&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">job for Sam Altman</a>), it could be the <strong>missing link </strong>for automated peer-to-peer communication.</p>
 
@@ -48,7 +48,7 @@ image: "/images/news/45550.webp"
 
 <p>Ever since the internet became a thing (and we all became information hoarders), I’ve been <strong>searching for the holy grail</strong> of categorizing and storing all the data I encounter daily.</p>
 
-<p><a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=d75f816e05&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank"><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45550/45550-3.png"/></a></p>
+<p><a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=d75f816e05&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank"><img alt="Description of Image"  loading="lazy" src="/images/news/45550/45550-3.png"/></a></p>
 
 <p>I’ve tried it all, including <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=cb70b9315e&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">Evernote</a>, <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=722de50a8d&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">Apple Notes</a>, <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=31b0f4fb5e&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">Notion</a>, <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=72cdb4ac69&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">Roam Research</a>, <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=085d4a2958&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">Obsidian</a>, <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=9452ac0dc0&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">anytype</a>, and dumping PDFs into folders.</p>
 
@@ -60,7 +60,7 @@ image: "/images/news/45550.webp"
 
 <p><a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=08cb3dc6ab&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">Paul Richards</a>, <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=8bc5a0dbe2&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">Igor Gligorević</a>, and <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=2abb7513ae&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">Sankari Nair</a>—a founder trio based in Amsterdam (originally from South Africa and Serbia)—are obsessed with using AI and <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=cd9fb70b41&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">knowledge graphs</a> to solve this problem once and for all.</p>
 
-<p><a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=2a355b420f&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank"><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45550/45550-4.jpg"/></a></p>
+<p><a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=2a355b420f&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank"><img alt="Description of Image"  loading="lazy" src="/images/news/45550/45550-4.jpg"/></a></p>
 
 <p>It didn’t take long for their product, vision, and drive <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=31617a9951&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">to convince us</a> to team up with them.</p>
 
@@ -76,7 +76,7 @@ image: "/images/news/45550.webp"
 
 <p>And this is just the beginning—the <strong>roadmap for the next two years is phenomenal</strong>.</p>
 
-<p><a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=c4302aedad&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank"><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45550/45550-5.png"/></a></p>
+<p><a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=c4302aedad&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank"><img alt="Description of Image"  loading="lazy" src="/images/news/45550/45550-5.png"/></a></p>
 
 <p>Their fan base (and revenues) are growing fast, and we believe that Recall has a fair chance to overtake apps like Evernote (which is a textbook example of <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=472a828faa&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">how not to run a software company</a>) within five years.<br/></p>
 
@@ -90,7 +90,7 @@ image: "/images/news/45550.webp"
 
 <p>Ben and Sagar will be attending <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=6c2d200759&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">TOKEN2049</a> in Singapore from September 16-20, where they’ll be checking the pulse of the Web3 community and connecting with founders and fellow venture capitalists.</p>
 
-<p><a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=6db671d6c5&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank"><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45550/45550-6.jpg"/></a></p>
+<p><a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=6db671d6c5&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank"><img alt="Description of Image"  loading="lazy" src="/images/news/45550/45550-6.jpg"/></a></p>
 
 <p>They're also co-hosting an event with <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=e948f4f9d7&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">Metaschool</a>, and we’d love for you to join! You can <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=123da0a743&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">register for the event here</a>.<br/></p>
 
@@ -114,7 +114,7 @@ image: "/images/news/45550.webp"
 
 <p><a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=b709bc3b71&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank"><strong>Harry Stebbings</strong></a>, undeniably one of the most inspiring (and entertaining) voices in venture capital, recently interviewed <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=c68aabc5f9&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank"><strong>Nicholas Chirls</strong></a>, the manager of <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=ffce23b747&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">Asylum Ventures</a>, a small VC fund based in New York, and got some clear statements.</p>
 
-<p><a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=1264c228d2&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank"><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45550/45550-7.png"/></a></p>
+<p><a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=1264c228d2&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank"><img alt="Description of Image"  loading="lazy" src="/images/news/45550/45550-7.png"/></a></p>
 
 <p><a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=9b3f98436d&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">It’s a fantastic watch</a> with some quality VC bashing and a few apocalyptic scenarios.<br/></p>
 

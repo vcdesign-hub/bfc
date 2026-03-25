@@ -16,7 +16,7 @@ image: "/images/news/45697.webp"
 
 <p>This moment <strong>ignited the technological</strong> <strong>revolution</strong> that ultimately gave us the Internet, iPhones, Amazon, Google, and ChatGPT, fueling an era of unprecedented economic growth and innovation.</p>
 
-<p><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45697/45697-1.webp"/></p>
+<p><img alt="Description of Image"  loading="lazy" src="/images/news/45697/45697-1.webp"/></p>
 
 <p><strong>It’s a gift that keeps on giving</strong>, further propelled by the U.S.'s ability to attract the brightest minds in science.</p>
 
@@ -68,7 +68,7 @@ image: "/images/news/45697.webp"
 
 <p><em>(I’ve always wanted to use that line from Apple Keynotes, where they declare every new, only slightly improved iPhone to be the best one ever.)</em></p>
 
-<p><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45697/45697-2.webp"/></p>
+<p><img alt="Description of Image"  loading="lazy" src="/images/news/45697/45697-2.webp"/></p>
 
 <p>But jokes aside, this year’s speaker list <strong>truly set a new bar</strong>:<br/></p>
 
@@ -76,7 +76,7 @@ image: "/images/news/45697.webp"
 
 <p>A personal highlight - especially for many of our Indian guests - was the fireside chat with <a href="https://www.bfc.vc/recent-news/it-doesnt-always-help-being-an-actor-when-you-want-to-be-seen-as-a-serious-businessman" rel="noopener noreferrer" target="_blank">Vivek Anand Oberoi</a>, the renowned Indian actor turned businessman, who now runs a <strong>family office with 2,500 employees</strong>.</p>
 
-<p><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45697/45697-3.webp"/></p>
+<p><img alt="Description of Image"  loading="lazy" src="/images/news/45697/45697-3.webp"/></p>
 
 <p>Equally impressive was <a href="https://www.bfc.vc/recent-news/how-to-make-a-19-billion-ipo-in-india---the-story-of-paytm" rel="noopener noreferrer" target="_blank">Vijay Shekhar Sharma</a>, the founder of <a href="https://paytm.com/" rel="noopener noreferrer" target="_blank">Paytm</a>, who took his company public at a $19 billion valuation in his quest to build the <strong>PayPal of India</strong>.<br/></p>
 
@@ -90,7 +90,7 @@ image: "/images/news/45697.webp"
 
 <p>On April 3, we will host our fifth invitation-only "<strong>Dinner &amp; Wine</strong>" in this stunning setting.</p>
 
-<p><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45697/45697-4.webp"/></p>
+<p><img alt="Description of Image"  loading="lazy" src="/images/news/45697/45697-4.webp"/></p>
 
 <p>In 2023, <a href="https://www.linkedin.com/in/ulrich-spindler/" rel="noopener noreferrer" target="_blank">Uli Spindler</a>, entrepreneur and <a href="https://www.bfc.vc/team#venture-partners" rel="noopener noreferrer" target="_blank">co-founder of Blockchain Founders Capital</a>, had the idea of <strong>bringing together people</strong> on his beautiful estate who share a <strong>common curiosity</strong> for technology, start-ups and venture capital.<br/></p>
 
@@ -106,7 +106,7 @@ image: "/images/news/45697.webp"
 
 <p>With our friends from <a href="https://sigmavc.com/" rel="noopener noreferrer" target="_blank">Sigma Capital</a>, <a href="https://www.linkedin.com/in/vineetbudki/" rel="noopener noreferrer" target="_blank">Vineet Budk</a>i's new fund, <a href="https://fantv.world/" rel="noopener noreferrer" target="_blank">Fantv</a>, and <a href="https://internetcomputer.org/" rel="noopener noreferrer" target="_blank">Internet Computer</a>, we are hosting an <strong>invite-only brunch</strong> during the <a href="https://www.ethdenver.com/" rel="noopener noreferrer" target="_blank">ETH Denver</a> convention on February 27.</p>
 
-<p><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45697/45697-5.webp"/></p>
+<p><img alt="Description of Image"  loading="lazy" src="/images/news/45697/45697-5.webp"/></p>
 
 <p>If you happen to be around, and would like to meet our colleague <strong>Ben and Sagar</strong>, <a href="https://lu.ma/ta06cqhi" rel="noopener noreferrer" target="_blank">register here for the event</a> or <a href="https://www.bfc.vc/team#operational-team" rel="noopener noreferrer" target="_blank">contact them</a> directly.</p>
 
@@ -122,7 +122,7 @@ image: "/images/news/45697.webp"
 
 <p>But Anthony Scaramucci’s book is different. <strong>It’s about psychology and shifting paradigms.</strong></p>
 
-<p><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45697/45697-6.webp"/></p>
+<p><img alt="Description of Image"  loading="lazy" src="/images/news/45697/45697-6.webp"/></p>
 
 <p><em>“I think the punchline gets missed with everyone focusing on Bitcoin. The revolution is really about moving to the decentralized world.”</em><br/></p>
 

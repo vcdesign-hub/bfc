@@ -37,3 +37,65 @@ body {
     @apply mx-auto w-full max-w-7xl px-6 md:px-12;
   }
 }
+
+.prose img {
+  display: block;
+  margin: 3rem auto;   /* THIS FIXES THE STACKING LOOK */
+  width: 100%;
+  border-radius: 1rem;
+}
+
+@media (min-width: 1024px) {
+  .prose img {
+    width: 70%;
+  }
+}
+
+.news-article {
+  font-size: 1rem;
+  line-height: 1.9;
+}
+
+.news-article p {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  color: rgb(71 85 105);
+  line-height: 1.9;
+}
+
+.news-article h2,
+.news-article h3,
+.news-article h4 {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  color: rgb(15 23 42);
+  line-height: 1.2;
+}
+
+.news-article ul,
+.news-article ol {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.news-article li {
+  margin-bottom: 0.75rem;
+  line-height: 1.85;
+}
+
+.news-article strong {
+  color: rgb(15 23 42);
+}
+
+.news-article img {
+  display: block;
+  margin: 3rem auto;
+  width: 100%;
+  border-radius: 1rem;
+}
+
+@media (min-width: 1024px) {
+  .news-article img {
+    width: 70%;
+  }
+}

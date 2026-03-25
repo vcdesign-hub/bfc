@@ -16,6 +16,6 @@ image: "/images/news/45499.webp"
 
 <p>The full article (in German) can be accessed <a href="https://emagazin.vc-magazin.de/de/profiles/98d522283e29/editions/d7f396092a4e70e43e91" rel="noopener noreferrer" target="_blank">here</a> (pages 30-34)</p>
 
-<p><a href="https://emagazin.vc-magazin.de/de/profiles/98d522283e29/editions/d7f396092a4e70e43e91" rel="noopener noreferrer" target="_blank"><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45499/45499-1.png"/></a></p>
+<p><a href="https://emagazin.vc-magazin.de/de/profiles/98d522283e29/editions/d7f396092a4e70e43e91" rel="noopener noreferrer" target="_blank"><img alt="Description of Image"  loading="lazy" src="/images/news/45499/45499-1.png"/></a></p>
 
 <p>Thank you to Alexander Görbing and Venture Capital Magazin for the exchange.</p>

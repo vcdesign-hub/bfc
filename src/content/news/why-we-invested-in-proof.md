@@ -16,7 +16,7 @@ image: "/images/news/44683.webp"
 
 <p>Businesses around the world are being increasingly held accountable for their social and environmental impacts, which requires unprecedented analytical methodology and transparency. Proof was created to address this challenge, by delivering a bespoke platform that unlocks the untapped potential of interconnected ESG data.</p>
 
-<p><img alt="" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/44683/44683-1.webp"/></p>
+<p><img alt=""  loading="lazy" src="/images/news/44683/44683-1.webp"/></p>
 
 <p>Climate agreements like the Paris or Glasgow Accord need to be translated in millions of micro data points that define the ESG objectives of countries, industries, and companies. And these data points need to be tracked.</p>
 
@@ -26,7 +26,7 @@ image: "/images/news/44683.webp"
 
 <p>This, in turn, provides the impact data for fund managers who must fulfill certain legal impact requirements for their investment portfolio. <strong>Without this data, asset managers will not be able to invest in a company in the very near future.</strong></p>
 
-<p><img alt="" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/44683/44683-2.webp"/></p>
+<p><img alt=""  loading="lazy" src="/images/news/44683/44683-2.webp"/></p>
 
 <p>As an oracle for ESG data, Proof of Impact provides the data platform for impact investing, which can be used in Defi and Traditional Finance alike. PoI’s blockchain architecture allows smart contract impact investing, <strong>opening up a huge marketplace based on first-hand, verified ESG data</strong>.</p>
 

@@ -22,7 +22,7 @@ image: "/images/news/45119.webp"
 
 <p>Even close to midnight, people were still outside, enjoying the view of the <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=ff37d343e5&amp;e=d2cc07be1e" rel="noopener noreferrer" target="_blank">Hambacher Schloss</a>, a historic symbol of the German democracy movement.</p>
 
-<p><img alt="newsletter_img" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45119/45119-1.jpg"/></p>
+<p><img alt="newsletter_img"  loading="lazy" src="/images/news/45119/45119-1.jpg"/></p>
 
 <p>For those who couldn't make it this year, we will be announcing the date for 2024 in a few weeks, allowing you ample time to plan.</p>
 
@@ -32,7 +32,7 @@ image: "/images/news/45119.webp"
 
 <p>was the question we asked at the <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=2420e479a4&amp;e=d2cc07be1e" rel="noopener noreferrer" target="_blank">Hamburg Crypto Investor Days</a> in the famous venue of <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=1e1f576e58&amp;e=d2cc07be1e" rel="noopener noreferrer" target="_blank">Donner &amp; Reuschel</a> at the Hamburg Binnenalster on June 21.</p>
 
-<p><img alt="newsletter_img" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45119/45119-2.jpg"/></p>
+<p><img alt="newsletter_img"  loading="lazy" src="/images/news/45119/45119-2.jpg"/></p>
 
 <p>This event aimed to provide potential investors with insights into the current blockchain landscape, enabling them to make informed investment decisions.</p>
 
@@ -72,7 +72,7 @@ image: "/images/news/45119.webp"
 
 <p>Recognizing this issue, <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=4c326471ac&amp;e=d2cc07be1e" rel="noopener noreferrer" target="_blank">Michael Höweler</a> and <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=eb9abbc592&amp;e=d2cc07be1e" rel="noopener noreferrer" target="_blank">Alexander Franck</a>, during their tenure as managers at Amazon Music, acknowledged the transformative potential of blockchain technologies.</p>
 
-<p><img alt="newsletter_img" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45119/45119-3.jpg"/></p>
+<p><img alt="newsletter_img"  loading="lazy" src="/images/news/45119/45119-3.jpg"/></p>
 
 <p>Inspired by these new possibilities, they conceived a platform enabling fans to invest directly in artists, providing support while also reaping the rewards of their successes.</p>
 
@@ -90,7 +90,7 @@ image: "/images/news/45119.webp"
 
 <p>We are delighted that our colleague, <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=38376f44b1&amp;e=d2cc07be1e" rel="noopener noreferrer" target="_blank">Sagar Barvaliya</a>, has played a pivotal role in bringing this event to life in collaboration with our friends at <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=fdc50cb8ea&amp;e=d2cc07be1e" rel="noopener noreferrer" target="_blank">PretzelDAO </a>and <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=84a57c1c77&amp;e=d2cc07be1e" rel="noopener noreferrer" target="_blank">TUM Venture Labs</a>.</p>
 
-<p><img alt="newsletter_img" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45119/45119-4.png"/></p>
+<p><img alt="newsletter_img"  loading="lazy" src="/images/news/45119/45119-4.png"/></p>
 
 <p>Following the motto "<strong>Daheim we believe in Building</strong>," this hackathon aligns perfectly with our investment strategy of "Investing beyond the hype". </p>
 
@@ -118,7 +118,7 @@ image: "/images/news/45119.webp"
 
 <p>The people who can best evaluate such an impact are the ones who have been working in a particular industry for a long time and possess a profound understanding of its underlying principles.</p>
 
-<p><img alt="newsletter_img" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45119/45119-5.png"/></p>
+<p><img alt="newsletter_img"  loading="lazy" src="/images/news/45119/45119-5.png"/></p>
 
 <p>The potential of blockchain is often distorted by short-term greed and misinformation, which earned the technology somewhat of a <strong>perception problem</strong>. </p>
 

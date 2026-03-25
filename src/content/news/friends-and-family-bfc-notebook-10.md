@@ -24,7 +24,7 @@ image: "/images/news/45426.webp"
 
 <p>If you are a founder, you <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=e29e223e23&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">better watch this video</a> if you don't want to wake up one morning and <strong>discover that your product has been steamrolled</strong> by ChatGPT.</p>
 
-<p><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45426/45426-1.png"/></p>
+<p><img alt="Description of Image"  loading="lazy" src="/images/news/45426/45426-1.png"/></p>
 
 <p>Altman argues that there are fundamentally two strategies to build on Artificial Intelligence:</p>
 
@@ -44,11 +44,11 @@ image: "/images/news/45426.webp"
 
 <p>I had the pleasure of hosting a <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=f4bda3e378&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">panel "Decoding Web3 - Strategies and Insights"</a> at the <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=1a46e11e63&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">Crypto Asset Conference</a> hosted by the <strong>Frankfurt School Blockchain Center</strong> with four grand seigneurs of venture capital: <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=a7e5b4d986&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">Alex von Frankenberg</a> from HTGF, <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=e13640a177&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">Heinrich Zetlmayer</a> from Yabeo, <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=b96cddd358&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">Olaf Hannemann</a> from CV VC, and <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=422a3397f2&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">Dominic Briggs</a> from Blockwall.</p>
 
-<p><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45426/45426-2.jpg"/></p>
+<p><img alt="Description of Image"  loading="lazy" src="/images/news/45426/45426-2.jpg"/></p>
 
 <p>At the <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=dcce546124&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">Dubai Token2049</a>, Sagar facilitated meetings for our portfolio companies, met with potential investors and hosted a brunch with our friends from <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=138807a39b&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">Jumper</a>, <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=a7a01a85c7&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">bitsCrunch</a>, <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=a01d4bbeb5&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">Biconony</a>, and <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=bb7906b2a4&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">Gelato</a> on the Palm Jumeirah - <strong>despite a rare desert deluge which turned a few Rolls-Royces into boats.</strong></p>
 
-<p><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45426/45426-3.jpg"/></p>
+<p><img alt="Description of Image"  loading="lazy" src="/images/news/45426/45426-3.jpg"/></p>
 
 <p>Ben, Marcello and Sagar are also hosting a side event during the <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=382d531a4b&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">Berlin Blockchain Week</a>, which commences on May 18.</p>
 
@@ -60,7 +60,7 @@ image: "/images/news/45426.webp"
 
 <p>A big Thank You to Maik Fechner who send us a link to the most inspiring <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=d8bdfe8466&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">video</a> of <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=a2bd905018&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">Marc Rowan</a>, CEO of <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=0c6ff71bba&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">Apollo Global Management</a>, speaking at the <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=fd525faf24&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">Norges Bank</a> Investment Conference 2024.</p>
 
-<p><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45426/45426-4.png"/></p>
+<p><img alt="Description of Image"  loading="lazy" src="/images/news/45426/45426-4.png"/></p>
 
 <p>Rowan has been in the business for over 40 years, and reflects <strong>how many financial products like high-yield bonds or ETFs were initially met with scepticism</strong> but have become a constant in the financial world today.</p>
 

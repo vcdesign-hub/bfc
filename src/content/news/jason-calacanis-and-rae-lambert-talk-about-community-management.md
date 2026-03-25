@@ -10,7 +10,7 @@ image: "/images/news/45519.webp"
 
 <p>Here is great video of <strong>Jason Calacanis</strong>, known by many as the host of the All-In podcast, and <strong>Rae Lambert</strong>, co-founder of our portfolio company River, a platform designed to <strong>facilitate in-person meet-ups for online communities</strong>.</p>
 
-<p><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45519/45519-1.png"/></p>
+<p><img alt="Description of Image"  loading="lazy" src="/images/news/45519/45519-1.png"/></p>
 
 <p>They talk about the unusual and amusing origin story of River, in which Jason wanted to hire Rae to organise events for his podcasts <strong>but instead became the first investor in River</strong>, recognising that there was so much potential in what Rae's team could pull off.</p>
 

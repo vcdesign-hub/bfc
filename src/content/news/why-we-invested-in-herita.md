@@ -34,7 +34,7 @@ image: "/images/news/45968.webp"
 
 <p>This idea didn’t appear out of thin air — it’s the product of <em>decades</em> of frustration with how trade finance actually works.</p>
 
-<p><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45968/45968-1.webp"/></p>
+<p><img alt="Description of Image"  loading="lazy" src="/images/news/45968/45968-1.webp"/></p>
 
 <p>Christoph Iwaniez, Herita’s CEO, spent over 15 years in treasury and trade finance at LBBW and Deutsche Börse. He’s the kind of person who can explain the regulatory subtleties of negotiable instruments <em>and</em> still make you want to listen.</p>
 

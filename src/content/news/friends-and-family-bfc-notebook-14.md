@@ -12,7 +12,7 @@ image: "/images/news/45592.webp"
 
 <p>We’re just nine days away from the <a href="https://elections.mywoodcounty.com/elections-office/election-fun-facts/" rel="noopener noreferrer" target="_blank">US election</a>, and as usual, we are being bombarded with <strong>polls predicting the outcome.</strong></p>
 
-<p><img alt="U.S Election" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45592/45592-1.jpeg"/></p>
+<p><img alt="U.S Election"  loading="lazy" src="/images/news/45592/45592-1.jpeg"/></p>
 
 <p>Given the questionable accuracy of these polls in recent elections, I’ve stopped paying much attention. <br/></p>
 
@@ -28,7 +28,7 @@ image: "/images/news/45592.webp"
 
 <p>That was until last week.</p>
 
-<p><a href="https://polymarket.com/" rel="noopener noreferrer" target="_blank"><img alt="Polymarket" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45592/45592-2.png"/></a></p>
+<p><a href="https://polymarket.com/" rel="noopener noreferrer" target="_blank"><img alt="Polymarket"  loading="lazy" src="/images/news/45592/45592-2.png"/></a></p>
 
 <p>It was <a href="https://www.reddit.com/r/Askpolitics/comments/1g5bxy7/why_did_trump_winning_betting_odds_suddenly_spike/" rel="noopener noreferrer" target="_blank">revealed that four anonymous large traders</a>, or "whales," placed $30 million worth of bets on Trump, causing his odds of winning to skyrocket.<br/></p>
 
@@ -50,7 +50,7 @@ image: "/images/news/45592.webp"
 
 <p>Our aim is to <strong>better understand team dynamics, communication styles, and individual preferences</strong>, while also identifying patterns that make us even better at spotting great investments in the future.</p>
 
-<p><img alt="Psychometric Assesment" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45592/45592-3.png"/></p>
+<p><img alt="Psychometric Assesment"  loading="lazy" src="/images/news/45592/45592-3.png"/></p>
 
 <p>There are <strong>no right or wrong answers</strong> in these assessments, and we openly discuss the results with our founders—sharing our own profiles with them as well.<br/></p>
 
@@ -72,7 +72,7 @@ image: "/images/news/45592.webp"
 
 <p>And whether it’s a German kid moving to the U.S. like Peter Thiel, an Iranian-American CEO like Uber’s <a href="https://www.uber.com/us/en/about/leadership/dara-khosrowshahi/" rel="noopener noreferrer" target="_blank">Dara Khosrowshahi</a>, or one of the <a href="https://x.com/sagarbarvaliya/status/1829475201085559218" rel="noopener noreferrer" target="_blank">many Indians</a> leading the tech world, there’s plenty of evidence that immigrant founders, <strong>many of whom faced significant hurdles upon arriving in new countries</strong>, are more likely to succeed.</p>
 
-<p><a href="https://x.com/sagarbarvaliya/status/1829475201085559218" rel="noopener noreferrer" target="_blank"><img alt="Indian Immigrants" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45592/45592-4.png"/></a></p>
+<p><a href="https://x.com/sagarbarvaliya/status/1829475201085559218" rel="noopener noreferrer" target="_blank"><img alt="Indian Immigrants"  loading="lazy" src="/images/news/45592/45592-4.png"/></a></p>
 
 <p>According to a <a href="https://www.forbes.com/sites/stuartanderson/2022/07/26/most-us-billion-dollar-startups-have-an-immigrant-founder/" rel="noopener noreferrer" target="_blank">2022 Forbes article</a>, nearly two-thirds (64%) of U.S. billion-dollar companies were founded or cofounded by immigrants or the children of immigrants.<br/></p>
 
@@ -90,7 +90,7 @@ image: "/images/news/45592.webp"
 
 <p>A few times a year, we host our exclusive "<strong>Dinner &amp; Wine Investor Talks</strong>" in this stunning setting.</p>
 
-<p><img alt="Dinner and Wine Investor Talks" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45592/45592-5.jpg"/></p>
+<p><img alt="Dinner and Wine Investor Talks"  loading="lazy" src="/images/news/45592/45592-5.jpg"/></p>
 
 <p>A small group of thirty investors, founders, and Web3 players comes together to <strong>make new friends</strong>, learn about the Web3 venture capital industry, and exchange notes.<br/></p>
 
@@ -110,7 +110,7 @@ image: "/images/news/45592.webp"
 
 <p>While Marcel and I will be in at Dinner &amp; Wine, Ben and Sagar will be attending <a href="https://devcon.org/en/" rel="noopener noreferrer" target="_blank"><strong>DevCon Thailand</strong></a> from <strong>November 11-14</strong>, 2024, where they’ll be connecting with Web3 founders, developers, and fellow VCs.</p>
 
-<p><a href="https://lu.ma/qp2rxbwu?tk=DCCsK3" rel="noopener noreferrer" target="_blank"><img alt="Ethereum DevCon 2024" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45592/45592-6.jpeg"/></a></p>
+<p><a href="https://lu.ma/qp2rxbwu?tk=DCCsK3" rel="noopener noreferrer" target="_blank"><img alt="Ethereum DevCon 2024"  loading="lazy" src="/images/news/45592/45592-6.jpeg"/></a></p>
 
 <p>Join them and the teams from <a href="https://bitscrunch.com/" rel="noopener noreferrer" target="_blank">bitsCrunch</a>, <a href="https://www.biconomy.io/" rel="noopener noreferrer" target="_blank">Biconomy</a>, <a href="https://1inch.io/" rel="noopener noreferrer" target="_blank">1inch</a>, <a href="https://www.covalent.xyz/" rel="noopener noreferrer" target="_blank">Covalent</a>, and <a href="https://www.techstars.com/" rel="noopener noreferrer" target="_blank">Techstars</a>for a <strong>special networking event in Bangkok.</strong> You can <a href="https://lu.ma/qp2rxbwu?tk=DCCsK3" rel="noopener noreferrer" target="_blank">register for the event here</a>.<br/></p>
 
@@ -122,7 +122,7 @@ image: "/images/news/45592.webp"
 
 <p>What’s even more critical, however, is seeing an inflection point <strong>where something new suddenly becomes possible</strong>, along with the founders' insight into how this will reshape the future.</p>
 
-<p><a href="https://amzn.to/3YdtFZM" rel="noopener noreferrer" target="_blank"><img alt="Mike Males Jr &amp; Peter Ziebelman" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45592/45592-7.jpg"/></a></p>
+<p><a href="https://amzn.to/3YdtFZM" rel="noopener noreferrer" target="_blank"><img alt="Mike Males Jr &amp; Peter Ziebelman"  loading="lazy" src="/images/news/45592/45592-7.jpg"/></a></p>
 
 <p>“The product itself during the seed stage is <strong>just a reference implementation</strong> of that insight,” says Maples. “But the <strong>insight itself should not change</strong>.”<br/></p>
 

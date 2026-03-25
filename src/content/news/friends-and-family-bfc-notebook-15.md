@@ -14,7 +14,7 @@ image: "/images/news/45643.webp"
 
 <p>"<strong>Success</strong>" said Javier Milei recently <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=1f6f47a4c5&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">on Lex Fridman's podcast</a>.</p>
 
-<p><a href="https://www.youtube.com/watch?v=8NLzc9kobDk" rel="noopener noreferrer" target="_blank"><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45643/45643-1.webp"/></a></p>
+<p><a href="https://www.youtube.com/watch?v=8NLzc9kobDk" rel="noopener noreferrer" target="_blank"><img alt="Description of Image"  loading="lazy" src="/images/news/45643/45643-1.webp"/></a></p>
 
 <p><strong>The world could use more crazy people</strong>, the ones who turn into geniuses in the public eye when their ideas start to work.</p>
 
@@ -50,7 +50,7 @@ image: "/images/news/45643.webp"
 
 <p>That is exactly what <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=ff6f714d00&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">Misha van Beek</a> and <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=c63b2a94ec&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">Sebastian Janisch</a> are building with <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=467b7c2e7a&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">Bayesline</a>: risk management software <strong>that operates at the speed of markets</strong>, not at the speed of humans.</p>
 
-<p><a href="https://bayesline.com/" rel="noopener noreferrer" target="_blank"><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45643/45643-2.jpg"/></a></p>
+<p><a href="https://bayesline.com/" rel="noopener noreferrer" target="_blank"><img alt="Description of Image"  loading="lazy" src="/images/news/45643/45643-2.jpg"/></a></p>
 
 <p><a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=24a58c13b5&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">We’re thrilled to be backing</a> these two exceptional founders.</p>
 
@@ -70,7 +70,7 @@ image: "/images/news/45643.webp"
 
 <p>Enter <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=0d3a1a4ec0&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">Kedian Sun</a> and <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=bc7aaba3dc&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">David Lee</a>. With exceptional credentials and deep industry expertise, they’ve built <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=e970c95199&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">Level</a>, <strong>a protocol making stablecoins work harder</strong>.</p>
 
-<p><a href="https://www.level.money/" rel="noopener noreferrer" target="_blank"><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45643/45643-3.webp"/></a></p>
+<p><a href="https://www.level.money/" rel="noopener noreferrer" target="_blank"><img alt="Description of Image"  loading="lazy" src="/images/news/45643/45643-3.webp"/></a></p>
 
 <p>Level issues <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=2e638563a8&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">Level USD (LvIUSD)</a>, the first stablecoin backed by dollar-denominated tokens re-staked on shared security protocols like EigenLayer, Symbiotic, and Karak.</p>
 
@@ -92,13 +92,13 @@ image: "/images/news/45643.webp"
 
 <p>Want a signed copy? Reach out to <a href="mailto:marcel@bfc.vc?subject=Please%20call%20me!&amp;body=" target="_blank">Marcello</a>!</p>
 
-<p><a href="https://amzn.to/3ZYY6Fi" rel="noopener noreferrer" target="_blank"><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45643/45643-4.webp"/></a></p>
+<p><a href="https://amzn.to/3ZYY6Fi" rel="noopener noreferrer" target="_blank"><img alt="Description of Image"  loading="lazy" src="/images/news/45643/45643-4.webp"/></a></p>
 
 <h4>Coming up: Davos Web3 Investor Gathering, January 21, 2025</h4>
 
 <p>Co-hosted with <a href="https://bfc.us8.list-manage.com/track/click?u=b24a4a180be6b26d2e7ed0cdb&amp;id=f6653fe7b9&amp;e=5e776130b3" rel="noopener noreferrer" target="_blank">Animoca Brands</a> and supported by many other amazing partners, this event is the perfect way to kick off the new year with movers and shakers from the industry.</p>
 
-<p><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45643/45643-5.webp"/></p>
+<p><img alt="Description of Image"  loading="lazy" src="/images/news/45643/45643-5.webp"/></p>
 
 <p>If you’re in Davos during the week of January 20-23, we’d love to meet you there!</p>
 

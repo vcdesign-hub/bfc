@@ -22,7 +22,7 @@ image: "/images/news/44671.webp"
 
 <p>This is why ELEET GAMES will involve passionate gamers in all steps along its “Publishing 3.0” process, thus safeguarding a fun game environment. The company plans to make crypto, in the form of tokens and NFTs, fully optional with the expectation of winning the gaming community over with the distinct advantages of decentralization offered by blockchain technology. </p>
 
-<p><img alt="" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/44671/44671-1.webp"/></p>
+<p><img alt=""  loading="lazy" src="/images/news/44671/44671-1.webp"/></p>
 
 <p><strong>ELEET Games wants to become the “Players’ Publisher”</strong> by combining Free-to-Play and Play-to-Earn business models. Unlike traditional publishing, ELEET thinks its players should have a say in the publishing business. In return, the company will also share the commercial success and revenues of the games it publishes with the players. </p>
 

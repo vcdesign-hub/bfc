@@ -12,7 +12,7 @@ image: "/images/news/45637.webp"
 
 <p>While some are still searching for crypto’s “killer app,” stablecoins like Tether and USDC have become indispensable, collectively accounting for more than <strong>$200 billion in market cap</strong>. </p>
 
-<p><a href="https://coinmetrics.substack.com/p/state-of-stablecoins-sector-expansion" rel="noopener noreferrer" target="_blank"><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45637/45637-1.webp"/></a></p>
+<p><a href="https://coinmetrics.substack.com/p/state-of-stablecoins-sector-expansion" rel="noopener noreferrer" target="_blank"><img alt="Description of Image"  loading="lazy" src="/images/news/45637/45637-1.webp"/></a></p>
 
 <p>These digital assets not only provide a safe haven during market fluctuations but also fuel liquidity across cryptocurrency exchanges, enabling smoother trading operations. </p>
 
@@ -52,7 +52,7 @@ image: "/images/news/45637.webp"
 
 <p>Over the last 18 months, they have meticulously developed and refined various stablecoin models, demonstrating a keen understanding of what it takes to bring yield-bearing stablecoins to market.</p>
 
-<p><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45637/45637-2.webp"/></p>
+<p><img alt="Description of Image"  loading="lazy" src="/images/news/45637/45637-2.webp"/></p>
 
 <h4>Market Potential</h4>
 
@@ -60,7 +60,7 @@ image: "/images/news/45637.webp"
 
 <p>Despite not yet launching its product, the platform has already secured $10 million in Total Value Locked (TVL) as of December 2024.</p>
 
-<p><img alt="Description of Image" class="mx-auto w-full max-w-full rounded-2xl lg:w-[70%]" loading="lazy" src="/images/news/45637/45637-3.webp"/></p>
+<p><img alt="Description of Image"  loading="lazy" src="/images/news/45637/45637-3.webp"/></p>
 
 <p>As an early mover in the stablecoin restaking space, Level is well-positioned to establish a strong competitive moat, attract significant liquidity, and <strong>redefine the stablecoin landscape</strong>.</p>
 
