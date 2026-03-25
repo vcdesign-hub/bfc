@@ -48,7 +48,7 @@ const filterLabels = Object.fromEntries([
 const testimonialsRaw = await getCollection("testimonials");
 
 const testimonials = testimonialsRaw
-  .sort((a, b) => (b.data.order ?? 0) - (a.data.order ?? 0))
+.sort((a, b) => (b.data.order ?? 0) - (a.data.order ?? 0))
   .map((item) => ({
     category: normalizeValue(item.data.category),
     quote: item.data.quote,
@@ -57,10 +57,11 @@ const testimonials = testimonialsRaw
     company: item.data.company,
     logo: item.data.logo,
     image: item.data.image,
+    order: item.data.order ?? 9999,
   }));
 
-const defaultTestimonial =
-  testimonials.find((t) => t.category === "all") || testimonials[0];
+const allTestimonials = testimonials.filter((t) => t.category === "all");
+const defaultTestimonial = allTestimonials[0] ?? null;
 ---
 
 <Layout title="Portfolio | BFC">
@@ -230,7 +231,10 @@ const defaultTestimonial =
       ))}
     </section>
 
-    <section class="container-default py-24">
+    <section
+      id="testimonial-section"
+      class={`container-default py-24 ${defaultTestimonial ? "" : "hidden"}`}
+    >
       <div class="max-w-6xl">
         <div class="mb-10 max-w-2xl">
           <h2 class="text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
@@ -241,15 +245,17 @@ const defaultTestimonial =
           </p>
         </div>
 
-        <TestimonialCard
-          id="testimonial-card"
-          quote={defaultTestimonial.quote}
-          name={defaultTestimonial.name}
-          role={defaultTestimonial.role}
-          company={defaultTestimonial.company}
-          logo={defaultTestimonial.logo}
-          image={defaultTestimonial.image}
-        />
+        {defaultTestimonial && (
+          <TestimonialCard
+            id="testimonial-card"
+            quote={defaultTestimonial.quote}
+            name={defaultTestimonial.name}
+            role={defaultTestimonial.role}
+            company={defaultTestimonial.company}
+            logo={defaultTestimonial.logo}
+            image={defaultTestimonial.image}
+          />
+        )}
       </div>
     </section>
   </main>
@@ -258,22 +264,30 @@ const defaultTestimonial =
     document.addEventListener("DOMContentLoaded", () => {
       const buttons = document.querySelectorAll(".filter-btn");
       const items = document.querySelectorAll(".portfolio-item");
+      const testimonialSection = document.getElementById("testimonial-section");
       const testimonialCard = document.getElementById("testimonial-card");
 
       let active = "all";
 
+      function getTestimonial(category) {
+        const matches = testimonials.filter((t) => t.category === category);
+        if (matches.length > 0) {
+          return matches[0];
+        }
+        return null;
+      }
+
       function updateTestimonial(category) {
-        if (!testimonialCard) return;
+        if (!testimonialSection || !testimonialCard) return;
 
-        const matchingTestimonials = testimonials.filter(
-          (t) => t.category === category
-        );
+        const data = getTestimonial(category);
 
-        const data =
-          matchingTestimonials[0] ||
-          testimonials.find((t) => t.category === "all");
+        if (!data) {
+          testimonialSection.classList.add("hidden");
+          return;
+        }
 
-        if (!data) return;
+        testimonialSection.classList.remove("hidden");
 
         const quote = testimonialCard.querySelector("[data-quote]");
         const name = testimonialCard.querySelector("[data-name]");
@@ -286,10 +300,12 @@ const defaultTestimonial =
         if (name) name.textContent = data.name;
         if (role) role.textContent = data.role;
         if (company) company.textContent = data.company ?? "";
+
         if (logo && data.logo) {
           logo.src = data.logo;
           logo.alt = `${data.company ?? data.name} logo`;
         }
+
         if (image && data.image) {
           image.src = data.image;
           image.alt = data.name;
@@ -316,6 +332,8 @@ const defaultTestimonial =
           updateTestimonial(active);
         });
       });
+
+      updateTestimonial(active);
     });
   </script>
 </Layout>
