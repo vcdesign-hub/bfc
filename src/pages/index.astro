@@ -17,8 +17,8 @@ const portfolioItems = portfolioRaw
 
 const allNews = await getCollection("news");
 
-const latestNews = allNews
-  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
+const latestNews = [...allNews]
+  .sort((a, b) => b.data.order - a.data.order)
   .slice(0, 3);
 
 const newsItems = latestNews.map((item) => ({
@@ -71,6 +71,33 @@ const snapshots = snapshotsRaw
     image: item.data.image,
     caption: item.data.caption,
   }));
+
+const testimonialsRaw = await getCollection("testimonials");
+
+const testimonials = testimonialsRaw
+  .sort((a, b) => (b.data.order ?? 0) - (a.data.order ?? 0))
+  .map((item) => ({
+    category: item.data.category.trim().toLowerCase(),
+    company: item.data.company,
+    quote: item.data.quote,
+    name: item.data.name,
+    role: item.data.role,
+    logo: item.data.logo,
+    image: item.data.image,
+    order: item.data.order,
+  }));
+
+  const creatorsTestimonials = testimonials
+  .filter(
+    (item) =>
+      item.category === "creators" || item.category === "creator"
+  )
+  .sort((a, b) => (a.order ?? 0) - (b.order ?? 0)); // ascending
+
+const creatorsTestimonial =
+  creatorsTestimonials[0] ||
+  testimonials.find((item) => item.category === "all") ||
+  testimonials[0];
 ---
 
 <Layout title="BFC | Venture Capital for the Future of the Internet">
@@ -97,13 +124,6 @@ const snapshots = snapshotsRaw
               alt={item.name}
               class="absolute inset-0 h-full w-full object-cover transition duration-300 group-hover:scale-[1.02]"
             />
-
-            <!-- <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-slate-950/20 to-transparent"></div>
-
-            <div class="relative z-10 flex h-full flex-col justify-end p-8 text-white">
-              <h3 class="text-2xl font-bold tracking-tight md:text-3xl">{item.name}</h3>
-              <p class="mt-3 text-sm leading-6 text-white/80">{item.desc}</p>
-            </div> -->
           </article>
         ))}
       </div>
@@ -144,15 +164,17 @@ const snapshots = snapshotsRaw
             We back founders with conviction and stay close when it matters most.
           </p>
         </div>
-    
-      <TestimonialCard
-      quote="Blockchain Founders Capital relentlessly supported us during our fundraising, even before the paperwork was signed. I completely trust them and plan to be lifelong partners."
-      name="Raechel Lambert"
-      role="CEO and Co Founder of River"
-      company="River"
-      logo="/images/portfolio/river_logo.jpg"
-      image="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=1000&q=80"
-      />
+
+        {creatorsTestimonial && (
+          <TestimonialCard
+            quote={creatorsTestimonial.quote}
+            name={creatorsTestimonial.name}
+            role={creatorsTestimonial.role}
+            company={creatorsTestimonial.company}
+            logo={creatorsTestimonial.logo}
+            image={creatorsTestimonial.image}
+          />
+        )}
       </div>
     </section>
 
@@ -191,7 +213,7 @@ const snapshots = snapshotsRaw
       <p class="mt-3 text-lg text-slate-600">
         Click on any photo to view all snapshots.
       </p>
-    
+
       <div class="mt-12 grid grid-cols-2 gap-4 md:grid-cols-4 lg:grid-cols-5">
         {snapshots.map((item) => (
           <a

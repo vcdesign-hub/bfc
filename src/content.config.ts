@@ -3,7 +3,7 @@ import { defineCollection, z } from "astro:content";
 const news = defineCollection({
   type: "content",
   schema: z.object({
-    order: z.number(), // 👈 ADD THIS
+    order: z.number(),
     title: z.string(),
     description: z.string(),
     tag: z.string(),
@@ -49,23 +49,12 @@ const team = defineCollection({
     bioHighlight: z.string().optional(),
     location: z.string(),
     linkedinUrl: z.string().optional(),
-    emailUrl: z.string().optional(),
-    languages: z.array(z.string()),
-    logos: z.array(z.string()),
+    websiteUrl: z.string().optional(),
+    languages: z.array(z.string()).optional(),
+    logos: z.array(z.string()).optional(),
     order: z.number(),
   }),
 });
-
-const partners = defineCollection({
-  type: "content",
-  schema: z.object({
-    name: z.string(),
-    image: z.string(),
-    url: z.string(),
-    order: z.number().optional(),
-  }),
-});
-
 
 const snapshots = defineCollection({
   type: "content",
@@ -76,11 +65,24 @@ const snapshots = defineCollection({
   }),
 });
 
+const testimonials = defineCollection({
+  type: "content",
+  schema: z.object({
+    company: z.string(),
+    category: z.string(),
+    quote: z.string(),
+    name: z.string(),
+    role: z.string(),
+    logo: z.string().optional(),
+    image: z.string(),
+    order: z.number().optional(),
+  }),
+});
 
 export const collections = {
   news,
   portfolio,
   team,
-  partners,
   snapshots,
+  testimonials,
 };

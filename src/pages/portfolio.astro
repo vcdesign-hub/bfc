@@ -3,6 +3,9 @@ import Layout from "../layouts/Layout.astro";
 import { getCollection } from "astro:content";
 import TestimonialCard from "../components/TestimonialCard.astro";
 
+const normalizeValue = (value: string) => value.trim().toLowerCase();
+
+// PORTFOLIO
 const companiesRaw = await getCollection("portfolio");
 
 const companies = companiesRaw
@@ -10,6 +13,7 @@ const companies = companiesRaw
   .map((item) => ({
     name: item.data.name,
     category: item.data.category,
+    categoryKey: normalizeValue(item.data.category),
     founders: item.data.founders,
     description: item.data.description,
     mission: item.data.mission,
@@ -26,8 +30,37 @@ const companies = companiesRaw
     order: item.data.order,
   }));
 
-const categories = [...new Set(companies.map((c) => c.category))];
-const filters = ["All", ...categories];
+const categoryMap = new Map<string, string>();
+
+companies.forEach((company) => {
+  if (!categoryMap.has(company.categoryKey)) {
+    categoryMap.set(company.categoryKey, company.category);
+  }
+});
+
+const filters = ["all", ...categoryMap.keys()];
+const filterLabels = Object.fromEntries([
+  ["all", "All"],
+  ...Array.from(categoryMap.entries()),
+]);
+
+// TESTIMONIALS
+const testimonialsRaw = await getCollection("testimonials");
+
+const testimonials = testimonialsRaw
+  .sort((a, b) => (b.data.order ?? 0) - (a.data.order ?? 0))
+  .map((item) => ({
+    category: normalizeValue(item.data.category),
+    quote: item.data.quote,
+    name: item.data.name,
+    role: item.data.role,
+    company: item.data.company,
+    logo: item.data.logo,
+    image: item.data.image,
+  }));
+
+const defaultTestimonial =
+  testimonials.find((t) => t.category === "all") || testimonials[0];
 ---
 
 <Layout title="Portfolio | BFC">
@@ -50,13 +83,14 @@ const filters = ["All", ...categories];
         {filters.map((filter, index) => (
           <button
             type="button"
-            class={`rounded-full px-5 py-2 text-sm font-medium transition ${
+            class={`filter-btn rounded-full px-5 py-2 text-sm font-medium transition ${
               index === 0
                 ? "bg-slate-900 text-white"
                 : "bg-slate-100 text-slate-600 hover:bg-slate-200"
             }`}
+            data-filter={filter}
           >
-            {filter}
+            {filterLabels[filter]}
           </button>
         ))}
       </div>
@@ -66,7 +100,7 @@ const filters = ["All", ...categories];
       {companies.map((company) => (
         <article
           class="portfolio-item grid items-center gap-10 md:gap-12 lg:grid-cols-[minmax(0,0.75fr)_minmax(0,1.75fr)]"
-          data-category={company.category}
+          data-category={company.categoryKey}
         >
           <div class={`group relative aspect-[1/1] overflow-hidden rounded-[28px] ${company.imageBg}`}>
             <img
@@ -206,45 +240,80 @@ const filters = ["All", ...categories];
             We back founders with conviction and stay close when it matters most.
           </p>
         </div>
-    
-      <TestimonialCard
-      quote="Blockchain Founders Capital relentlessly supported us during our fundraising, even before the paperwork was signed. I completely trust them and plan to be lifelong partners."
-      name="Raechel Lambert"
-      role="CEO and Co Founder of River"
-      company="River"
-      logo="/images/portfolio/river_logo.jpg"
-      image="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=1000&q=80"
-      />
+
+        <TestimonialCard
+          id="testimonial-card"
+          quote={defaultTestimonial.quote}
+          name={defaultTestimonial.name}
+          role={defaultTestimonial.role}
+          company={defaultTestimonial.company}
+          logo={defaultTestimonial.logo}
+          image={defaultTestimonial.image}
+        />
       </div>
     </section>
   </main>
 
-  <script>
-    const buttons = document.querySelectorAll(".sticky button");
-    const items = document.querySelectorAll(".portfolio-item");
+  <script is:inline define:vars={{ testimonials }}>
+    document.addEventListener("DOMContentLoaded", () => {
+      const buttons = document.querySelectorAll(".filter-btn");
+      const items = document.querySelectorAll(".portfolio-item");
+      const testimonialCard = document.getElementById("testimonial-card");
 
-    let active = "All";
+      let active = "all";
 
-    buttons.forEach((btn) => {
-      btn.addEventListener("click", () => {
-        buttons.forEach((b) => {
-          b.classList.remove("bg-slate-900", "text-white");
-          b.classList.add("bg-slate-100", "text-slate-600");
-        });
+      function updateTestimonial(category) {
+        if (!testimonialCard) return;
 
-        btn.classList.remove("bg-slate-100", "text-slate-600");
-        btn.classList.add("bg-slate-900", "text-white");
+        const matchingTestimonials = testimonials.filter(
+          (t) => t.category === category
+        );
 
-        active = btn.textContent.trim();
+        const data =
+          matchingTestimonials[0] ||
+          testimonials.find((t) => t.category === "all");
 
-        items.forEach((item) => {
-          const cat = item.dataset.category;
+        if (!data) return;
 
-          if (active === "All" || cat === active) {
-            item.style.display = "grid";
-          } else {
-            item.style.display = "none";
-          }
+        const quote = testimonialCard.querySelector("[data-quote]");
+        const name = testimonialCard.querySelector("[data-name]");
+        const role = testimonialCard.querySelector("[data-role]");
+        const company = testimonialCard.querySelector("[data-company]");
+        const logo = testimonialCard.querySelector("[data-logo]");
+        const image = testimonialCard.querySelector("[data-image]");
+
+        if (quote) quote.textContent = data.quote;
+        if (name) name.textContent = data.name;
+        if (role) role.textContent = data.role;
+        if (company) company.textContent = data.company ?? "";
+        if (logo && data.logo) {
+          logo.src = data.logo;
+          logo.alt = `${data.company ?? data.name} logo`;
+        }
+        if (image && data.image) {
+          image.src = data.image;
+          image.alt = data.name;
+        }
+      }
+
+      buttons.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          buttons.forEach((b) => {
+            b.classList.remove("bg-slate-900", "text-white");
+            b.classList.add("bg-slate-100", "text-slate-600");
+          });
+
+          btn.classList.remove("bg-slate-100", "text-slate-600");
+          btn.classList.add("bg-slate-900", "text-white");
+
+          active = btn.dataset.filter;
+
+          items.forEach((item) => {
+            const cat = item.dataset.category;
+            item.style.display = active === "all" || cat === active ? "grid" : "none";
+          });
+
+          updateTestimonial(active);
         });
       });
     });
