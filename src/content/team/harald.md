@@ -13,9 +13,13 @@ languages:
   - "German"
   - "English"
 logos:
-  - "NBT"
-  - "weeve"
-  - "bitkom"
-  - "cisco"
+  - name: "NBT"
+    image: "/images/team/harald/nbt.png"
+  - name: "weeve"
+    image: "/images/team/harald/weeve.png"
+  - name: "bitkom"
+    image: "/images/team/harald/bitkom.png"
+  - name: "cisco"
+    image: "/images/team/harald/cisco.png"
 order: 10
 ---

@@ -11,6 +11,7 @@ const companiesRaw = await getCollection("portfolio");
 const companies = companiesRaw
   .sort((a, b) => b.data.order - a.data.order)
   .map((item) => ({
+    slug: item.slug,
     name: item.data.name,
     category: item.data.category,
     categoryKey: normalizeValue(item.data.category),
@@ -48,7 +49,7 @@ const filterLabels = Object.fromEntries([
 const testimonialsRaw = await getCollection("testimonials");
 
 const testimonials = testimonialsRaw
-.sort((a, b) => (b.data.order ?? 0) - (a.data.order ?? 0))
+  .sort((a, b) => (b.data.order ?? 0) - (a.data.order ?? 0))
   .map((item) => ({
     category: normalizeValue(item.data.category),
     quote: item.data.quote,
@@ -100,7 +101,8 @@ const defaultTestimonial = allTestimonials[0] ?? null;
     <section class="container-default space-y-24 py-12 md:py-16">
       {companies.map((company) => (
         <article
-          class="portfolio-item grid items-center gap-10 md:gap-12 lg:grid-cols-[minmax(0,0.75fr)_minmax(0,1.75fr)]"
+          id={company.slug}
+          class="portfolio-item scroll-mt-32 grid items-center gap-10 md:gap-12 lg:grid-cols-[minmax(0,0.75fr)_minmax(0,1.75fr)]"
           data-category={company.categoryKey}
         >
           <div class={`group relative aspect-[1/1] overflow-hidden rounded-[28px] ${company.imageBg}`}>

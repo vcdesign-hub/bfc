@@ -201,8 +201,12 @@ const defaultBioParts = defaultPerson
                   </p>
                   <div id="detail-logos" class="mt-4 grid grid-cols-2 gap-3">
                     {defaultPerson.logos.map((logo) => (
-                      <div class="flex h-12 items-center justify-center rounded-lg bg-white text-xs font-semibold text-slate-500 shadow-sm ring-1 ring-slate-200">
-                        {logo}
+                      <div class="flex h-14 items-center justify-center rounded-xl border border-slate-200 bg-white p-3 shadow-sm">
+                        <img
+                          src={logo.image}
+                          alt={logo.name}
+                          class="max-h-8 w-auto object-contain"
+                        />
                       </div>
                     ))}
                   </div>
@@ -304,12 +308,14 @@ const defaultBioParts = defaultPerson
         )
         .join("");
 
-      detailLogos.innerHTML = logos
-        .map(
-          (logo) =>
-            `<div class="flex h-12 items-center justify-center rounded-lg bg-white text-xs font-semibold text-slate-500 shadow-sm ring-1 ring-slate-200">${logo}</div>`
-        )
-        .join("");
+        detailLogos.innerHTML = logos
+          .map(
+            (logo) =>
+              `<div class="flex h-22 items-center justify-center rounded-xl border border-slate-200 bg-white p-3 shadow-sm">
+                <img src="${logo.image}" alt="${logo.name}" class="max-h-13 w-auto object-contain" />
+              </div>`
+          )
+          .join("");
     }
 
     filterButtons.forEach((button) => {

@@ -15,7 +15,9 @@ languages:
   - "French"
   - "Italian"
 logos:
-  - "Karlsruher Intitut fur Technologie"
-  - "pwc"
+  - name: "Karlsruher Intitut fur Technologie"
+    image: "/images/team/peter_kleinschmidt/karlsruher-intitut-fur-technologie.png"
+  - name: "pwc"
+    image: "/images/team/peter_kleinschmidt/pwc.png"
 order: 7
 ---

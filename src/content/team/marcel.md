@@ -13,10 +13,15 @@ languages:
   - "German"
   - "English"
 logos:
-  - "HTWD"
-  - "Immutable Insight"
-  - "VvBank"
-  - "Baader"
-  - "BNP Paribas"
+  - name: "HTWD"
+    image: "/images/team/marcel/htwd.png"
+  - name: "Immutable Insight"
+    image: "/images/team/marcel/immutable-insight.png"
+  - name: "VvBank"
+    image: "/images/team/marcel/vvbank.png"
+  - name: "Baader"
+    image: "/images/team/marcel/baader.png"
+  - name: "BNP Paribas"
+    image: "/images/team/marcel/bnp-paribas.png"
 order: 9
 ---

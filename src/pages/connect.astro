@@ -6,31 +6,37 @@ const contactCards = [
     title: 'Startup Funding',
     desc: 'Tell us about what you are planning to do. Make us curious.',
     button: 'Apply for funding',
+    href: 'https://forms.gle/fQakPfTVJmLLoMmA7',
   },
   {
     title: 'Job Opportunities',
     desc: 'Check out the jobs pages of our portfolio companies.',
     button: 'Check for jobs',
+    href: '/portfolio',
   },
   {
     title: 'Media Inquiries',
     desc: 'For requests, opinions, or insights, reach out to Ben Horvath.',
     button: 'Contact Ben',
+    href: 'mailto:ben@bfc.vc',
   },
   {
     title: 'Become an Investor',
     desc: 'Interested professional investors should contact Wolfgang Männel.',
     button: 'Contact Wolfgang',
+    href: 'mailto:wolfgang@bfc.vc',
   },
   {
     title: 'Investor Portal',
     desc: 'All the documents, all the numbers at a glance for our investors only.',
     button: 'Login',
+    href: 'https://investors.bfc.vc/',
   },
   {
     title: 'Investor Events',
     desc: 'For event and investor gatherings please contact Sagar.',
     button: 'Contact Sagar',
+    href: 'mailto:sagar@bfc.vc',
   },
 ];
 ---
@@ -69,9 +75,14 @@ const contactCards = [
 
 <div class="mt-8 border-t border-slate-200 pt-6">
 
-<button class="rounded-full bg-blue-700 px-6 py-3 text-sm font-semibold text-white transition hover:bg-blue-800">
-{item.button}
-</button>
+  <a
+    href={item.href}
+    class="btn-primary inline-flex items-center justify-center"
+    target={item.href.startsWith('http') ? '_blank' : '_self'}
+    rel={item.href.startsWith('http') ? 'noopener noreferrer' : undefined}
+  >
+    {item.button}
+  </a>
 
 </div>
 

@@ -13,8 +13,11 @@ languages:
   - "English"
   - "Swedish"
 logos:
-  - "Ninety One"
-  - "Goldman Sachs"
-  - "J.P Morgan"
+  - name: "Ninety One"
+    image: "/images/team/maik/ninety-one.png"
+  - name: "Goldman Sachs"
+    image: "/images/team/maik/goldman-sachs.png"
+  - name: "J.P Morgan"
+    image: "/images/team/maik/j-p-morgan.png"
 order: 6
 ---

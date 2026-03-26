@@ -13,9 +13,13 @@ languages:
   - "German"
   - "English"
 logos:
-  - "University of Mannheim"
-  - "KPMG"
-  - "Medpex"
-  - "Zur Rose Group"
+  - name: "University of Mannheim"
+    image: "/images/team/ulrich/university-of-mannheim.png"
+  - name: "KPMG"
+    image: "/images/team/ulrich/kpmg.png"
+  - name: "Medpex"
+    image: "/images/team/ulrich/medpex.png"
+  - name: "Zur Rose Group"
+    image: "/images/team/ulrich/zur-rose-group.png"
 order: 8
 ---

@@ -13,8 +13,11 @@ languages:
   - "German"
   - "English"
 logos:
-  - "twinds"
-  - "Dark Cryptonite"
-  - "asvin.io"
+  - name: "twinds"
+    image: "/images/team/mirko/twinds.png"
+  - name: "Dark Cryptonite"
+    image: "/images/team/mirko/dark-cryptonite.png"
+  - name: "asvin.io"
+    image: "/images/team/mirko/asvin-io.png"
 order: 12
 ---

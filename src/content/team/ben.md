@@ -13,10 +13,15 @@ languages:
   - "German"
   - "English"
 logos:
-  - "Otto Beisheim School of Management"
-  - "Rocket Internet"
-  - "Frankfurt Blockchain Center"
-  - "ITSA"
-  - "Blockrocket"
+  - name: "Otto Beisheim School of Management"
+    image: "/images/team/ben/otto-beisheim-school-of-management.png"
+  - name: "Rocket Internet"
+    image: "/images/team/ben/rocket-internet.png"
+  - name: "Frankfurt Blockchain Center"
+    image: "/images/team/ben/frankfurt-blockchain-center.png"
+  - name: "ITSA"
+    image: "/images/team/ben/itsa.png"
+  - name: "Blockrocket"
+    image: "/images/team/ben/blockrocket.png"
 order: 2
 ---

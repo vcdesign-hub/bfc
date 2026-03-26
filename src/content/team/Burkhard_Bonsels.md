@@ -13,10 +13,15 @@ languages:
   - "English"
   - "German"
 logos:
-  - "Technische Universitat Darmstadt"
-  - "Universitat Passau"
-  - "Boston Consulting Group"
-  - "Quadriga Capital"
-  - "Athanor Capital"
+  - name: "Technische Universitat Darmstadt"
+    image: "/images/team/burkhard_bonsels/technische-universitat-darmstadt.png"
+  - name: "Universitat Passau"
+    image: "/images/team/burkhard_bonsels/universitat-passau.png"
+  - name: "Boston Consulting Group"
+    image: "/images/team/burkhard_bonsels/boston-consulting-group.png"
+  - name: "Quadriga Capital"
+    image: "/images/team/burkhard_bonsels/quadriga-capital.png"
+  - name: "Athanor Capital"
+    image: "/images/team/burkhard_bonsels/athanor-capital.png"
 order: 4
 ---

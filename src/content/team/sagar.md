@@ -15,11 +15,17 @@ languages:
   - "English"
   - "German"
 logos:
-  - "SVKM'S NMIMS"
-  - "Technische Universitat Dresden"
-  - "Porsche"
-  - "Techstars"
-  - "Blockrocket"
-  - "ETH Munich"
+  - name: "SVKM'S NMIMS"
+    image: "/images/team/sagar/svkm-s-nmims.png"
+  - name: "Technische Universitat Dresden"
+    image: "/images/team/sagar/technische-universitat-dresden.png"
+  - name: "Porsche"
+    image: "/images/team/sagar/porsche.png"
+  - name: "Techstars"
+    image: "/images/team/sagar/techstars.png"
+  - name: "Blockrocket"
+    image: "/images/team/sagar/blockrocket.png"
+  - name: "ETH Munich"
+    image: "/images/team/sagar/eth-munich.png"
 order: 1
 ---

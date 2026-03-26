@@ -13,10 +13,15 @@ languages:
   - "German"
   - "English"
 logos:
-  - "The University of Nottingham"
-  - "Justus-Liebig Universitat Giessen"
-  - "Wolters Kluwer"
-  - "Annerton"
-  - "Deliotte"
+  - name: "The University of Nottingham"
+    image: "/images/team/alireza/the-university-of-nottingham.png"
+  - name: "Justus-Liebig Universitat Giessen"
+    image: "/images/team/alireza/justus-liebig-universitat-giessen.png"
+  - name: "Wolters Kluwer"
+    image: "/images/team/alireza/wolters-kluwer.png"
+  - name: "Annerton"
+    image: "/images/team/alireza/annerton.png"
+  - name: "Deliotte"
+    image: "/images/team/alireza/deliotte.png"
 order: 13
 ---

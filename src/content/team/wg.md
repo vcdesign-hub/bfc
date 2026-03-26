@@ -14,10 +14,15 @@ languages:
   - "English"
   - "French"
 logos:
-  - "European Business School"
-  - "Capgemini Invent"
-  - "Mars"
-  - "3i Group"
-  - "Munich Innovation Group"
+  - name: "European Business School"
+    image: "/images/team/wg/european-business-school.png"
+  - name: "Capgemini Invent"
+    image: "/images/team/wg/capgemini-invent.png"
+  - name: "Mars"
+    image: "/images/team/wg/mars.png"
+  - name: "3i Group"
+    image: "/images/team/wg/3i-group.png"
+  - name: "Munich Innovation Group"
+    image: "/images/team/wg/munich-innovation-group.png"
 order: 3
 ---
