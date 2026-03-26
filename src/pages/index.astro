@@ -37,18 +37,26 @@ const focusCards = [
   {
     title: "Scope",
     text: "Non consensus insight driven ideas based on inflection points",
+    number: "01",
+    image: "https://cdn.pixabay.com/photo/2012/03/03/23/15/abstract-21613_1280.jpg",
   },
   {
     title: "Founders",
     text: "Obsessed founder teams who want to make a dent in the universe",
+    number: "02",
+    image: "https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_1280.jpg",
   },
   {
     title: "Phase",
     text: "Pre Product Market Fit Pre Seed and Seed",
+    number: "03",
+    image: "https://cdn.pixabay.com/photo/2015/05/28/14/53/ux-788002_1280.jpg",
   },
   {
     title: "Tickets",
     text: "$300k in Europe, North America, Asia",
+    number: "04",
+    image: "https://images.pexels.com/photos/5846577/pexels-photo-5846577.jpeg?cs=srgb&dl=pexels-knowbuddy-3920376-5846577.jpg&fm=jpg",
   },
 ];
 
@@ -96,16 +104,20 @@ const creatorsTestimonial =
   creatorsTestimonials[0] ||
   testimonials.find((item) => item.category === "all") ||
   testimonials[0];
+
+
+
+  
 ---
 
 <Layout title="BFC | Venture Capital for the Future of the Internet">
   <main>
     <section class="container-default py-20 md:py-28">
       <div class="max-w-5xl">
-        <h1 class="max-w-4xl text-4xl font-extrabold leading-tight tracking-tight text-slate-900 md:text-6xl">
+        <h1 class="max-w-4xl text-4xl font-extrabold leading-tight tracking-tight text-slate-900 dark:text-slate-100 md:text-6xl">
           We invest in founders building the future of the internet
         </h1>
-        <p class="mt-6 max-w-2xl text-lg leading-8 text-slate-600">
+        <p class="mt-6 max-w-2xl text-lg leading-8 text-slate-600 dark:text-slate-300">
           We are honored to back fantastic teams on a mission.
         </p>
       </div>
@@ -119,38 +131,68 @@ const creatorsTestimonial =
       ></div>
     </section>
 
-    <section class="bg-slate-50 py-24">
-      <div class="container-default">
-        <h2 class="text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
-          Our investment focus
-        </h2>
-        <p class="mt-3 text-lg text-slate-600">
-          We like to invest in things that no one cares about. Yet.
-        </p>
+   
 
-        <div class="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
-          {focusCards.map((card) => (
-            <article class="overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-soft">
-              <div class="flex items-center justify-between bg-slate-900 px-4 py-3 text-white">
-                <span class="text-xs font-bold uppercase tracking-[0.2em]">{card.title}</span>
-                <span class="text-sm opacity-70">●</span>
+<section class="bg-slate-50 py-24 dark:bg-slate-900/40">
+  <div class="container-default">
+    <h2 class="text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-200 md:text-4xl">
+      Our investment focus
+    </h2>
+    <p class="mt-3 max-w-3xl text-lg text-slate-600 dark:text-slate-300">
+      We like to invest in things that no one cares about. Yet.
+    </p>
+
+    <div class="mt-12 grid gap-6 md:grid-cols-2">
+      {focusCards.map((card) => (
+        <article class="group overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-soft transition duration-200  dark:border-slate-800 dark:bg-slate-900">
+          <div class="grid h-full gap-0 md:grid-cols-[220px_minmax(0,1fr)]">
+            <div class="relative min-h-[220px] overflow-hidden border-b border-slate-200 bg-slate-100 dark:border-slate-800 dark:bg-slate-800 md:min-h-full md:border-b-0 md:border-r">
+              <img
+                src={card.image}
+                alt={card.title}
+                class="h-full w-full object-cover transition duration-300 group-hover:scale-105"
+                loading="lazy"
+              />
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950/20 to-transparent dark:from-slate-950/30"></div>
+
+              <!-- <span class="absolute left-4 top-4 inline-flex rounded-full bg-slate-900 px-3 py-1 text-[11px] font-bold uppercase tracking-[0.2em] text-white dark:bg-slate-100 dark:text-slate-900">
+                {card.title}
+              </span> -->
+            </div>
+
+            <div class="flex h-full flex-col p-8">
+              <div class="flex items-start justify-between gap-4">
+                <p class="max-w-[22rem] text-2xl font-medium leading-9 tracking-tight text-slate-900 dark:text-slate-100">
+                  {card.text}
+                </p>
+
+                <!-- <span class="mt-1 hidden h-10 w-10 shrink-0 items-center justify-center rounded-full border border-slate-200 text-slate-400 transition group-hover:border-blue-200 group-hover:text-blue-600 dark:border-slate-700 dark:text-slate-500 dark:group-hover:border-blue-400/30 dark:group-hover:text-blue-400 md:flex">
+                  →
+                </span> -->
               </div>
-              <div class="flex min-h-[180px] items-center justify-center p-8 text-center">
-                <p class="font-medium leading-7 text-slate-800">{card.text}</p>
+
+              <div class="mt-8 flex items-center justify-between border-t border-slate-200 pt-6 text-xs uppercase tracking-[0.18em] text-slate-400 dark:border-slate-800 dark:text-slate-500">
+                <span>{card.title}</span>
+                <span>{card.number}</span>
               </div>
-            </article>
-          ))}
-        </div>
-      </div>
-    </section>
+            </div>
+          </div>
+        </article>
+      ))}
+    </div>
+  </div>
+</section>
+
+
+  
 
     <section class="container-default py-24">
       <div class="max-w-6xl">
         <div class="mb-10 max-w-2xl">
-          <h2 class="text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
+          <h2 class="text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-100 md:text-4xl">
             What our founders say about us
           </h2>
-          <p class="mt-3 text-lg text-slate-600">
+          <p class="mt-3 text-lg text-slate-600 dark:text-slate-300">
             We back founders with conviction and stay close when it matters most.
           </p>
         </div>
@@ -168,39 +210,39 @@ const creatorsTestimonial =
       </div>
     </section>
 
-    <section class="border-y border-slate-200 bg-white py-24">
-      <div class="container-default">
-        <h2 class="text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
-          It takes a village to raise a startup
-        </h2>
-        <p class="mt-3 max-w-3xl text-lg text-slate-600">
-          We share ideas, learn from, and co invest with leading minds in the blockchain and venture capital community.
-        </p>
+    <section class="border-y border-slate-200 bg-white py-24 dark:border-slate-800 dark:bg-slate-950">
+  <div class="container-default">
+    <h2 class="text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-100 md:text-4xl">
+      It takes a village to raise a startup
+    </h2>
+    <p class="mt-3 max-w-3xl text-lg text-slate-600 dark:text-slate-300">
+      We share ideas, learn from, and co invest with leading minds in the blockchain and venture capital community.
+    </p>
 
-        <div class="mt-12 grid grid-cols-2 gap-px overflow-hidden rounded-3xl border border-slate-200 bg-slate-200 md:grid-cols-4 lg:grid-cols-6">
-          {partners.map((partner) => (
-            <a
-              href={partner.url}
-              target="_blank"
-              rel="noreferrer"
-              class="flex h-24 items-center justify-center bg-white px-6 transition hover:bg-slate-50"
-            >
-              <img
-                src={partner.image}
-                alt={partner.name}
-                class="max-h-20 w-auto object-contain opacity-70 transition hover:opacity-100"
-              />
-            </a>
-          ))}
-        </div>
-      </div>
-    </section>
+    <div class="mt-12 grid grid-cols-2 gap-px overflow-hidden rounded-3xl border border-slate-200 bg-slate-200 dark:border-slate-800 dark:bg-slate-300 md:grid-cols-4 lg:grid-cols-6">
+      {partners.map((partner) => (
+        <a
+          href={partner.url}
+          target="_blank"
+          rel="noreferrer"
+          class="flex h-24 items-center justify-center bg-white px-6 transition hover:bg-slate-10 dark:bg-slate-10 dark:hover:bg-white"
+        >
+          <img
+            src={partner.image}
+            alt={partner.name}
+            class="max-h-20 w-auto object-contain opacity-70 transition hover:opacity-100 dark:opacity-90"
+          />
+        </a>
+      ))}
+    </div>
+  </div>
+</section>
 
     <section class="container-default py-24">
-      <h2 class="text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
+      <h2 class="text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-100 md:text-4xl">
         Meeting founders, investors and friends
       </h2>
-      <p class="mt-3 text-lg text-slate-600">
+      <p class="mt-3 text-lg text-slate-600 dark:text-slate-300">
         Click on any photo to view all snapshots.
       </p>
 
@@ -221,20 +263,20 @@ const creatorsTestimonial =
       </div>
     </section>
 
-    <section class="container-default border-t border-slate-200 py-24">
+    <section class="container-default border-t border-slate-200 py-24 dark:border-slate-800">
       <div class="flex items-end justify-between gap-6">
         <div>
-          <h2 class="text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
+          <h2 class="text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-100 md:text-4xl">
             What we have been up to
           </h2>
-          <p class="mt-3 text-lg text-slate-600">
-            Do not forget to <a href="/news" class="font-medium text-slate-900 underline">subscribe</a> to our newsletter.
+          <p class="mt-3 text-lg text-slate-600 dark:text-slate-300">
+            Do not forget to <a href="/news" class="font-medium text-slate-900 underline dark:text-slate-100">subscribe</a> to our newsletter.
           </p>
         </div>
 
         <a
           href="/news"
-          class="hidden rounded-full bg-slate-900 px-5 py-2 text-sm font-medium text-white transition hover:bg-slate-800 md:inline-flex"
+          class="hidden rounded-full bg-slate-900 px-5 py-2 text-sm font-medium text-white transition hover:bg-slate-800 dark:bg-slate-100 dark:text-slate-900 dark:hover:bg-slate-200 md:inline-flex"
         >
           View all
         </a>
@@ -242,7 +284,7 @@ const creatorsTestimonial =
 
       <div class="mt-12 grid gap-8 md:grid-cols-3">
         {newsItems.map((item) => (
-          <article class="group relative flex h-full flex-col overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-soft transition hover:shadow-lg">
+          <article class="group relative flex h-full flex-col overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-soft transition hover:shadow-lg dark:border-slate-800 dark:bg-slate-900">
             <a
               href={`/news/${item.slug}`}
               aria-label={`Read ${item.title}`}
@@ -256,19 +298,19 @@ const creatorsTestimonial =
             />
 
             <div class="flex flex-1 flex-col p-8">
-              <span class="w-fit rounded-full bg-slate-900 px-3 py-1 text-[11px] font-bold uppercase tracking-[0.2em] text-white">
+              <span class="w-fit rounded-full bg-slate-900 px-3 py-1 text-[11px] font-bold uppercase tracking-[0.2em] text-white dark:bg-slate-100 dark:text-slate-900">
                 {item.tag}
               </span>
 
-              <h3 class="mt-5 text-2xl font-bold tracking-tight text-slate-900">
+              <h3 class="mt-5 text-2xl font-bold tracking-tight text-slate-900 dark:text-slate-100">
                 {item.title}
               </h3>
 
-              <p class="mt-4 flex-1 text-sm leading-7 text-slate-600">
+              <p class="mt-4 flex-1 text-sm leading-7 text-slate-600 dark:text-slate-300">
                 {item.desc}
               </p>
 
-              <div class="mt-8 flex items-center justify-between border-t border-slate-200 pt-6 text-xs text-slate-400">
+              <div class="mt-8 flex items-center justify-between border-t border-slate-200 pt-6 text-xs text-slate-400 dark:border-slate-800 dark:text-slate-500">
                 <span>{item.date}</span>
                 <span>{item.time}</span>
               </div>
