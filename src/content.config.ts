@@ -66,7 +66,7 @@ const snapshots = defineCollection({
   schema: z.object({
     image: z.string(),
     caption: z.string(),
-    order: z.number(),
+    order: z.coerce.date(),
   }),
 });
 

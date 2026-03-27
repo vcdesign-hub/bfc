@@ -2,12 +2,10 @@
 import Layout from '../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
 
-const filters = ['All Photos', 'Events', 'Founders', 'Investors', 'Community'];
-
 const snapshotsRaw = await getCollection('snapshots');
 
 const snapshots = snapshotsRaw
-  .sort((a, b) => b.data.order - a.data.order)
+  .sort((a, b) => b.data.order.getTime() - a.data.order.getTime())
   .map((item) => ({
     image: item.data.image,
     caption: item.data.caption,
