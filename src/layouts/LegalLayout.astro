@@ -9,7 +9,7 @@ const { title = "BFC" } = Astro.props;
 ---
 
 <Layout title={title}>
-  <main class="bg-white">
+  <main class="bg-white dark:bg-slate-950">
     <section class="container-default py-16 md:py-24">
       <div class="max-w-4xl">
         <article class="legal-content">
@@ -86,5 +86,33 @@ const { title = "BFC" } = Astro.props;
     border: 0;
     border-top: 1px solid rgb(226 232 240);
     margin: 2rem 0;
+  }
+
+  .dark .legal-content h1,
+  .dark .legal-content h2,
+  .dark .legal-content h3,
+  .dark .legal-content strong {
+    color: rgb(241 245 249);
+  }
+
+  .dark .legal-content p,
+  .dark .legal-content ul,
+  .dark .legal-content ol,
+  .dark .legal-content li {
+    color: rgb(203 213 225);
+  }
+
+  .dark .legal-content a {
+    color: rgb(96 165 250);
+  }
+
+  .dark .legal-content hr {
+    border-top-color: rgb(30 41 59);
+  }
+
+  @media (min-width: 768px) {
+    .legal-content h1 {
+      font-size: 3.75rem;
+    }
   }
 </style>

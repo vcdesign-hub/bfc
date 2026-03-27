@@ -45,19 +45,19 @@ const defaultBioParts = defaultPerson
 ---
 
 <Layout title="Team | BFC">
-  <main class="bg-white">
+  <main class="bg-white dark:bg-slate-950">
     <section class="container-default py-20 md:py-28">
-      <div class="max-w-4xl">
-        <h1 class="text-4xl font-extrabold tracking-tight text-slate-900 md:text-6xl">
-          Meet our <span class="text-blue-700">team</span>
+      <div class="max-w-5xl">
+        <h1 class="max-w-4xl text-4xl font-extrabold leading-tight tracking-tight text-slate-900 dark:text-slate-100 md:text-6xl">
+          Meet our team
         </h1>
-        <p class="mt-6 max-w-2xl text-lg leading-8 text-slate-600">
+        <p class="mt-6 max-w-2xl text-lg leading-8 text-slate-600 dark:text-slate-300">
           It is all about trust. Especially in a trustless architecture
         </p>
       </div>
     </section>
 
-    <section class="sticky top-[73px] z-40 border-y border-slate-200 bg-white/90 py-4 backdrop-blur">
+    <section class="sticky top-[73px] z-40 border-y border-slate-200 bg-white/90 py-4 backdrop-blur dark:border-slate-800 dark:bg-slate-950/90">
       <div class="container-default flex flex-wrap gap-3">
         {filters.map((filter, index) => (
           <button
@@ -65,8 +65,8 @@ const defaultBioParts = defaultPerson
             data-filter={filter}
             class={`team-filter rounded-full px-5 py-2 text-sm font-medium transition ${
               index === 0
-                ? "bg-slate-900 text-white"
-                : "bg-slate-100 text-slate-600 hover:bg-slate-200"
+                ? "bg-slate-900 text-white dark:bg-slate-100 dark:text-slate-900"
+                : "bg-slate-100 text-slate-600 hover:bg-slate-200 dark:bg-slate-900 dark:text-slate-300 dark:hover:bg-slate-800"
             }`}
           >
             {filter}
@@ -77,7 +77,7 @@ const defaultBioParts = defaultPerson
 
     <section class="container-default py-24">
       <div class="space-y-10">
-        <p class="max-w-3xl text-lg leading-8 text-slate-600">
+        <p class="max-w-3xl text-lg leading-8 text-slate-600 dark:text-slate-300">
           We are an equal partnership driven by trust, designed to challenge consensus. No politics, no egos,
           just complementary strengths and a shared focus: backing the best founders building extraordinary companies.
         </p>
@@ -89,9 +89,7 @@ const defaultBioParts = defaultPerson
           {people.map((person, index) => (
             <button
               type="button"
-              class={`team-card group flex w-full flex-col items-start text-left transition ${
-                index === 0 ? "" : ""
-              }`}
+              class="team-card group flex w-full flex-col items-start text-left transition"
               data-team-card={person.id}
               data-group={person.group}
               data-name={person.name}
@@ -105,10 +103,10 @@ const defaultBioParts = defaultPerson
               data-logos={JSON.stringify(person.logos)}
             >
               <div
-                class={`flex h-24 w-24 items-end justify-center overflow-hidden rounded-full border bg-slate-100 transition duration-300 ${
+                class={`flex h-[180px] w-[180px] items-end justify-center overflow-hidden rounded-full border bg-slate-100 transition duration-300 dark:bg-slate-900 ${
                   index === 0
-                    ? "border-slate-900 bg-slate-50 shadow-xl ring-4 ring-slate-100"
-                    : "border-slate-200 shadow-soft group-hover:-translate-y-1 group-hover:shadow-lg"
+                    ? "border-slate-900 bg-slate-50 shadow-xl ring-4 ring-slate-100 dark:border-slate-100 dark:bg-slate-900 dark:ring-slate-800"
+                    : "border-slate-200 shadow-soft group-hover:-translate-y-1 group-hover:shadow-lg dark:border-slate-800"
                 }`}
               >
                 <img
@@ -118,11 +116,11 @@ const defaultBioParts = defaultPerson
                 />
               </div>
 
-              <div class="mt-3 space-y-1">
-                <p class="text-xs font-bold uppercase tracking-[0.18em] text-slate-900">
+              <div class="mt-4 space-y-1">
+                <p class="text-sm font-bold uppercase tracking-[0.18em] text-slate-900 dark:text-slate-100 md:text-[15px]">
                   {person.name}
                 </p>
-                <p class="text-sm leading-6 text-slate-600">
+                <p class="text-sm leading-6 text-slate-600 dark:text-slate-300">
                   {person.role}
                 </p>
               </div>
@@ -133,20 +131,20 @@ const defaultBioParts = defaultPerson
         {defaultPerson && (
           <div
             id="team-detail"
-            class="rounded-3xl border border-slate-200 bg-white shadow-soft"
+            class="rounded-3xl border border-slate-200 bg-white shadow-soft dark:border-slate-800 dark:bg-slate-900"
           >
             <div class="grid gap-0 lg:grid-cols-[minmax(0,1.6fr)_minmax(0,0.9fr)]">
               <div class="p-8 md:p-10">
                 <div class="space-y-8">
                   <div>
-                    <p class="text-xs font-bold uppercase tracking-[0.2em] text-blue-700">
+                    <p class="text-xs font-bold uppercase tracking-[0.2em] text-blue-700 dark:text-blue-400">
                       Background
                     </p>
-                    <div class="mt-4 max-w-3xl text-sm leading-7 text-slate-600">
+                    <div class="mt-4 max-w-3xl text-sm leading-7 text-slate-600 dark:text-slate-300">
                       <p id="detail-bio">
                         {defaultBioParts.before}
                         {defaultBioParts.highlight && (
-                          <span class="font-semibold text-blue-700">{defaultBioParts.highlight}</span>
+                          <span class="font-semibold text-blue-700 dark:text-blue-400">{defaultBioParts.highlight}</span>
                         )}
                         {defaultBioParts.after}
                       </p>
@@ -154,38 +152,38 @@ const defaultBioParts = defaultPerson
                   </div>
 
                   <div>
-                    <div class="flex flex-wrap items-center gap-4 text-slate-400">
+                    <div class="flex flex-wrap items-center gap-4 text-slate-400 dark:text-slate-500">
                       <div class="flex gap-3">
                         <a
                           id="detail-linkedin"
                           href={defaultPerson.linkedinUrl}
-                          class={`hover:text-slate-900 ${defaultPerson.linkedinUrl ? "inline-flex" : "hidden"}`}
+                          class={`hover:text-slate-900 dark:hover:text-slate-100 ${defaultPerson.linkedinUrl ? "inline-flex" : "hidden"}`}
                         >
                           In
                         </a>
                         <a
                           id="detail-website"
                           href={defaultPerson.emailUrl}
-                          class={`hover:text-slate-900 ${defaultPerson.emailUrl ? "inline-flex" : "hidden"}`}
+                          class={`hover:text-slate-900 dark:hover:text-slate-100 ${defaultPerson.emailUrl ? "inline-flex" : "hidden"}`}
                         >
                           🌐
                         </a>
                       </div>
 
                       <span id="detail-location" class="inline-flex items-center gap-2">
-                        <span class="h-2 w-2 rounded-full bg-slate-300"></span>
+                        <span class="h-2 w-2 rounded-full bg-slate-300 dark:bg-slate-600"></span>
                         {defaultPerson.location}
                       </span>
                     </div>
                   </div>
 
                   <div>
-                    <p class="text-xs font-bold uppercase tracking-[0.2em] text-blue-700">
+                    <p class="text-xs font-bold uppercase tracking-[0.2em] text-blue-700 dark:text-blue-400">
                       Languages
                     </p>
                     <div id="detail-languages" class="mt-4 flex flex-wrap gap-2">
                       {defaultPerson.languages.map((language) => (
-                        <span class="rounded-full border border-slate-200 px-3 py-1 text-[11px] font-bold uppercase tracking-[0.2em] text-slate-700">
+                        <span class="rounded-full border border-slate-200 px-3 py-1 text-[11px] font-bold uppercase tracking-[0.2em] text-slate-700 dark:border-slate-800 dark:text-slate-300">
                           {language}
                         </span>
                       ))}
@@ -194,19 +192,19 @@ const defaultBioParts = defaultPerson
                 </div>
               </div>
 
-              <aside class="border-t border-slate-200 bg-slate-50 p-8 md:p-10 lg:border-l lg:border-t-0">
+              <aside class="border-t border-slate-200 bg-slate-50 p-8 md:p-10 dark:border-slate-800 dark:bg-slate-950/70 lg:border-l lg:border-t-0">
                 <div>
-                  <p class="text-xs font-bold uppercase tracking-[0.2em] text-blue-700">
+                  <p class="text-xs font-bold uppercase tracking-[0.2em] text-blue-700 dark:text-blue-400">
                     Affiliations
                   </p>
                   <div id="detail-logos" class="mt-4 grid grid-cols-2 gap-3">
                     {defaultPerson.logos.map((logo) => (
-                      <div class="flex h-14 items-center justify-center rounded-xl border border-slate-200 bg-white p-3 shadow-sm">
+                      <div class="flex h-17 items-center justify-center rounded-xl border border-slate-200 bg-white p-2 shadow-sm dark:border-slate-800 dark:bg-white">
                         <img
                           src={logo.image}
                           alt={logo.name}
-                          class="max-h-8 w-auto object-contain"
-                        />
+                          class="max-h-12 w-auto object-contain"
+                        />detailLogos.innerHTML = logos
                       </div>
                     ))}
                   </div>
@@ -237,8 +235,21 @@ const defaultBioParts = defaultPerson
         const avatar = card.querySelector("div");
         if (!avatar) return;
 
-        avatar.classList.remove("border-slate-900", "bg-slate-50", "shadow-xl", "ring-4", "ring-slate-100");
-        avatar.classList.add("border-slate-200", "shadow-soft");
+        avatar.classList.remove(
+          "border-slate-900",
+          "bg-slate-50",
+          "shadow-xl",
+          "ring-4",
+          "ring-slate-100",
+          "dark:border-slate-100",
+          "dark:bg-slate-900",
+          "dark:ring-slate-800"
+        );
+        avatar.classList.add(
+          "border-slate-200",
+          "shadow-soft",
+          "dark:border-slate-800"
+        );
 
         if (card.classList.contains("pointer-events-none")) {
           card.classList.remove("pointer-events-none");
@@ -250,8 +261,17 @@ const defaultBioParts = defaultPerson
       const avatar = card.querySelector("div");
       if (!avatar) return;
 
-      avatar.classList.remove("border-slate-200", "shadow-soft");
-      avatar.classList.add("border-slate-900", "bg-slate-50", "shadow-xl", "ring-4", "ring-slate-100");
+      avatar.classList.remove("border-slate-200", "shadow-soft", "dark:border-slate-800");
+      avatar.classList.add(
+        "border-slate-900",
+        "bg-slate-50",
+        "shadow-xl",
+        "ring-4",
+        "ring-slate-100",
+        "dark:border-slate-100",
+        "dark:bg-slate-900",
+        "dark:ring-slate-800"
+      );
     }
 
     function updateVisibleCards() {
@@ -278,12 +298,12 @@ const defaultBioParts = defaultPerson
         const parts = bio.split(highlight);
         const before = parts.shift() || "";
         const after = parts.join(highlight);
-        detailBio.innerHTML = `${before}<span class="font-semibold text-blue-700">${highlight}</span>${after}`;
+        detailBio.innerHTML = `${before}<span class="font-semibold text-blue-700 dark:text-blue-400">${highlight}</span>${after}`;
       } else {
         detailBio.textContent = bio;
       }
 
-      detailLocation.innerHTML = `<span class="h-2 w-2 rounded-full bg-slate-300"></span>${location}`;
+      detailLocation.innerHTML = `<span class="h-2 w-2 rounded-full bg-slate-300 dark:bg-slate-600"></span>${location}`;
 
       if (linkedin) {
         detailLinkedin.setAttribute("href", linkedin);
@@ -304,29 +324,29 @@ const defaultBioParts = defaultPerson
       detailLanguages.innerHTML = languages
         .map(
           (language) =>
-            `<span class="rounded-full border border-slate-200 px-3 py-1 text-[11px] font-bold uppercase tracking-[0.2em] text-slate-700">${language}</span>`
+            `<span class="rounded-full border border-slate-200 px-3 py-1 text-[11px] font-bold uppercase tracking-[0.2em] text-slate-700 dark:border-slate-800 dark:text-slate-300">${language}</span>`
         )
         .join("");
 
         detailLogos.innerHTML = logos
-          .map(
-            (logo) =>
-              `<div class="flex h-22 items-center justify-center rounded-xl border border-slate-200 bg-white p-3 shadow-sm">
-                <img src="${logo.image}" alt="${logo.name}" class="max-h-13 w-auto object-contain" />
-              </div>`
-          )
-          .join("");
+        .map(
+          (logo) =>
+            `<div class="flex h-17 items-center justify-center rounded-xl border border-slate-200 bg-white p-2 shadow-sm dark:border-slate-800 dark:bg-white">
+              <img src="${logo.image}" alt="${logo.name}" class="max-h-12 w-auto object-contain" />
+            </div>`
+        )
+        .join("");
     }
 
     filterButtons.forEach((button) => {
       button.addEventListener("click", () => {
         filterButtons.forEach((b) => {
-          b.classList.remove("bg-slate-900", "text-white");
-          b.classList.add("bg-slate-100", "text-slate-600");
+          b.classList.remove("bg-slate-900", "text-white", "dark:bg-slate-100", "dark:text-slate-900");
+          b.classList.add("bg-slate-100", "text-slate-600", "dark:bg-slate-900", "dark:text-slate-300");
         });
 
-        button.classList.remove("bg-slate-100", "text-slate-600");
-        button.classList.add("bg-slate-900", "text-white");
+        button.classList.remove("bg-slate-100", "text-slate-600", "dark:bg-slate-900", "dark:text-slate-300");
+        button.classList.add("bg-slate-900", "text-white", "dark:bg-slate-100", "dark:text-slate-900");
 
         activeFilter = button.dataset.filter || "";
         updateVisibleCards();

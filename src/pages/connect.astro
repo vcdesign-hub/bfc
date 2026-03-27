@@ -42,59 +42,44 @@ const contactCards = [
 ---
 
 <Layout title="BFC | Connect">
-<main>
+  <main>
+    <section class="container-default py-16 md:py-24">
+      <h1 class="text-4xl font-extrabold tracking-tight text-slate-900 dark:text-slate-100 md:text-6xl">
+        Let's get in touch
+      </h1>
 
-<section class="container-default py-16 md:py-24">
-  <h1 class="text-4xl font-extrabold tracking-tight text-slate-900 md:text-6xl">
-    Let's get in touch
-  </h1>
+      <p class="mt-4 max-w-2xl text-base text-slate-500 dark:text-slate-400">
+        We look forward to getting to know you
+      </p>
+    </section>
 
-  <p class="mt-4 max-w-2xl text-base text-slate-500">
-    We look forward to getting to know you
-  </p>
-</section>
+    <section class="container-default pb-24">
+      <div class="mt-12 grid gap-8 md:grid-cols-3">
+        {contactCards.map((item) => (
+          <article class="flex h-full flex-col overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-soft dark:border-slate-800 dark:bg-slate-900">
+            <div class="flex flex-1 flex-col p-8">
+              <h3 class="text-2xl font-bold tracking-tight text-slate-900 dark:text-slate-100">
+                {item.title}
+              </h3>
 
+              <p class="mt-4 flex-1 text-sm leading-7 text-slate-600 dark:text-slate-300">
+                {item.desc}
+              </p>
 
-<section class="container-default pb-24">
-
-<div class="mt-12 grid gap-8 md:grid-cols-3">
-
-{contactCards.map((item) => (
-
-<article class="flex h-full flex-col overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-soft">
-
-<div class="flex flex-1 flex-col p-8">
-
-<h3 class="text-2xl font-bold tracking-tight text-slate-900">
-{item.title}
-</h3>
-
-<p class="mt-4 flex-1 text-sm leading-7 text-slate-600">
-{item.desc}
-</p>
-
-<div class="mt-8 border-t border-slate-200 pt-6">
-
-  <a
-    href={item.href}
-    class="btn-primary inline-flex items-center justify-center"
-    target={item.href.startsWith('http') ? '_blank' : '_self'}
-    rel={item.href.startsWith('http') ? 'noopener noreferrer' : undefined}
-  >
-    {item.button}
-  </a>
-
-</div>
-
-</div>
-
-</article>
-
-))}
-
-</div>
-
-</section>
-
-</main>
+              <div class="mt-8 border-t border-slate-200 pt-6 dark:border-slate-800">
+                <a
+                  href={item.href}
+                  class="inline-flex items-center justify-center rounded-full bg-slate-900 px-5 py-2 text-sm font-medium text-white transition hover:bg-slate-800 dark:bg-slate-100 dark:text-slate-900 dark:hover:bg-slate-200"
+                  target={item.href.startsWith('http') ? '_blank' : '_self'}
+                  rel={item.href.startsWith('http') ? 'noopener noreferrer' : undefined}
+                >
+                  {item.button}
+                </a>
+              </div>
+            </div>
+          </article>
+        ))}
+      </div>
+    </section>
+  </main>
 </Layout>

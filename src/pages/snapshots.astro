@@ -16,26 +16,22 @@ const snapshots = snapshotsRaw
 
 <Layout title="BFC | Snapshots">
   <main>
-    <!-- Header -->
     <section class="container-default py-16 md:py-24">
-      <h1 class="text-4xl font-extrabold tracking-tight text-slate-900 md:text-6xl">
+      <h1 class="text-4xl font-extrabold tracking-tight text-slate-900 dark:text-slate-100 md:text-6xl">
         Snapshots
       </h1>
 
-      <p class="mt-4 max-w-2xl text-base text-slate-500">
+      <p class="mt-4 max-w-2xl text-base text-slate-500 dark:text-slate-400">
         Meeting founders, friends, and venture capital family
       </p>
     </section>
 
-    
-
-    <!-- Masonry gallery -->
     <section class="container-default py-10 md:py-14">
       <div class="columns-2 gap-4 sm:columns-3 lg:columns-4 xl:columns-5 [column-fill:_balance]">
         {snapshots.map((item, index) => (
           <button
             type="button"
-            class="snapshot-item group mb-4 block w-full break-inside-avoid overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-soft"
+            class="snapshot-item group mb-4 block w-full break-inside-avoid overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-soft transition dark:border-transparent dark:bg-slate-950"
             data-index={index}
             data-image={item.image}
             data-caption={item.caption}
@@ -53,7 +49,6 @@ const snapshots = snapshotsRaw
     </section>
   </main>
 
-  <!-- Modal -->
   <div
     id="snapshot-modal"
     class="fixed inset-0 z-[90] hidden bg-black/85"
