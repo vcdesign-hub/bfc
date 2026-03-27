@@ -16,6 +16,6 @@ linkedinUrl: "https://www.linkedin.com/company/peregrineexploration/"
 websiteUrl: "https://www.level.money/"
 twitterUrl: "https://x.com/levelusd"
 jobsUrl: "https://www.level.money/"
-whyInvestedUrl: "https://www.bfc.vc/recent-news/why-we-invested-in-level"
+whyInvestedUrl: "/news/why-we-invested-in-level"
 order: 17
 ---

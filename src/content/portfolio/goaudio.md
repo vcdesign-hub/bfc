@@ -15,6 +15,6 @@ imageTitle: ""
 linkedinUrl: "https://www.linkedin.com/company/goaudioai/"
 websiteUrl: "https://www.goaudio.ai/"
 jobsUrl: "https://www.goaudio.ai/careers"
-whyInvestedUrl: "https://www.bfc.vc/recent-news/why-we-invested-in-biddz"
+whyInvestedUrl: "/news/why-we-invested-in-biddz"
 order: 8
 ---

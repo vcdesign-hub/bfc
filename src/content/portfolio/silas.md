@@ -15,6 +15,6 @@ imageTitle: ""
 linkedinUrl: "https://www.linkedin.com/company/silas-insurtech/"
 websiteUrl: "https://www.silasinsurtech.com/en"
 jobsUrl: "https://www.silasinsurtech.com/en"
-whyInvestedUrl: "https://www.bfc.vc/recent-news/why-we-invested-in-silas"
+whyInvestedUrl: "/news/why-we-invested-in-silas"
 order: 23
 ---

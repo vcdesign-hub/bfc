@@ -16,6 +16,6 @@ linkedinUrl: "https://www.linkedin.com/company/appstack1/?viewAsMember=true"
 websiteUrl: "https://www.app-stack.tech/"
 twitterUrl: "https://x.com/Appstack__"
 jobsUrl: "https://www.app-stack.tech/careers"
-whyInvestedUrl: "http://www.bfc.vc/recent-news/why-we-invested-in-appstack"
+whyInvestedUrl: "news/why-we-invested-in-appstack"
 order: 22
 ---

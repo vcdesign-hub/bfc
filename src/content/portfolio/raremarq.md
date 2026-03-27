@@ -16,6 +16,6 @@ linkedinUrl: "https://www.linkedin.com/company/raremarq/posts/?feedView=all"
 websiteUrl: "https://www.raremarq.com/"
 twitterUrl: "https://x.com/raremarq"
 jobsUrl: "https://www.raremarq.com/"
-whyInvestedUrl: "https://www.bfc.vc/recent-news/why-we-invested-in-raremarq"
+whyInvestedUrl: "/news/why-we-invested-in-raremarq"
 order: 20
 ---

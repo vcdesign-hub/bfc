@@ -16,6 +16,6 @@ linkedinUrl: "https://www.linkedin.com/company/talentir-com/"
 websiteUrl: "https://talentir.com/"
 twitterUrl: "https://twitter.com/talentir_"
 jobsUrl: "https://talentir.com/"
-whyInvestedUrl: "https://www.bfc.vc/recent-news/why-we-invested-in-talentir"
+whyInvestedUrl: "/news/why-we-invested-in-talentir"
 order: 7
 ---

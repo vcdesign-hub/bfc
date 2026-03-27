@@ -16,6 +16,6 @@ linkedinUrl: "https://www.linkedin.com/company/unified-to/"
 websiteUrl: "https://unified.to/"
 twitterUrl: "https://twitter.com/unified_api"
 jobsUrl: "https://unified.to/"
-whyInvestedUrl: "https://www.bfc.vc/recent-news/why-we-invested-in-unified"
+whyInvestedUrl: "/news/why-we-invested-in-unified"
 order: 19
 ---

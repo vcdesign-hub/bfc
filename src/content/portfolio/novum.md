@@ -15,6 +15,6 @@ imageTitle: ""
 linkedinUrl: "https://www.linkedin.com/company/novumpath/"
 websiteUrl: "https://novumpath.com/"
 jobsUrl: "https://novumpath.com/careers/growth-expert.html"
-whyInvestedUrl: "https://www.bfc.vc/recent-news/why-we-invested-in-novum"
+whyInvestedUrl: "/news/why-we-invested-in-novum"
 order: 4
 ---

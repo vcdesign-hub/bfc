@@ -15,6 +15,6 @@ imageTitle: ""
 linkedinUrl: "https://www.linkedin.com/company/bayesline/"
 websiteUrl: "https://bayesline.com/"
 jobsUrl: "https://bayesline.com/"
-whyInvestedUrl: "https://www.bfc.vc/recent-news/why-we-invested-in-bayesline"
+whyInvestedUrl: "/news/why-we-invested-in-bayesline"
 order: 16
 ---

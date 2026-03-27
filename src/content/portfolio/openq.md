@@ -16,6 +16,6 @@ linkedinUrl: "https://www.linkedin.com/company/openqdev/"
 websiteUrl: "https://openq.dev/"
 twitterUrl: "https://x.com/openqlabs"
 jobsUrl: "https://openq.dev/"
-whyInvestedUrl: "https://www.bfc.vc/recent-news/why-we-invested-in-openq"
+whyInvestedUrl: "/news/why-we-invested-in-openq"
 order: 13
 ---

@@ -16,6 +16,6 @@ linkedinUrl: "https://www.linkedin.com/company/riverplatform"
 websiteUrl: "https://www.getriver.io/"
 twitterUrl: "https://twitter.com/getriver_io"
 jobsUrl: "https://www.getriver.io/"
-whyInvestedUrl: "https://www.bfc.vc/recent-news/why-we-invested-in-river"
+whyInvestedUrl: "/news/why-we-invested-in-river"
 order: 14
 ---

@@ -15,6 +15,6 @@ imageTitle: ""
 linkedinUrl: "https://www.linkedin.com/company/herita-technologies/"
 websiteUrl: "https://herita.tech/"
 jobsUrl: "https://herita.tech/"
-whyInvestedUrl: "https://www.bfc.vc/recent-news/why-we-invested-in-herita"
+whyInvestedUrl: "/news/why-we-invested-in-herita"
 order: 24
 ---

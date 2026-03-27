@@ -16,6 +16,6 @@ linkedinUrl: "https://www.linkedin.com/company/proofofimpact/"
 websiteUrl: "https://proof.io/"
 twitterUrl: "https://twitter.com/proofhq"
 jobsUrl: "https://proof.io/contact"
-whyInvestedUrl: "https://www.bfc.vc/recent-news/why-we-invested-in-proof"
+whyInvestedUrl: "/news/why-we-invested-in-proof"
 order: 2
 ---

@@ -16,6 +16,6 @@ linkedinUrl: "https://www.linkedin.com/company/the-mirror-metaverse/"
 websiteUrl: "https://www.themirror.space/"
 twitterUrl: "https://mobile.twitter.com/themirrorspace"
 jobsUrl: "https://www.themirror.space/careers"
-whyInvestedUrl: "https://www.bfc.vc/recent-news/why-we-invested-in-the-mirror"
+whyInvestedUrl: "/news/why-we-invested-in-the-mirror"
 order: 5
 ---

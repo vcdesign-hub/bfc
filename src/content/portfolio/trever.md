@@ -15,6 +15,6 @@ imageTitle: ""
 linkedinUrl: "https://www.linkedin.com/company/treverio/"
 websiteUrl: "https://trever.io/"
 jobsUrl: "https://trever.io/careers/"
-whyInvestedUrl: "https://www.bfc.vc/recent-news/why-we-invested-in-trever"
+whyInvestedUrl: "/news/why-we-invested-in-trever"
 order: 14
 ---

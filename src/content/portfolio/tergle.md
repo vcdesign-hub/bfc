@@ -15,6 +15,6 @@ imageTitle: ""
 linkedinUrl: "https://www.linkedin.com/company/tergleai/"
 websiteUrl: "https://tergle.com/"
 jobsUrl: "https://tergle.com/"
-whyInvestedUrl: "https://www.bfc.vc/recent-news/why-we-invested-in-tergle"
+whyInvestedUrl: "/news/why-we-invested-in-tergle"
 order: 21
 ---

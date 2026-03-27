@@ -16,6 +16,6 @@ linkedinUrl: "https://www.linkedin.com/company/kinomakesmovies/about/"
 websiteUrl: "https://kino.studio"
 twitterUrl: "https://twitter.com/kinomakesmovies"
 jobsUrl: "https://www.linkedin.com/company/kinomakesmovies/jobs/"
-whyInvestedUrl: "https://www.bfc.vc/recent-news/why-we-invested-in-kino"
+whyInvestedUrl: "/news/why-we-invested-in-kino"
 order: 9
 ---

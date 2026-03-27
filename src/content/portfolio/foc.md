@@ -15,6 +15,6 @@ imageTitle: ""
 linkedinUrl: "https://www.linkedin.com/company/fundsonchain/"
 websiteUrl: "https://fundsonchain.com/"
 jobsUrl: "https://www.linkedin.com/company/fundsonchain/jobs/"
-whyInvestedUrl: "https://www.bfc.vc/recent-news/why-we-invested-in-funds-on-chain"
+whyInvestedUrl: "/news/why-we-invested-in-funds-on-chain"
 order: 10
 ---

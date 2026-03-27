@@ -16,6 +16,6 @@ linkedinUrl: "https://www.linkedin.com/company/getrecall-ai/"
 websiteUrl: "https://www.getrecall.ai/"
 twitterUrl: "https://x.com/recall_wiki"
 jobsUrl: "https://www.getrecall.ai/careers"
-whyInvestedUrl: "https://www.bfc.vc/recent-news/why-we-invested-in-recall"
+whyInvestedUrl: "/news/why-we-invested-in-recall"
 order: 15
 ---
