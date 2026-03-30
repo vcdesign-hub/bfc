@@ -1,9 +1,9 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import ColorBends from "../components/ColorBends";
 import { getCollection } from "astro:content";
 import TestimonialCard from "../components/TestimonialCard.astro";
 import NewsCard from "../components/NewsCard.astro";
-
 const featuredRaw = await getCollection("featured");
 
 const featuredItems = featuredRaw
@@ -134,7 +134,7 @@ const creatorsTestimonial =
           style="scroll-padding-left: max(1rem, calc((100vw - 1280px)/2));"
         >
           {featuredItems.map((item) => (
-            <article class="w-[90vw] max-w-[1200px] shrink-0 snap-center overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-soft dark:border-slate-800 dark:bg-slate-900">
+            <article class="w-[90vw] max-w-[1200px] shrink-0 snap-center overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-soft dark:border-slate-900 dark:bg-slate-900/50">
               <div class="grid min-h-[420px] md:grid-cols-[1.25fr_0.9fr]">
                 <div class="flex h-full flex-col justify-between bg-slate-50 p-8 dark:bg-slate-900/70 md:p-10">
                   <div>
@@ -166,23 +166,11 @@ const creatorsTestimonial =
                       </p>
                     )}
     
-                    <!-- <a
-                      href="/portfolio"
-                      class="mt-8 inline-flex text-sm font-medium text-slate-900 underline underline-offset-4 transition hover:text-blue-600 dark:text-slate-100 dark:hover:text-blue-400"
-                    >
-                      View portfolio
-                    </a> -->
+                    
                   </div>
     
                   <div class="mt-10 grid ">
-                    <!-- <div class="rounded-2xl border border-slate-200 bg-white p-5 dark:border-slate-700 dark:bg-slate-800/80">
-                      <p class="text-xs uppercase tracking-[0.2em] text-slate-400 dark:text-slate-500">
-                        People from left
-                      </p>
-                      <p class="mt-3 text-base font-medium text-slate-900 dark:text-slate-100">
-                        {item.people.join(", ")}
-                      </p>
-                    </div> -->
+                  
 
 
                     <div class="mt-8 border-t border-slate-200 pt-6 dark:border-slate-800">
@@ -195,25 +183,6 @@ const creatorsTestimonial =
                       </p>
                     </div>
                   
-                    <!-- <div class="rounded-2xl border border-slate-200 bg-white p-5 dark:border-slate-700 dark:bg-slate-800/80">
-                      <p class="text-xs uppercase tracking-[0.2em] text-slate-400 dark:text-slate-500">
-                        Investment date
-                      </p>
-                      <p class="mt-3 text-base font-medium text-slate-900 dark:text-slate-100">
-                        {item.date}
-                      </p>
-                    </div> -->
-
-
-                    <!-- <div class="mt-8 border-t border-slate-200 pt-6 dark:border-slate-800">
-                      <p data-name class="text-base font-semibold text-slate-900 dark:text-slate-100">
-                        {item.date}
-                      </p>
-                      <p data-role class="mt-1 text-sm leading-6 text-slate-500 dark:text-slate-400">
-                        
-                        Investment date
-                      </p>
-                    </div> -->
                   </div>
                 </div>
     
@@ -232,7 +201,107 @@ const creatorsTestimonial =
       </div>
     </section>
 
-    <section class="bg-slate-100 py-24 dark:bg-slate-900/40">
+
+    <!-- <section class="relative overflow-hidden">
+      <div class="absolute inset-0 -z-10">
+        <ColorBends
+          client:load
+          colors={["#2563EB", "#7C3AED", "#06B6D4"]}
+          rotation={0}
+          speed={0.02}
+          scale={0.95}
+          frequency={1}
+          warpStrength={0.9}
+          mouseInfluence={0.2}
+          parallax={0.2}
+          noise={0}
+          transparent={true}
+          autoRotate={0}
+          className="h-full w-full"
+        />
+        <div class="absolute inset-0 bg-white/70 dark:bg-slate-950/70"></div>
+        <div class="absolute inset-0 bg-gradient-to-b from-white/20 via-white/10 to-white dark:from-slate-950/10 dark:via-slate-950/20 dark:to-slate-950"></div>
+      </div>
+    
+      <section class="container-default py-20 md:py-28">
+        <div class="max-w-5xl">
+          <h1 class="max-w-4xl text-4xl font-extrabold leading-tight tracking-tight text-slate-900 dark:text-slate-100 md:text-6xl">
+            We invest in founders building the future of the internet
+          </h1>
+          <p class="mt-6 max-w-2xl text-lg leading-8 text-slate-600 dark:text-slate-300">
+            We are honored to back fantastic teams on a mission.
+          </p>
+        </div>
+      </section>
+    
+      <section class="pb-24">
+        <div class="mt-12">
+          <div
+            id="featured-carousel"
+            class="no-scrollbar flex snap-x snap-mandatory gap-6 overflow-x-auto px-4 pb-4 md:px-8 lg:px-[max(2rem,calc((100vw-1280px)/2+2rem))] cursor-grab select-none"
+            style="scroll-padding-left: max(1rem, calc((100vw - 1280px)/2));"
+          >
+            {featuredItems.map((item) => (
+              <article class="w-[90vw] max-w-[1200px] shrink-0 snap-center overflow-hidden rounded-3xl border border-slate-200 bg-slate-50/10  dark:border-slate-900 dark:bg-slate-950">
+                <div class="grid min-h-[420px] md:grid-cols-[1.25fr_0.9fr]">
+                  <div class="flex h-full flex-col justify-between bg-slate-50/80 p-8 dark:bg-slate-900/70 md:p-10">
+                    <div>
+                      <div class="mb-8 flex items-center gap-3">
+                        <div class="flex h-12 w-12 items-center justify-center overflow-hidden rounded-xl bg-slate-100 ring-1 ring-slate-200 dark:bg-slate-800 dark:ring-slate-700">
+                          <img
+                            src={item.logo}
+                            alt={`${item.company} logo`}
+                            class="h-full w-full object-contain"
+                            loading="lazy"
+                          />
+                        </div>
+    
+                        <div>
+                          <p class="text-base font-semibold text-slate-900 dark:text-slate-100">
+                            {item.company}
+                          </p>
+                          <p class="text-sm text-slate-500 dark:text-slate-400">
+                            Portfolio company
+                          </p>
+                        </div>
+                      </div>
+    
+                      {item.description && (
+                        <p class="mt-6 max-w-2xl text-base leading-8 text-slate-600 dark:text-slate-300">
+                          {item.description}
+                        </p>
+                      )}
+                    </div>
+    
+                    <div class="mt-10">
+                      <div class="mt-8 border-t border-slate-200 pt-6 dark:border-slate-800">
+                        <p data-name class="text-base font-semibold text-slate-900 dark:text-slate-100">
+                          {item.people.join(", ")}
+                        </p>
+                        <p data-role class="mt-1 text-sm leading-6 text-slate-500 dark:text-slate-400">
+                          PEOPLE FROM LEFT
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div class="relative min-h-[320px] bg-slate-100 dark:bg-slate-800">
+                    <img
+                      src={item.image}
+                      alt={item.company}
+                      class="h-full w-full object-cover"
+                      loading="lazy"
+                    />
+                  </div>
+                </div>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+    </section> -->
+
+    <section class="bg-slate-100 py-24 dark:bg-slate-900/20">
       <div class="container-default">
         <h2 class="text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-200 md:text-4xl">
           Our investment focus
@@ -243,7 +312,7 @@ const creatorsTestimonial =
 
         <div class="mt-12 grid gap-6 md:grid-cols-2">
           {focusCards.map((card) => (
-            <article class="group overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-soft transition duration-200 dark:border-slate-800 dark:bg-slate-900">
+            <article class="group overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-soft transition duration-200 dark:border-slate-900 dark:bg-slate-900/50">
               <div class="grid h-full gap-0 md:grid-cols-[220px_minmax(0,1fr)]">
                 <div class="relative min-h-[220px] overflow-hidden border-b border-slate-200 bg-slate-100 dark:border-slate-800 dark:bg-slate-800 md:min-h-full md:border-b-0 md:border-r">
                   <img
@@ -296,7 +365,7 @@ const creatorsTestimonial =
       )}
     </section>
 
-    <section class="bg-slate-100 py-24 dark:bg-slate-900/40">
+    <section class="bg-slate-100 py-24 dark:bg-slate-900/20">
       <div class="container-default">
         <h2 class="text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-100 md:text-4xl">
           It takes a village to raise a startup
@@ -324,71 +393,75 @@ const creatorsTestimonial =
       </div>
     </section>
 
-    <section class="container-default py-24">
-      <h2 class="text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-100 md:text-4xl">
-        Meeting founders, investors and friends
-      </h2>
-      <p class="mt-3 text-lg text-slate-600 dark:text-slate-300">
-        Click on any photo to view all snapshots.
-      </p>
-    
-      <div class="mt-12 grid grid-cols-2 gap-4 md:grid-cols-4 md:auto-rows-[200px]">
-        {snapshots.slice(0, 7).map((item, index) => (
-          <a
-            href="/snapshots"
-            class:list={[
-              "group block overflow-hidden rounded-3xl  bg-slate-100 shadow-soft transition duration-300 hover:shadow-xl dark:border-slate-800 dark:bg-slate-900",
-              index === 0 ? "col-span-2 row-span-2" : "",
-              index === 1 ? "col-span-2 row-span-1" : "",
-              index === 2 ? "col-span-1 row-span-1" : "",
-              index === 3 ? "col-span-1 row-span-1" : "",
-              index === 4 ? "col-span-1 row-span-1" : "",
-              index === 5 ? "col-span-1 row-span-1" : "",
-              index === 6 ? "col-span-2 row-span-1" : "",
-            ]}
-          >
-            <img
-              src={item.image}
-              alt={item.caption}
-              class="h-full w-full object-cover transition duration-500 group-hover:scale-105"
-              loading="lazy"
-            />
-          </a>
-        ))}
+    <section class="py-24">
+      <div class="container-default">
+        <h2 class="text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-100 md:text-4xl">
+          Meeting founders, investors and friends
+        </h2>
+        <p class="mt-3 text-lg text-slate-600 dark:text-slate-300">
+          Click on any photo to view all snapshots.
+        </p>
+      
+        <div class="mt-12 grid grid-cols-2 gap-4 md:grid-cols-4 md:auto-rows-[200px]">
+          {snapshots.slice(0, 7).map((item, index) => (
+            <a
+              href="/snapshots"
+              class:list={[
+                "group block overflow-hidden rounded-3xl  bg-slate-100 shadow-soft transition duration-300 hover:shadow-xl dark:border-slate-800 dark:bg-slate-900",
+                index === 0 ? "col-span-2 row-span-2" : "",
+                index === 1 ? "col-span-2 row-span-1" : "",
+                index === 2 ? "col-span-1 row-span-1" : "",
+                index === 3 ? "col-span-1 row-span-1" : "",
+                index === 4 ? "col-span-1 row-span-1" : "",
+                index === 5 ? "col-span-1 row-span-1" : "",
+                index === 6 ? "col-span-2 row-span-1" : "",
+              ]}
+            >
+              <img
+                src={item.image}
+                alt={item.caption}
+                class="h-full w-full object-cover transition duration-500 group-hover:scale-105"
+                loading="lazy"
+              />
+            </a>
+          ))}
+        </div>
       </div>
     </section>
 
-    <section class="container-default border-slate-200 py-24 dark:border-slate-800">
-      <div class="flex items-end justify-between gap-6">
-        <div>
-          <h2 class="text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-100 md:text-4xl">
-            What we have been up to
-          </h2>
-          <p class="mt-3 text-lg text-slate-600 dark:text-slate-300">
-            Do not forget to <a href="/news" class="font-medium text-slate-900 underline dark:text-slate-100">subscribe</a> to our newsletter.
-          </p>
+    <section class="bg-slate-100 py-24 dark:bg-slate-900/20">
+      <div class="container-default">
+        <div class="flex items-end justify-between gap-6">
+          <div>
+            <h2 class="text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-100 md:text-4xl">
+              What we have been up to
+            </h2>
+            <p class="mt-3 text-lg text-slate-600 dark:text-slate-300">
+              Do not forget to <a href="/news" class="font-medium text-slate-900 underline dark:text-slate-100">subscribe</a> to our newsletter.
+            </p>
+          </div>
+
+          <a
+            href="/news"
+            class="hidden rounded-full bg-slate-900 px-5 py-2 text-sm font-medium text-white transition hover:bg-slate-800 dark:bg-slate-100 dark:text-slate-900 dark:hover:bg-slate-200 md:inline-flex"
+          >
+            View all
+          </a>
         </div>
 
-        <a
-          href="/news"
-          class="hidden rounded-full bg-slate-900 px-5 py-2 text-sm font-medium text-white transition hover:bg-slate-800 dark:bg-slate-100 dark:text-slate-900 dark:hover:bg-slate-200 md:inline-flex"
-        >
-          View all
-        </a>
-      </div>
-
-      <div class="mt-12 grid gap-8 md:grid-cols-3">
-        {newsItems.map((item) => (
-          <NewsCard
-            slug={item.slug}
-            tag={item.tag}
-            title={item.title}
-            desc={item.desc}
-            date={item.date}
-            time={item.time}
-            image={item.image}
-          />
-        ))}
+        <div class="mt-12 grid gap-8 md:grid-cols-3">
+          {newsItems.map((item) => (
+            <NewsCard
+              slug={item.slug}
+              tag={item.tag}
+              title={item.title}
+              desc={item.desc}
+              date={item.date}
+              time={item.time}
+              image={item.image}
+            />
+          ))}
+        </div>
       </div>
     </section>
   </main>

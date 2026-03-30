@@ -12,7 +12,7 @@ interface Props {
 const { slug, tag, title, desc, date, time, image } = Astro.props;
 ---
 
-<article class="group relative flex h-full flex-col overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-soft transition hover:shadow-lg dark:border-slate-800 dark:bg-slate-900">
+<article class="group relative flex h-full flex-col overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-soft transition hover:shadow-lg dark:border-slate-900 dark:bg-slate-900/50">
   <a
     href={`/news/${slug}`}
     aria-label={`Read ${title}`}
