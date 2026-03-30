@@ -84,10 +84,25 @@ const testimonials = defineCollection({
   }),
 });
 
+const featured = defineCollection({
+  type: "content",
+  schema: z.object({
+    company: z.string(),
+    people: z.array(z.string()),
+    image: z.string(),
+    logo: z.string(),
+    date: z.coerce.date(),
+    description: z.string().optional(),
+    order: z.number().optional(),
+  }),
+});
+
+
 export const collections = {
   news,
   portfolio,
   team,
   snapshots,
   testimonials,
+  featured,
 };

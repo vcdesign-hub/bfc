@@ -1,0 +1,12 @@
+---
+company: "Herita"
+people:
+  - "Felix Kolimar"
+  - "Christoph Iwaniez"
+  - "Benjamin Jones"
+image: "/images/home/featured/herita.webp"
+logo: "/images/portfolio/herita_logo.jpg"
+date: "2025-11-07"
+description: "Herita brings trade finance into the digital age — suppliers get paid instantly, buyers pay in 90–180 days, and no one pays extra."
+order: 1
+---
