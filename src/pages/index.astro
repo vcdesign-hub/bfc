@@ -253,27 +253,25 @@ const creatorsTestimonial =
     </section>
 
     <section class="container-default py-24">
-      <div class="max-w-6xl">
-        <div class="mb-10 max-w-2xl">
-          <h2 class="text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-100 md:text-4xl">
-            What our founders say about us
-          </h2>
-          <p class="mt-3 text-lg text-slate-600 dark:text-slate-300">
-            We back founders with conviction and stay close when it matters most.
-          </p>
-        </div>
-
-        {creatorsTestimonial && (
-          <TestimonialCard
-            quote={creatorsTestimonial.quote}
-            name={creatorsTestimonial.name}
-            role={creatorsTestimonial.role}
-            company={creatorsTestimonial.company}
-            logo={creatorsTestimonial.logo}
-            image={creatorsTestimonial.image}
-          />
-        )}
+      <div class="mb-10 max-w-2xl">
+        <h2 class="text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-100 md:text-4xl">
+          What our founders say about us
+        </h2>
+        <p class="mt-3 text-lg text-slate-600 dark:text-slate-300">
+          We back founders with conviction and stay close when it matters most.
+        </p>
       </div>
+    
+      {creatorsTestimonial && (
+        <TestimonialCard
+          quote={creatorsTestimonial.quote}
+          name={creatorsTestimonial.name}
+          role={creatorsTestimonial.role}
+          company={creatorsTestimonial.company}
+          logo={creatorsTestimonial.logo}
+          image={creatorsTestimonial.image}
+        />
+      )}
     </section>
 
     <section class="bg-slate-50 py-24 dark:bg-slate-900/40">
@@ -375,10 +373,12 @@ const creatorsTestimonial =
   const carousel = document.getElementById("featured-carousel");
 
   if (carousel) {
+    const slides = Array.from(carousel.querySelectorAll("article"));
     let isPointerDown = false;
     let startX = 0;
     let scrollStart = 0;
-    let interval;
+    let autoPlayTimeout;
+    let currentIndex = 0;
 
     const stopDragging = () => {
       isPointerDown = false;
@@ -386,24 +386,79 @@ const creatorsTestimonial =
       carousel.classList.add("cursor-grab");
     };
 
-    // DRAG LOGIC (unchanged)
+    const stopAutoPlay = () => {
+      if (autoPlayTimeout) clearTimeout(autoPlayTimeout);
+    };
+
+    const goToSlide = (index, behavior = "smooth") => {
+      const slide = slides[index];
+      if (!slide) return;
+
+      currentIndex = index;
+
+      const targetLeft =
+        slide.offsetLeft - (carousel.clientWidth - slide.clientWidth) / 2;
+
+      carousel.scrollTo({
+        left: targetLeft,
+        behavior,
+      });
+    };
+
+    const getClosestSlideIndex = () => {
+      const carouselCenter = carousel.scrollLeft + carousel.clientWidth / 2;
+
+      let closestIndex = 0;
+      let closestDistance = Infinity;
+
+      slides.forEach((slide, index) => {
+        const slideCenter = slide.offsetLeft + slide.clientWidth / 2;
+        const distance = Math.abs(carouselCenter - slideCenter);
+
+        if (distance < closestDistance) {
+          closestDistance = distance;
+          closestIndex = index;
+        }
+      });
+
+      return closestIndex;
+    };
+
+    const queueNextAutoPlay = () => {
+      stopAutoPlay();
+
+      autoPlayTimeout = setTimeout(() => {
+        currentIndex = getClosestSlideIndex();
+
+        if (currentIndex >= slides.length - 1) {
+          goToSlide(0, "smooth");
+        } else {
+          goToSlide(currentIndex + 1, "smooth");
+        }
+
+        queueNextAutoPlay();
+      }, 4000);
+    };
+
     carousel.addEventListener("mousedown", (event) => {
       isPointerDown = true;
       startX = event.pageX;
       scrollStart = carousel.scrollLeft;
       carousel.classList.remove("cursor-grab");
       carousel.classList.add("cursor-grabbing");
-      stopAutoPlay(); // pause when user interacts
+      stopAutoPlay();
     });
 
     carousel.addEventListener("mouseleave", () => {
       stopDragging();
-      startAutoPlay(); // resume
+      currentIndex = getClosestSlideIndex();
+      queueNextAutoPlay();
     });
 
     carousel.addEventListener("mouseup", () => {
       stopDragging();
-      startAutoPlay(); // resume
+      currentIndex = getClosestSlideIndex();
+      queueNextAutoPlay();
     });
 
     carousel.addEventListener("mousemove", (event) => {
@@ -413,40 +468,22 @@ const creatorsTestimonial =
       carousel.scrollLeft = scrollStart - distance;
     });
 
-    // AUTOPLAY LOGIC
-    function startAutoPlay() {
-      stopAutoPlay(); // prevent stacking intervals
-
-      interval = setInterval(() => {
-        const scrollAmount = carousel.clientWidth;
-        const maxScroll = carousel.scrollWidth - carousel.clientWidth;
-
-        if (carousel.scrollLeft >= maxScroll - 5) {
-          carousel.scrollTo({ left: 0, behavior: "smooth" });
-        } else {
-          carousel.scrollBy({ left: scrollAmount, behavior: "smooth" });
-        }
-      }, 4000);
-    }
-
-    function stopAutoPlay() {
-      if (interval) clearInterval(interval);
-    }
-
-    // Pause on hover
     carousel.addEventListener("mouseenter", stopAutoPlay);
-    carousel.addEventListener("mouseleave", startAutoPlay);
+    carousel.addEventListener("mouseleave", () => {
+      currentIndex = getClosestSlideIndex();
+      queueNextAutoPlay();
+    });
 
-    // Pause when tab not active
     document.addEventListener("visibilitychange", () => {
       if (document.hidden) {
         stopAutoPlay();
       } else {
-        startAutoPlay();
+        currentIndex = getClosestSlideIndex();
+        queueNextAutoPlay();
       }
     });
 
-    // Start autoplay
-    startAutoPlay();
+    currentIndex = getClosestSlideIndex();
+    queueNextAutoPlay();
   }
 </script>
