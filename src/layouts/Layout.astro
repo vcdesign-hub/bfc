@@ -258,6 +258,116 @@ const navItems = [
     </footer>
 
     <div
+      id="newsletter-popup"
+      class="fixed inset-0 z-[60] hidden items-center justify-center bg-slate-950/60 px-4 backdrop-blur-sm"
+    >
+      <div class="relative w-full max-w-5xl overflow-hidden rounded-3xl bg-white shadow-soft dark:border-slate-800 dark:bg-slate-950">
+        <button
+          type="button"
+          id="newsletter-popup-close"
+          aria-label="Close newsletter popup"
+          class="absolute right-5 top-5 z-10 rounded-full p-2 text-slate-400 transition hover:bg-slate-100 hover:text-slate-700 dark:text-slate-500 dark:hover:bg-slate-800 dark:hover:text-slate-200"
+        >
+          <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path
+              d="M6 6l12 12M18 6L6 18"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+            />
+          </svg>
+        </button>
+
+        <div class="grid md:grid-cols-[1.05fr_1.35fr]">
+          <div class="relative hidden min-h-[560px] items-center justify-center overflow-hidden md:flex">
+            <!-- Gradient background -->
+            <div class="absolute inset-0 bg-gradient-to-br from-blue-500 via-blue-600 to-slate-900"></div>
+          
+            <!-- Soft radial highlight (to mimic glow in your image) -->
+            <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.15),transparent_60%)]"></div>
+          
+            <!-- Content -->
+            <div class="relative z-[1] flex items-center justify-center">
+              <span class="text-7xl font-extrabold tracking-tight text-white md:text-8xl">
+                BFC
+              </span>
+            </div>
+          </div>
+
+          <div class="p-8 md:p-12 lg:p-14">
+            <div class="max-w-xl">
+              <h3 class="text-4xl font-extrabold tracking-tight text-slate-900 dark:text-slate-100 md:text-5xl">
+                Subscribe to our Newsletter
+              </h3>
+
+              <p class="mt-6 max-w-lg text-lg leading-8 text-slate-600 dark:text-slate-300">
+                Stay in the loop with updates on investments, portfolio companies, founder stories, and what we are building.
+              </p>
+
+              <form
+                id="newsletter-popup-form"
+                name="newsletter-popup-form"
+                class="mt-10 space-y-4"
+              >
+                <div class="grid gap-4 md:grid-cols-2">
+                  <input
+                    type="text"
+                    name="FNAME"
+                    id="popup-FNAME"
+                    placeholder="First Name"
+                    required
+                    minlength="2"
+                    autocomplete="given-name"
+                    class="w-full rounded-xl border border-slate-200 bg-slate-50 px-5 py-4 text-slate-900 outline-none transition focus:border-slate-900 focus:bg-white invalid:border-red-500 invalid:text-red-600 focus:invalid:border-red-500 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100 dark:focus:border-slate-300 dark:focus:bg-slate-950 dark:invalid:border-red-400"
+                  />
+
+                  <input
+                    type="text"
+                    name="LNAME"
+                    id="popup-LNAME"
+                    placeholder="Last Name"
+                    required
+                    minlength="2"
+                    autocomplete="family-name"
+                    class="w-full rounded-xl border border-slate-200 bg-slate-50 px-5 py-4 text-slate-900 outline-none transition focus:border-slate-900 focus:bg-white invalid:border-red-500 invalid:text-red-600 focus:invalid:border-red-500 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100 dark:focus:border-slate-300 dark:focus:bg-slate-950 dark:invalid:border-red-400"
+                  />
+                </div>
+
+                <input
+                  type="email"
+                  name="EMAIL"
+                  id="popup-EMAIL"
+                  placeholder="Email"
+                  required
+                  autocomplete="email"
+                  class="w-full rounded-xl border border-slate-200 bg-slate-50 px-5 py-4 text-slate-900 outline-none transition focus:border-slate-900 focus:bg-white invalid:border-red-500 invalid:text-red-600 focus:invalid:border-red-500 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100 dark:focus:border-slate-300 dark:focus:bg-slate-950 dark:invalid:border-red-400"
+                />
+
+                <input type="hidden" name="tags" value="4889172" />
+
+                <div aria-hidden="true" class="absolute left-[-5000px]">
+                  <input
+                    type="text"
+                    name="b_b24a4a180be6b26d2e7ed0cdb_aab85c465a"
+                    tabindex="-1"
+                    value=""
+                  />
+                </div>
+
+                <button
+                  type="submit"
+                  class="w-full rounded-xl bg-slate-900 px-6 py-4 font-semibold text-white transition hover:opacity-90 dark:bg-slate-100 dark:text-slate-900"
+                >
+                  Send
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
       id="newsletter-success"
       class="fixed inset-0 z-50 hidden items-center justify-center bg-slate-950/60 px-4 backdrop-blur-sm"
     >
@@ -289,64 +399,160 @@ const navItems = [
       });
     </script>
 
-    <script is:inline>
-      const newsletterForm = document.getElementById('mc-embedded-subscribe-form');
-      const newsletterSuccessModal = document.getElementById('newsletter-success');
-      const newsletterSuccessCloseButton = document.getElementById('newsletter-success-close');
+<script is:inline>
+  const newsletterForm = document.getElementById('mc-embedded-subscribe-form');
+  const newsletterPopupForm = document.getElementById('newsletter-popup-form');
+  const newsletterSuccessModal = document.getElementById('newsletter-success');
+  const newsletterSuccessCloseButton = document.getElementById('newsletter-success-close');
+  const newsletterPopup = document.getElementById('newsletter-popup');
+  const newsletterPopupCloseButton = document.getElementById('newsletter-popup-close');
 
-      function openNewsletterSuccessModal() {
-        if (!newsletterSuccessModal) return;
-        newsletterSuccessModal.classList.remove('hidden');
-        newsletterSuccessModal.classList.add('flex');
+  const newsletterStorageKeys = {
+    subscribed: 'newsletterPopupSubscribed',
+    shownSession: 'newsletterPopupShownSession',
+  };
+
+  function openNewsletterSuccessModal() {
+    if (!newsletterSuccessModal) return;
+    newsletterSuccessModal.classList.remove('hidden');
+    newsletterSuccessModal.classList.add('flex');
+  }
+
+  function closeNewsletterSuccessModal() {
+    if (!newsletterSuccessModal) return;
+    newsletterSuccessModal.classList.add('hidden');
+    newsletterSuccessModal.classList.remove('flex');
+  }
+
+  function openNewsletterPopup() {
+    if (!newsletterPopup) return;
+    newsletterPopup.classList.remove('hidden');
+    newsletterPopup.classList.add('flex');
+    document.body.classList.add('overflow-hidden');
+    sessionStorage.setItem(newsletterStorageKeys.shownSession, 'true');
+  }
+
+  function closeNewsletterPopup() {
+    if (!newsletterPopup) return;
+    newsletterPopup.classList.add('hidden');
+    newsletterPopup.classList.remove('flex');
+    document.body.classList.remove('overflow-hidden');
+  }
+
+  function shouldShowNewsletterPopup() {
+    const isSubscribed = localStorage.getItem(newsletterStorageKeys.subscribed) === 'true';
+    if (isSubscribed) return false;
+
+    const shownThisSession = sessionStorage.getItem(newsletterStorageKeys.shownSession) === 'true';
+    if (shownThisSession) return false;
+
+    const path = window.location.pathname;
+    const blockedPaths = ['/legal-notice', '/privacy-policy', '/sfdr-statement'];
+    if (blockedPaths.includes(path)) return false;
+
+    return true;
+  }
+
+  async function submitNewsletterForm(formElement) {
+    const formData = new FormData(formElement);
+
+    await fetch(
+      'https://bfc.us8.list-manage.com/subscribe/post?u=b24a4a180be6b26d2e7ed0cdb&id=aab85c465a&f_id=007765e0f0',
+      {
+        method: 'POST',
+        body: formData,
+        mode: 'no-cors',
+      }
+    );
+  }
+
+  function attachNewsletterFormHandler(formElement, onSuccess) {
+    if (!(formElement instanceof HTMLFormElement)) return;
+
+    formElement.addEventListener('submit', async function (e) {
+      e.preventDefault();
+
+      if (!formElement.checkValidity()) {
+        formElement.reportValidity();
+        return;
       }
 
-      function closeNewsletterSuccessModal() {
-        if (!newsletterSuccessModal) return;
-        newsletterSuccessModal.classList.add('hidden');
-        newsletterSuccessModal.classList.remove('flex');
+      try {
+        await submitNewsletterForm(formElement);
+        onSuccess();
+        formElement.reset();
+      } catch (error) {
+        console.error(error);
+        alert('Something went wrong. Please try again.');
       }
+    });
+  }
 
-      if (newsletterForm instanceof HTMLFormElement) {
-        newsletterForm.addEventListener('submit', async function (e) {
-          e.preventDefault();
+  attachNewsletterFormHandler(newsletterForm, function () {
+    openNewsletterSuccessModal();
+  });
 
-          if (!newsletterForm.checkValidity()) {
-            newsletterForm.reportValidity();
-            return;
-          }
+  attachNewsletterFormHandler(newsletterPopupForm, function () {
+    localStorage.setItem(newsletterStorageKeys.subscribed, 'true');
+    closeNewsletterPopup();
+    openNewsletterSuccessModal();
+  });
 
-          const formData = new FormData(newsletterForm);
+  if (newsletterSuccessCloseButton) {
+    newsletterSuccessCloseButton.addEventListener('click', closeNewsletterSuccessModal);
+  }
 
-          try {
-            await fetch(
-              'https://bfc.us8.list-manage.com/subscribe/post?u=b24a4a180be6b26d2e7ed0cdb&id=aab85c465a&f_id=007765e0f0',
-              {
-                method: 'POST',
-                body: formData,
-                mode: 'no-cors',
-              }
-            );
-
-            openNewsletterSuccessModal();
-            newsletterForm.reset();
-          } catch (error) {
-            console.error(error);
-            alert('Something went wrong. Please try again.');
-          }
-        });
+  if (newsletterSuccessModal) {
+    newsletterSuccessModal.addEventListener('click', function (e) {
+      if (e.target === newsletterSuccessModal) {
+        closeNewsletterSuccessModal();
       }
+    });
+  }
 
-      if (newsletterSuccessCloseButton) {
-        newsletterSuccessCloseButton.addEventListener('click', closeNewsletterSuccessModal);
-      }
+  if (newsletterPopupCloseButton) {
+    newsletterPopupCloseButton.addEventListener('click', function () {
+      closeNewsletterPopup();
+    });
+  }
 
-      if (newsletterSuccessModal) {
-        newsletterSuccessModal.addEventListener('click', function (e) {
-          if (e.target === newsletterSuccessModal) {
-            closeNewsletterSuccessModal();
-          }
-        });
+  if (newsletterPopup) {
+    newsletterPopup.addEventListener('click', function (e) {
+      if (e.target === newsletterPopup) {
+        closeNewsletterPopup();
       }
-    </script>
+    });
+  }
+
+  if (shouldShowNewsletterPopup()) {
+    let popupShown = false;
+
+    const showPopupOnce = () => {
+      if (popupShown || !shouldShowNewsletterPopup()) return;
+      popupShown = true;
+      openNewsletterPopup();
+      window.removeEventListener('scroll', handlePopupScroll);
+    };
+
+    const handlePopupScroll = () => {
+      const scrollTop = window.scrollY || window.pageYOffset;
+      const documentHeight = document.documentElement.scrollHeight - window.innerHeight;
+
+      if (documentHeight <= 0) return;
+
+      const scrollProgress = scrollTop / documentHeight;
+
+      if (scrollProgress >= 0.4) {
+        showPopupOnce();
+      }
+    };
+
+    window.addEventListener('scroll', handlePopupScroll, { passive: true });
+
+    window.setTimeout(() => {
+      showPopupOnce();
+    }, 10000);
+  }
+</script>
   </body>
 </html>
