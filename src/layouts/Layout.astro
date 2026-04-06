@@ -115,7 +115,74 @@ const navItems = [
               />
             </svg>
           </button>
+
+          <button
+            id="mobile-menu-toggle"
+            type="button"
+            aria-label="Open menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+            class="rounded-full p-2 text-slate-700 transition hover:bg-slate-100 dark:text-slate-300 dark:hover:bg-slate-800 md:hidden"
+          >
+            <svg
+              id="mobile-menu-open-icon"
+              class="h-5 w-5"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M4 6h16M4 12h16M4 18h16"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+              />
+            </svg>
+
+            <svg
+              id="mobile-menu-close-icon"
+              class="hidden h-5 w-5"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M6 6l12 12M18 6L6 18"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+              />
+            </svg>
+          </button>
         </div>
+      </div>
+
+      <div
+        id="mobile-menu"
+        class="hidden border-t border-slate-200 bg-white/95 dark:border-slate-800 dark:bg-slate-950/95 md:hidden"
+      >
+        <nav class="container-default flex flex-col py-4">
+          {navItems.map((item) => {
+            const isActive =
+              item.href !== '#' &&
+              (currentPath === item.href ||
+                (item.href !== '/' && currentPath.startsWith(item.href)));
+
+            return (
+              <a
+                href={item.href}
+                class:list={[
+                  'py-3 text-sm font-medium transition',
+                  isActive
+                    ? 'text-slate-900 dark:text-slate-100'
+                    : 'text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100',
+                ]}
+              >
+                {item.label}
+              </a>
+            );
+          })}
+        </nav>
       </div>
     </header>
 
@@ -280,13 +347,9 @@ const navItems = [
 
         <div class="grid md:grid-cols-[1.05fr_1.35fr]">
           <div class="relative hidden min-h-[560px] items-center justify-center overflow-hidden md:flex">
-            <!-- Gradient background -->
             <div class="absolute inset-0 bg-gradient-to-br from-blue-500 via-blue-600 to-slate-900"></div>
-          
-            <!-- Soft radial highlight (to mimic glow in your image) -->
             <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.15),transparent_60%)]"></div>
-          
-            <!-- Content -->
+
             <div class="relative z-[1] flex items-center justify-center">
               <span class="text-7xl font-extrabold tracking-tight text-white md:text-8xl">
                 BFC
@@ -399,160 +462,209 @@ const navItems = [
       });
     </script>
 
-<script is:inline>
-  const newsletterForm = document.getElementById('mc-embedded-subscribe-form');
-  const newsletterPopupForm = document.getElementById('newsletter-popup-form');
-  const newsletterSuccessModal = document.getElementById('newsletter-success');
-  const newsletterSuccessCloseButton = document.getElementById('newsletter-success-close');
-  const newsletterPopup = document.getElementById('newsletter-popup');
-  const newsletterPopupCloseButton = document.getElementById('newsletter-popup-close');
+    <script is:inline>
+      const mobileMenuToggle = document.getElementById('mobile-menu-toggle');
+      const mobileMenu = document.getElementById('mobile-menu');
+      const mobileMenuOpenIcon = document.getElementById('mobile-menu-open-icon');
+      const mobileMenuCloseIcon = document.getElementById('mobile-menu-close-icon');
 
-  const newsletterStorageKeys = {
-    subscribed: 'newsletterPopupSubscribed',
-    shownSession: 'newsletterPopupShownSession',
-  };
+      function closeMobileMenu() {
+        if (!mobileMenu || !mobileMenuToggle || !mobileMenuOpenIcon || !mobileMenuCloseIcon) return;
 
-  function openNewsletterSuccessModal() {
-    if (!newsletterSuccessModal) return;
-    newsletterSuccessModal.classList.remove('hidden');
-    newsletterSuccessModal.classList.add('flex');
-  }
-
-  function closeNewsletterSuccessModal() {
-    if (!newsletterSuccessModal) return;
-    newsletterSuccessModal.classList.add('hidden');
-    newsletterSuccessModal.classList.remove('flex');
-  }
-
-  function openNewsletterPopup() {
-    if (!newsletterPopup) return;
-    newsletterPopup.classList.remove('hidden');
-    newsletterPopup.classList.add('flex');
-    document.body.classList.add('overflow-hidden');
-    sessionStorage.setItem(newsletterStorageKeys.shownSession, 'true');
-  }
-
-  function closeNewsletterPopup() {
-    if (!newsletterPopup) return;
-    newsletterPopup.classList.add('hidden');
-    newsletterPopup.classList.remove('flex');
-    document.body.classList.remove('overflow-hidden');
-  }
-
-  function shouldShowNewsletterPopup() {
-    const isSubscribed = localStorage.getItem(newsletterStorageKeys.subscribed) === 'true';
-    if (isSubscribed) return false;
-
-    const shownThisSession = sessionStorage.getItem(newsletterStorageKeys.shownSession) === 'true';
-    if (shownThisSession) return false;
-
-    const path = window.location.pathname;
-    const blockedPaths = ['/legal-notice', '/privacy-policy', '/sfdr-statement'];
-    if (blockedPaths.includes(path)) return false;
-
-    return true;
-  }
-
-  async function submitNewsletterForm(formElement) {
-    const formData = new FormData(formElement);
-
-    await fetch(
-      'https://bfc.us8.list-manage.com/subscribe/post?u=b24a4a180be6b26d2e7ed0cdb&id=aab85c465a&f_id=007765e0f0',
-      {
-        method: 'POST',
-        body: formData,
-        mode: 'no-cors',
-      }
-    );
-  }
-
-  function attachNewsletterFormHandler(formElement, onSuccess) {
-    if (!(formElement instanceof HTMLFormElement)) return;
-
-    formElement.addEventListener('submit', async function (e) {
-      e.preventDefault();
-
-      if (!formElement.checkValidity()) {
-        formElement.reportValidity();
-        return;
+        mobileMenu.classList.add('hidden');
+        mobileMenuToggle.setAttribute('aria-expanded', 'false');
+        mobileMenuOpenIcon.classList.remove('hidden');
+        mobileMenuCloseIcon.classList.add('hidden');
       }
 
-      try {
-        await submitNewsletterForm(formElement);
-        onSuccess();
-        formElement.reset();
-      } catch (error) {
-        console.error(error);
-        alert('Something went wrong. Please try again.');
+      function openMobileMenu() {
+        if (!mobileMenu || !mobileMenuToggle || !mobileMenuOpenIcon || !mobileMenuCloseIcon) return;
+
+        mobileMenu.classList.remove('hidden');
+        mobileMenuToggle.setAttribute('aria-expanded', 'true');
+        mobileMenuOpenIcon.classList.add('hidden');
+        mobileMenuCloseIcon.classList.remove('hidden');
       }
-    });
-  }
 
-  attachNewsletterFormHandler(newsletterForm, function () {
-    openNewsletterSuccessModal();
-  });
+      mobileMenuToggle?.addEventListener('click', () => {
+        if (!mobileMenu) return;
 
-  attachNewsletterFormHandler(newsletterPopupForm, function () {
-    localStorage.setItem(newsletterStorageKeys.subscribed, 'true');
-    closeNewsletterPopup();
-    openNewsletterSuccessModal();
-  });
+        const isOpen = !mobileMenu.classList.contains('hidden');
 
-  if (newsletterSuccessCloseButton) {
-    newsletterSuccessCloseButton.addEventListener('click', closeNewsletterSuccessModal);
-  }
+        if (isOpen) {
+          closeMobileMenu();
+        } else {
+          openMobileMenu();
+        }
+      });
 
-  if (newsletterSuccessModal) {
-    newsletterSuccessModal.addEventListener('click', function (e) {
-      if (e.target === newsletterSuccessModal) {
-        closeNewsletterSuccessModal();
+      window.addEventListener('resize', () => {
+        if (window.innerWidth >= 768) {
+          closeMobileMenu();
+        }
+      });
+
+      mobileMenu?.querySelectorAll('a').forEach((link) => {
+        link.addEventListener('click', () => {
+          closeMobileMenu();
+        });
+      });
+    </script>
+
+    <script is:inline>
+      const newsletterForm = document.getElementById('mc-embedded-subscribe-form');
+      const newsletterPopupForm = document.getElementById('newsletter-popup-form');
+      const newsletterSuccessModal = document.getElementById('newsletter-success');
+      const newsletterSuccessCloseButton = document.getElementById('newsletter-success-close');
+      const newsletterPopup = document.getElementById('newsletter-popup');
+      const newsletterPopupCloseButton = document.getElementById('newsletter-popup-close');
+
+      const newsletterStorageKeys = {
+        subscribed: 'newsletterPopupSubscribed',
+        shownSession: 'newsletterPopupShownSession',
+      };
+
+      function openNewsletterSuccessModal() {
+        if (!newsletterSuccessModal) return;
+        newsletterSuccessModal.classList.remove('hidden');
+        newsletterSuccessModal.classList.add('flex');
       }
-    });
-  }
 
-  if (newsletterPopupCloseButton) {
-    newsletterPopupCloseButton.addEventListener('click', function () {
-      closeNewsletterPopup();
-    });
-  }
+      function closeNewsletterSuccessModal() {
+        if (!newsletterSuccessModal) return;
+        newsletterSuccessModal.classList.add('hidden');
+        newsletterSuccessModal.classList.remove('flex');
+      }
 
-  if (newsletterPopup) {
-    newsletterPopup.addEventListener('click', function (e) {
-      if (e.target === newsletterPopup) {
+      function openNewsletterPopup() {
+        if (!newsletterPopup) return;
+        newsletterPopup.classList.remove('hidden');
+        newsletterPopup.classList.add('flex');
+        document.body.classList.add('overflow-hidden');
+        sessionStorage.setItem(newsletterStorageKeys.shownSession, 'true');
+      }
+
+      function closeNewsletterPopup() {
+        if (!newsletterPopup) return;
+        newsletterPopup.classList.add('hidden');
+        newsletterPopup.classList.remove('flex');
+        document.body.classList.remove('overflow-hidden');
+      }
+
+      function shouldShowNewsletterPopup() {
+        const isSubscribed = localStorage.getItem(newsletterStorageKeys.subscribed) === 'true';
+        if (isSubscribed) return false;
+
+        const shownThisSession = sessionStorage.getItem(newsletterStorageKeys.shownSession) === 'true';
+        if (shownThisSession) return false;
+
+        const path = window.location.pathname;
+        const blockedPaths = ['/legal-notice', '/privacy-policy', '/sfdr-statement'];
+        if (blockedPaths.includes(path)) return false;
+
+        return true;
+      }
+
+      async function submitNewsletterForm(formElement) {
+        const formData = new FormData(formElement);
+
+        await fetch(
+          'https://bfc.us8.list-manage.com/subscribe/post?u=b24a4a180be6b26d2e7ed0cdb&id=aab85c465a&f_id=007765e0f0',
+          {
+            method: 'POST',
+            body: formData,
+            mode: 'no-cors',
+          }
+        );
+      }
+
+      function attachNewsletterFormHandler(formElement, onSuccess) {
+        if (!(formElement instanceof HTMLFormElement)) return;
+
+        formElement.addEventListener('submit', async function (e) {
+          e.preventDefault();
+
+          if (!formElement.checkValidity()) {
+            formElement.reportValidity();
+            return;
+          }
+
+          try {
+            await submitNewsletterForm(formElement);
+            onSuccess();
+            formElement.reset();
+          } catch (error) {
+            console.error(error);
+            alert('Something went wrong. Please try again.');
+          }
+        });
+      }
+
+      attachNewsletterFormHandler(newsletterForm, function () {
+        openNewsletterSuccessModal();
+      });
+
+      attachNewsletterFormHandler(newsletterPopupForm, function () {
+        localStorage.setItem(newsletterStorageKeys.subscribed, 'true');
         closeNewsletterPopup();
+        openNewsletterSuccessModal();
+      });
+
+      if (newsletterSuccessCloseButton) {
+        newsletterSuccessCloseButton.addEventListener('click', closeNewsletterSuccessModal);
       }
-    });
-  }
 
-  if (shouldShowNewsletterPopup()) {
-    let popupShown = false;
-
-    const showPopupOnce = () => {
-      if (popupShown || !shouldShowNewsletterPopup()) return;
-      popupShown = true;
-      openNewsletterPopup();
-      window.removeEventListener('scroll', handlePopupScroll);
-    };
-
-    const handlePopupScroll = () => {
-      const scrollTop = window.scrollY || window.pageYOffset;
-      const documentHeight = document.documentElement.scrollHeight - window.innerHeight;
-
-      if (documentHeight <= 0) return;
-
-      const scrollProgress = scrollTop / documentHeight;
-
-      if (scrollProgress >= 0.4) {
-        showPopupOnce();
+      if (newsletterSuccessModal) {
+        newsletterSuccessModal.addEventListener('click', function (e) {
+          if (e.target === newsletterSuccessModal) {
+            closeNewsletterSuccessModal();
+          }
+        });
       }
-    };
 
-    window.addEventListener('scroll', handlePopupScroll, { passive: true });
+      if (newsletterPopupCloseButton) {
+        newsletterPopupCloseButton.addEventListener('click', function () {
+          closeNewsletterPopup();
+        });
+      }
 
-    window.setTimeout(() => {
-      showPopupOnce();
-    }, 10000);
-  }
-</script>
+      if (newsletterPopup) {
+        newsletterPopup.addEventListener('click', function (e) {
+          if (e.target === newsletterPopup) {
+            closeNewsletterPopup();
+          }
+        });
+      }
+
+      if (shouldShowNewsletterPopup()) {
+        let popupShown = false;
+
+        const showPopupOnce = () => {
+          if (popupShown || !shouldShowNewsletterPopup()) return;
+          popupShown = true;
+          openNewsletterPopup();
+          window.removeEventListener('scroll', handlePopupScroll);
+        };
+
+        const handlePopupScroll = () => {
+          const scrollTop = window.scrollY || window.pageYOffset;
+          const documentHeight = document.documentElement.scrollHeight - window.innerHeight;
+
+          if (documentHeight <= 0) return;
+
+          const scrollProgress = scrollTop / documentHeight;
+
+          if (scrollProgress >= 0.4) {
+            showPopupOnce();
+          }
+        };
+
+        window.addEventListener('scroll', handlePopupScroll, { passive: true });
+
+        window.setTimeout(() => {
+          showPopupOnce();
+        }, 10000);
+      }
+    </script>
   </body>
 </html>

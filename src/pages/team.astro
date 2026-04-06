@@ -46,50 +46,52 @@ const defaultBioParts = defaultPerson
 
 <Layout title="Team | BFC">
   <main class="bg-white dark:bg-slate-950">
-    <section class="container-default py-20 md:py-28">
+    <section class="container-default py-16 sm:py-20 md:py-24 lg:py-28">
       <div class="max-w-5xl">
-        <h1 class="max-w-4xl text-4xl font-extrabold leading-tight tracking-tight text-slate-900 dark:text-slate-100 md:text-6xl">
+        <h1 class="max-w-4xl text-4xl font-extrabold leading-tight tracking-tight text-slate-900 dark:text-slate-100 sm:text-5xl md:text-6xl">
           Meet our team
         </h1>
-        <p class="mt-6 max-w-2xl text-lg leading-8 text-slate-600 dark:text-slate-300">
+        <p class="mt-5 max-w-2xl text-base leading-7 text-slate-600 dark:text-slate-300 sm:mt-6 sm:text-lg sm:leading-8">
           It is all about trust. Especially in a trustless architecture
         </p>
       </div>
     </section>
 
     <section class="sticky top-[73px] z-40 border-y border-slate-200 bg-white/90 py-4 backdrop-blur dark:border-slate-800 dark:bg-slate-950/90">
-      <div class="container-default flex flex-wrap gap-3">
-        {filters.map((filter, index) => (
-          <button
-            type="button"
-            data-filter={filter}
-            class={`team-filter rounded-full px-5 py-2 text-sm font-medium transition ${
-              index === 0
-                ? "bg-slate-900 text-white dark:bg-slate-100 dark:text-slate-900"
-                : "bg-slate-100 text-slate-600 hover:bg-slate-200 dark:bg-slate-900 dark:text-slate-300 dark:hover:bg-slate-800"
-            }`}
-          >
-            {filter}
-          </button>
-        ))}
-      </div>
-    </section>
+  <div class="container-default">
+    <div class="no-scrollbar flex flex-nowrap gap-2 overflow-x-auto pb-1 sm:gap-3">
+      {filters.map((filter, index) => (
+        <button
+          type="button"
+          data-filter={filter}
+          class={`team-filter shrink-0 whitespace-nowrap rounded-full px-4 py-2 text-sm font-medium transition sm:px-5 ${
+            index === 0
+              ? "bg-slate-900 text-white dark:bg-slate-100 dark:text-slate-900"
+              : "bg-slate-100 text-slate-600 hover:bg-slate-200 dark:bg-slate-900 dark:text-slate-300 dark:hover:bg-slate-800"
+          }`}
+        >
+          {filter}
+        </button>
+      ))}
+    </div>
+  </div>
+</section>
 
-    <section class="container-default py-24">
-      <div class="space-y-10">
-        <p class="max-w-3xl text-lg leading-8 text-slate-600 dark:text-slate-300">
+    <section class="container-default py-16 sm:py-20 md:py-24">
+      <div class="space-y-8 sm:space-y-10">
+        <p class="max-w-3xl text-base leading-7 text-slate-600 dark:text-slate-300 sm:text-lg sm:leading-8">
           We are an equal partnership driven by trust, designed to challenge consensus. No politics, no egos,
           just complementary strengths and a shared focus: backing the best founders building extraordinary companies.
         </p>
 
         <div
           id="team-selector"
-          class="grid grid-cols-2 gap-6 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5"
+          class="grid grid-cols-2 gap-x-4 gap-y-8 sm:gap-x-6 sm:gap-y-10 md:grid-cols-3 xl:grid-cols-5"
         >
           {people.map((person, index) => (
             <button
               type="button"
-              class="team-card group flex w-full flex-col items-start text-left transition"
+              class="team-card group flex w-full flex-col items-center text-left transition md:items-start"
               data-team-card={person.id}
               data-group={person.group}
               data-name={person.name}
@@ -103,7 +105,7 @@ const defaultBioParts = defaultPerson
               data-logos={JSON.stringify(person.logos)}
             >
               <div
-                class={`flex h-[180px] w-[180px] items-end justify-center overflow-hidden rounded-full border bg-slate-100 transition duration-300 dark:bg-slate-900 ${
+                class={`flex aspect-square w-full max-w-[140px] items-end justify-center overflow-hidden rounded-full border bg-slate-100 transition duration-300 dark:bg-slate-900 sm:max-w-[160px] lg:max-w-[180px] ${
                   index === 0
                     ? "border-slate-900 bg-slate-50 shadow-xl ring-4 ring-slate-100 dark:border-slate-100 dark:bg-slate-900 dark:ring-slate-800"
                     : "border-slate-200 shadow-soft group-hover:-translate-y-1 group-hover:shadow-lg dark:border-slate-800"
@@ -116,7 +118,7 @@ const defaultBioParts = defaultPerson
                 />
               </div>
 
-              <div class="mt-4 space-y-1">
+              <div class="mt-4 space-y-1 text-center md:text-left">
                 <p class="text-sm font-bold uppercase tracking-[0.18em] text-slate-900 dark:text-slate-100 md:text-[15px]">
                   {person.name}
                 </p>
@@ -133,8 +135,8 @@ const defaultBioParts = defaultPerson
             id="team-detail"
             class="rounded-3xl border border-slate-200 bg-white shadow-soft dark:border-slate-900 dark:bg-slate-900/50"
           >
-            <div class="grid gap-0 lg:grid-cols-[minmax(0,1.6fr)_minmax(0,0.9fr)]">
-              <div class="p-8 md:p-10">
+            <div class="grid gap-0 xl:grid-cols-[minmax(0,1.6fr)_minmax(0,0.9fr)]">
+              <div class="p-6 sm:p-8 md:p-10">
                 <div class="space-y-8">
                   <div>
                     <p class="text-xs font-bold uppercase tracking-[0.2em] text-blue-700 dark:text-blue-400">
@@ -192,19 +194,19 @@ const defaultBioParts = defaultPerson
                 </div>
               </div>
 
-              <aside class="border-t border-slate-200 bg-slate-50 p-8 md:p-10 dark:border-slate-900 dark:bg-slate-950/70 lg:border-l lg:border-t-0">
+              <aside class="border-t border-slate-200 bg-slate-50 p-6 sm:p-8 md:p-10 dark:border-slate-900 dark:bg-slate-950/70 xl:border-l xl:border-t-0">
                 <div>
                   <p class="text-xs font-bold uppercase tracking-[0.2em] text-blue-700 dark:text-blue-400">
                     Affiliations
                   </p>
-                  <div id="detail-logos" class="mt-4 grid grid-cols-2 gap-3">
+                  <div id="detail-logos" class="mt-4 grid grid-cols-2 gap-3 sm:grid-cols-3 xl:grid-cols-2">
                     {defaultPerson.logos.map((logo) => (
-                      <div class="flex h-17 items-center justify-center rounded-xl border border-slate-200 bg-white p-2 shadow-sm dark:border-slate-800 dark:bg-white">
+                      <div class="flex h-16 items-center justify-center rounded-xl border border-slate-200 bg-white p-2 shadow-sm dark:border-slate-800 dark:bg-white">
                         <img
                           src={logo.image}
                           alt={logo.name}
                           class="max-h-12 w-auto object-contain"
-                        />detailLogos.innerHTML = logos
+                        />
                       </div>
                     ))}
                   </div>
@@ -328,10 +330,10 @@ const defaultBioParts = defaultPerson
         )
         .join("");
 
-        detailLogos.innerHTML = logos
+      detailLogos.innerHTML = logos
         .map(
           (logo) =>
-            `<div class="flex h-17 items-center justify-center rounded-xl border border-slate-200 bg-white p-2 shadow-sm dark:border-slate-800 dark:bg-white">
+            `<div class="flex h-16 items-center justify-center rounded-xl border border-slate-200 bg-white p-2 shadow-sm dark:border-slate-800 dark:bg-white">
               <img src="${logo.image}" alt="${logo.name}" class="max-h-12 w-auto object-contain" />
             </div>`
         )
