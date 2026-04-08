@@ -9,6 +9,7 @@ html {
 html,
 body {
   min-height: 100%;
+  font-size: 18px;
 }
 
 body {
